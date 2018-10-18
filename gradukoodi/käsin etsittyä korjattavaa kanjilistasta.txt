@@ -1,0 +1,34 @@
+Poistettavia/sulautettavia komponentteja
+
+Käyty läpi 5.9. järjestyksen 300. merkkiin asti
+
+Esiintyvät vain kerran koko opittavien listassa:
+&CDP-8B7B; 	後 merkin oikea puoli
+&GT-K01090;	実 alaosa
+𠔼			同 osa
+&CDP-89FD;	発 alaosa
+𪜊			今 osa
+&CDP-8BD6;	向 osa
+亲			新
+&CDP-8C68;	解 oikea osa
+𧈧			強 oikea osa
+&CDP-88F1;	在 ympäriosa
+&CDP-8BC4;	原 sisältö (sulautettava?)
+𠮠			別 vasen
+&CDP-8BB5;	然 yläosa
+
+
+hajotettava:
+&CDP-8C46;	度 alaosa (esiintyy kerran)
+
+
+sulautettava:
+𤣩			王 variantti oikealla puolella, pitää sulauttaa yhteen
+&CDP-8BA9;	牛 sama
+&CDP-8958;	月
+tarkistettava kaikki tällaiset radikaalit
+myös 木本, 自目 ja varmaan muitakin vastaavia
+
+??:
+𠤎			lusikan variantti, kahdessa merkissä 化 + joku
+
