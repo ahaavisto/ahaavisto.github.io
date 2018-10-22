@@ -11,11 +11,10 @@ def luo_yhdyssanalista():
 			lemma = rivi.split('\t')[2]
 			if re.search(u'[\u4e00-\u9fff]+', lemma) == None: #jos sanassa ei ole kaneja, poistetaan
 				continue
-			if int(rivi.split('\t')[0]) > 3000:
+			if int(rivi.split('\t')[0]) > 5000:
 				continue
 			i, lukutapa, sana, pos = rivi.split('\t')[:4]
 			lisattava = " ".join([sana, lukutapa, pos, i]) + "\n"
-			#lisattava = rivi.split('\t')[2] + ' '+ rivi.split('\t')[1] + ' '+  rivi.split('\t')[3] + ' '+  rivi.split('\t')[0] + '\n'
 			lista.append(lisattava)
 	
 	lista.sort()	

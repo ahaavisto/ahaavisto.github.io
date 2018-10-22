@@ -35,7 +35,7 @@ def add_enkku(entry):
 		for enkku in enkut:
 			if enkku.attrib == {}:
 				juttu += enkku.text + ', '
-		juttu += '";\n'
+		juttu += '";'
 	except AttributeError:
 		juttu += "Ei käännöstä;"
 	return juttu
@@ -48,6 +48,7 @@ def add_lukutavat(entry):
 		for yomi in yomit:
 			if yomi.attrib['r_type'] == 'ja_kun' or yomi.attrib['r_type'] == 'ja_on':
 				juttu += yomi.text + '\n'
+		juttu = juttu[:-2] #pois vika enter
 		juttu += '";'
 	except AttributeError:
 		juttu += "Ei käännöstä;"
@@ -57,13 +58,24 @@ sanasto = []
 with open ('yhdyssanat1.txt', 'r') as f:
 	for rivi in f:
 		sanasto.append(rivi)
-		
+
 def valkkaa_sanastoa(kanji):
+	'''kaivaa viisi yleisintä sanaa, joissa kys. kanji esiintyy''' #TODO pois tuplat kun samalla sanalla useampi POS = useampi entry
 	ret = '"'
+	setti = ("No known frequent words","","0")
+	lista_sanoja = list()
 	for rivi in sanasto:
 		if kanji in rivi.split()[0]:
-			ret += rivi.split()[0] + "[" + rivi.split()[1] + "]\n"
-			#kanjisana ja sulkuihin sen ääntämys, koska ankin furiganakomento
+			setti = (rivi.split()[0], rivi.split()[1], int(rivi.split()[3]))
+			lista_sanoja.append(setti)
+	lista_sanoja = sorted(lista_sanoja, key=lambda setti: setti[2]) #yleisyysjärkkään yhdyssanat
+	i = 0
+	for sana in lista_sanoja:
+		ret += sana[0] + "[" + sana[1] + "] (" + str(sana[2]) + ")\n"
+		#kanjisana ja hakasulkuihin sen ääntämys, koska ankin furiganakomento. Perään frekvenssi.
+		i += 1
+		if i > 4: #lisätään max viisi yleisintä
+			break
 	return ret + '"'
 	
 
@@ -75,7 +87,7 @@ def luo_anki():
 		lista = ''
 		for entry in juuri.findall('character'):		
 			if kanji == entry.find('literal').text:
-				lista += kanji + ";\n"
+				lista += kanji + ";"
 				lista += add_enkku(entry)
 				lista += add_lukutavat(entry)
 				lista += valkkaa_sanastoa(kanji)
