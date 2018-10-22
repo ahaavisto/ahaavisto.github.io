@@ -3,6 +3,27 @@
 
 import re
 
+def luo_yhdyssanalista():
+	'''listaan n yleisintä sanaa joissa kanjeja'''
+	lista = list()
+	with open ("BCCWJ_frequencylist_suw_ver1_0.tsv", 'r') as f:
+		for rivi in f:
+			lemma = rivi.split('\t')[2]
+			if re.search(u'[\u4e00-\u9fff]+', lemma) == None: #jos sanassa ei ole kaneja, poistetaan
+				continue
+			if int(rivi.split('\t')[0]) > 3000:
+				continue
+			i, lukutapa, sana, pos = rivi.split('\t')[:4]
+			lisattava = " ".join([sana, lukutapa, pos, i]) + "\n"
+			#lisattava = rivi.split('\t')[2] + ' '+ rivi.split('\t')[1] + ' '+  rivi.split('\t')[3] + ' '+  rivi.split('\t')[0] + '\n'
+			lista.append(lisattava)
+	
+	lista.sort()	
+				
+	with open ("yhdyssanat1.txt", 'w') as kirjoitettava :
+		for rivi in lista:
+			kirjoitettava.write(rivi)
+			
 
 def poista_turhat_sarakkeet():
 	lista = list()	
@@ -84,6 +105,10 @@ def sorttaa(lista):
 
 
 
-poista_turhat_sarakkeet2()
+luo_yhdyssanalista()
+
+
+'''vanhoja, ei oleellisia'''
+#poista_turhat_sarakkeet2()
 #hajota_yhdyssanat()
 #koosta_merkin_frekvenssit()

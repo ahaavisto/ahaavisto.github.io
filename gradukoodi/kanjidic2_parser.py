@@ -23,46 +23,63 @@ def lisää_vetomaarat():
 			
 
 kanit = []	
-with open ('jarjestys_BCCWJ.txt', 'r') as f:
+with open ('tuloksia/jarjestys_BCCWJ.txt', 'r') as f:
 	for rivi in f:
 		kanit.append(rivi.split()[0])
+
+def add_enkku(entry):
+	juttu = ""
+	try:
+		enkut = entry.find('reading_meaning').find('rmgroup').findall('meaning')
+		juttu += '"'
+		for enkku in enkut:
+			if enkku.attrib == {}:
+				juttu += enkku.text + ', '
+		juttu += '";\n'
+	except AttributeError:
+		juttu += "Ei käännöstä;"
+	return juttu
+	
+def add_lukutavat(entry):
+	juttu = ""
+	try:
+		yomit = entry.find('reading_meaning').find('rmgroup').findall('reading')
+		juttu += '"'
+		for yomi in yomit:
+			if yomi.attrib['r_type'] == 'ja_kun' or yomi.attrib['r_type'] == 'ja_on':
+				juttu += yomi.text + '\n'
+		juttu += '";'
+	except AttributeError:
+		juttu += "Ei käännöstä;"
+	return juttu
+	
+sanasto = []
+with open ('yhdyssanat1.txt', 'r') as f:
+	for rivi in f:
+		sanasto.append(rivi)
+		
+def valkkaa_sanastoa(kanji):
+	ret = '"'
+	for rivi in sanasto:
+		if kanji in rivi.split()[0]:
+			ret += rivi.split()[0] + "[" + rivi.split()[1] + "]\n"
+			#kanjisana ja sulkuihin sen ääntämys, koska ankin furiganakomento
+	return ret + '"'
+	
 
 def luo_anki():
 	'''luo ankille maistuvan txt-filun merkeistä ja niiden lukutavoista'''
 	anki = {}
-	'''kanit = []	
-	with open ('jarjestys_BCCWJ.txt', 'r') as f:
-		for rivi in f:
-			kanit.append(rivi.split()[0])'''
 			
 	for kanji in kanit:
 		lista = ''
-		for entry in juuri.findall('character'):
+		for entry in juuri.findall('character'):		
 			if kanji == entry.find('literal').text:
-				try:
-					enkut = entry.find('reading_meaning').find('rmgroup').findall('meaning')
-					lista += '"'
-					for enkku in enkut:
-						if enkku.attrib == {}:
-							lista += enkku.text + '\n'
-					lista += '";'
-				except AttributeError:
-					lista += "Ei käännöstä;"
-										
-				lista += kanji + ";"	
-					
-				try: #kaikilla ei oo reading r_type="ja_on"
-					lukutavat = entry.find('reading_meaning').find('rmgroup').findall('reading')
-					lista += '"'
-					for tapa in lukutavat:
-						if tapa.attrib['r_type'] == 'ja_kun' or tapa.attrib['r_type'] == 'ja_on':
-							lista += tapa.text + '\n'
-					lista += '"'
-				except AttributeError:
-					lista += '"Ei lukutapoja"'
-				lista += ";\n"
-				#print(lista)
-				
+				lista += kanji + ";\n"
+				lista += add_enkku(entry)
+				lista += add_lukutavat(entry)
+				lista += valkkaa_sanastoa(kanji)
+				lista += "\n"
 		anki[kanji] = lista
 	print_anki(anki)
 				
