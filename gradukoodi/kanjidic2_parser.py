@@ -37,7 +37,7 @@ def add_enkku(entry):
 				juttu += enkku.text + ', '
 		juttu += '";'
 	except AttributeError:
-		juttu += "Ei käännöstä;"
+		juttu += "No known translations;"
 	return juttu
 	
 def add_lukutavat(entry):
@@ -51,16 +51,21 @@ def add_lukutavat(entry):
 		juttu = juttu[:-2] #pois vika enter
 		juttu += '";'
 	except AttributeError:
-		juttu += "Ei käännöstä;"
+		juttu += "No known readings;"
 	return juttu
+
 	
 sanasto = []
 with open ('yhdyssanat1.txt', 'r') as f:
 	for rivi in f:
 		sanasto.append(rivi)
 
+hiragana = "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞ"	
+katakana = "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヽヾ"
+hiraganaksi = str.maketrans(katakana, hiragana)
+
 def valkkaa_sanastoa(kanji):
-	'''kaivaa viisi yleisintä sanaa, joissa kys. kanji esiintyy''' #TODO pois tuplat kun samalla sanalla useampi POS = useampi entry
+	'''kaivaa viisi yleisintä sanaa, joissa kys. kanji esiintyy''' #TODO pois tuplat kun samalla sanalla useampi POS = useampi entry?
 	ret = '"'
 	setti = ("No known frequent words","","0")
 	lista_sanoja = list()
@@ -76,8 +81,8 @@ def valkkaa_sanastoa(kanji):
 		i += 1
 		if i > 4: #lisätään max viisi yleisintä
 			break
+	ret = ret.translate(hiraganaksi)
 	return ret + '"'
-	
 
 def luo_anki():
 	'''luo ankille maistuvan txt-filun merkeistä ja niiden lukutavoista'''
