@@ -72,21 +72,21 @@ function nayta(frm){
 		document.getElementById("teksti").innerHTML +=
 	"<br><br>Siskon bataattiseitan<br><br>" + 
 	p(133) + " g bataattisosetta<br>" + 
-p(0.66) + " dl gluteenijauhoa<br>" + 
-p(0.33) + " tl suolaa<br>" + 
-p(0.33) + " rkl soijakastiketta<br>" + 
-p(0.66) + " rkl hiivahiutaleita<br>" + 
-p(0.33) + " tl sitruunamehua<br>" + 
-"vähän makeutusta<br>" + 
-p(0.33) + " tl salviaa<br>" + 
-p(0.166) + " tl basilikaa<br>" + 
-p(0.166) + " tl timjamia<br>" + 
-p(0.166) + " tl inkivääriä<br>" + 
-p(0.08) + " tl muskottia<br>" + 
-p(0.166) + " tl juustokuminaa<br>" + 
-p(0.08) + " tl valkopippuria<br>" + 
-p(0.166) + " tl valkosipulijauhetta<br><br>" +
-"Pirkan bataattisose on 'se oikea' tähän, mutta soseen voi toki valmistaa itsekin bataatteja keittämällä. Mausteista voi jättää pois muutaman aivan hyvin. <br> Sekoita kuivat aineet keskenään ja märät aineet keskenään. Yhdistä, muotoile pihveiksi, paista 35-40 min 190C (ei liikaa etteivät pihvit käy liian kumimaisiksi)";
+	p(0.66) + " dl gluteenijauhoa<br>" + 
+	p(0.33) + " tl suolaa<br>" + 
+	p(0.33) + " rkl soijakastiketta<br>" + 
+	p(0.66) + " rkl hiivahiutaleita<br>" + 
+	p(0.33) + " tl sitruunamehua<br>" + 
+	"vähän makeutusta<br>" + 
+	p(0.33) + " tl salviaa<br>" + 
+	p(0.166) + " tl basilikaa<br>" + 
+	p(0.166) + " tl timjamia<br>" + 
+	p(0.166) + " tl inkivääriä<br>" + 
+	p(0.08) + " tl muskottia<br>" + 
+	p(0.166) + " tl juustokuminaa<br>" + 
+	p(0.08) + " tl valkopippuria<br>" + 
+	p(0.166) + " tl valkosipulijauhetta<br><br>" +
+	"Pirkan bataattisose on 'se oikea' tähän, mutta soseen voi yrittää valmistaa itsekin bataatteja keittämällä. Itse en ole saanut kuitenkaan rakeenteesta hyvää silloin. Mausteista voi jättää pois muutaman aivan hyvin. <br> Sekoita kuivat aineet keskenään ja märät aineet keskenään. Yhdistä, muotoile pihveiksi, paista 35-40 min 190C (ei liikaa etteivät pihvit käy liian kumimaisiksi)";
 	}
 
 	if (frm.kasvissose.checked) {
@@ -299,41 +299,50 @@ p(0.166) + " tl valkosipulijauhetta<br><br>" +
 
 <BODY ID="reseptit">
 
-<FORM NAME="valintaboksi">
-	<br> Herkkuja (joiden päälle lapset eivät ymmärrä)
-	<br> <input type="Checkbox" name="intia" value="Intiasoossi" onClick"">Intiasoossi
-	<br> <input type="Checkbox" name="papuk" value="Papukeitto" onClick"">Papukeitto
-	<br> <input type="Checkbox" name="okonomi" onClick"">Okonomiyaki
-	<br> <input type="Checkbox" name="seitan" onClick"">Bataattiseitan
+<div>Eri paikoista koottuja ja muokkailtuja reseptejä. Annoskoot vähän turhan pieniä, niissä ei ole huomioitu, että joku voi haluta lisää.</div>
+
+<div>
+	<FORM NAME="valintaboksi">
+		<br> Herkkuja (joiden päälle lapset eivät ymmärrä)
+		<br> <input type="Checkbox" name="intia" value="Intiasoossi" onClick"">Intiasoossi
+		<br> <input type="Checkbox" name="papuk" value="Papukeitto" onClick"">Papukeitto
+		<br> <input type="Checkbox" name="okonomi" onClick"">Okonomiyaki
+		<br> <input type="Checkbox" name="seitan" onClick"">Bataattiseitan
+	
+</div>
 	<br> Leiriruokaa (jonka päälle lapset ymmärtävät)
+	
+<div>
+	<table style="width:40%">
 
-<table style="width:40%">
+	  <tr>
+		<td><input type="Checkbox" name="kasvissose" onClick"">Kasvissosekeitto</td>
+		<td><input type="Checkbox" name="pizza" onClick"">Leiripizza</td>
+	  </tr>
+	  <tr>
+		<td><input type="Checkbox" name="bolog" onClick"">Bolognese</td>
+		<td><input type="Checkbox" name="piirakka" onClick"">Kasvispiirakka</td>
+	  </tr>
+	  <tr>
+		<td><input type="Checkbox" name="tofut" onClick"">Tomaattiset tofupyörykät</td>
+		<td><input type="Checkbox" name="rieska" onClick"">Hillopuurorieska</td>
+	  </tr>
+	  <tr>
+		<td><input type="Checkbox" name="makaroni" onClick"">Makaronilaatikko</td>
+		<td><input type="Checkbox" name="sampyla" onClick"">Perussämpylät</td>
+	  </tr>
+	  <tr>
+		<td><input type="Checkbox" name="hernari" onClick"">Hernekeitto</td>
+		<td><input type="Checkbox" name="letut" onClick"">Lettutaikina</td>
+	  </tr>
+	  <tr>
+		<td><input type="Checkbox" name="quinoa" onClick"">Quinoatto</td>
+		<td></td>
+	  </tr>
+	</table> 
 
-  <tr>
-    <td><input type="Checkbox" name="kasvissose" onClick"">Kasvissosekeitto</td>
-    <td><input type="Checkbox" name="pizza" onClick"">Leiripizza</td>
-  </tr>
-  <tr>
-    <td><input type="Checkbox" name="bolog" onClick"">Bolognese</td>
-    <td><input type="Checkbox" name="piirakka" onClick"">Kasvispiirakka</td>
-  </tr>
-  <tr>
-    <td><input type="Checkbox" name="tofut" onClick"">Tomaattiset tofupyörykät</td>
-    <td><input type="Checkbox" name="rieska" onClick"">Hillopuurorieska</td>
-  </tr>
-  <tr>
-    <td><input type="Checkbox" name="makaroni" onClick"">Makaronilaatikko</td>
-    <td><input type="Checkbox" name="sampyla" onClick"">Perussämpylät</td>
-  </tr>
-  <tr>
-    <td><input type="Checkbox" name="hernari" onClick"">Hernekeitto</td>
-    <td><input type="Checkbox" name="letut" onClick"">Lettutaikina</td>
-  </tr>
-  <tr>
-    <td><input type="Checkbox" name="quinoa" onClick"">Quinoatto</td>
-    <td></td>
-  </tr>
-</table> 
+</div>
+
 	<INPUT TYPE="Button" VALUE="Valitse, mitkä reseptit haluat nähdä" onClick="nayta(this.form)">
 </FORM>
 
