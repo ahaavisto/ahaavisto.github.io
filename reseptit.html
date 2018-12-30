@@ -1,0 +1,347 @@
+<HTML>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<HEAD>
+<TITLE>Reseptitietokanta</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function nayta(frm){
+
+   var nro=prompt("Monelleko?", "");
+//   document.write("<br> Valitsit luvun "+ nro +".<br>");
+	document.getElementById("teksti").innerHTML = "";
+	
+
+	function p(maara) {
+		var tulo = maara * nro;
+		document.getElementById("teksti").innerHTML += tulo + "<br><br>";
+		if (tulo.toString().length > 3) {
+			return tulo.toFixed(2);
+		} else {
+			return tulo;
+		}
+	}
+
+	if (frm.intia.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Intiasoossi<br><br>" + 
+		p(30) + " g sipuli<br> " + 
+		p(0.8) + " kynttä valkosipulia<br>" +
+		p(0.25) + " tl inkivääriä<br>" +
+		p(0.25) + " laakerinlehti<br>" +
+
+		0.6*nro + " dl linssejä<br>" +
+		0.5*nro + " tl curryjauhetta<br>" +
+		0.25*nro + " tl kurkumaa<br>" +
+
+		p(1.8) + " dl kasvislientä \(tai vajaa\)<br>" +
+		60*nro + " g perunaa/bataattia<br>" +
+		30*nro + " g kookosmaitoa<br>" +
+		"vähän soijakermaa/maitoa<br><br>" +
+		"Pilko sipulit, paista. Lisää mausteet paistamisen loppupuolella. Lisää kasvisliemi ja linssit. Keitä n. 30 minuuttia, lisää bataatti/peruna n. 20 min ennen valmistumista. Vähän ennen valmistumista lisää kookosmaito ja halutessasi kermaa.";
+	}
+
+	if (frm.papuk.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Papukeitto<br><br>" + 
+		p(0.25) + " kpl sipulia<br> " + 
+		0.5*nro + " tl inkivääriä<br>" +
+		0.5*nro + " tl curryjauhetta<br>" +
+
+		0.5*nro + " tl paprikajauhetta<br>" +
+		0.25*nro + " tl rakuunaa<br>" +
+		0.5*nro + " tlk papuja<br>" +
+		0.5*nro + " tlk tomaattimurskaa<br>" +
+		0.5*nro + " dl kermaa<br>" +
+		"chiliä, jos halutaan<br><br>" +
+		"Pilko sipulit, paista. Lisää mausteet paistamisen loppupuolella. Lisää tomaatti ja pavut, keittele kunnes sipuli sopivan kypsää. Lopussa lisää kerma (toimii ilmankin). <br><br>" +
+		"Lähde: Helsingin Sanomat 2011, ei juuri muokattu";
+	}
+
+	if (frm.okonomi.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Okonomiyaki<br><br>" + 
+		50 * nro + " g vehnäjauho<br> " + 
+		0.8 * nro + " dl vettä<br>" +
+		1*nro + " kananmunaa<br>" +
+		0.5*nro + " rkl perunajauhoa (suunnilleen)" +
+		150*nro + " g kaalia pienenä silppuna<br>" +
+		"sopivasti täytteitä, kuten vegepekonia, ituja, sieniä...<br>" +	
+		"sopivasti purjoa/kevätsipulia silppuna<br><br>" +
+		"Päälle okonomiyakikastiketta, japanimajoneesia, kalahiutaleita";
+	}
+
+	if (frm.seitan.checked) {
+		document.getElementById("teksti").innerHTML +=
+	"<br><br>Siskon bataattiseitan<br><br>" + 
+	p(133) + " g bataattisosetta<br>" + 
+p(0.66) + " dl gluteenijauhoa<br>" + 
+p(0.33) + " tl suolaa<br>" + 
+p(0.33) + " rkl soijakastiketta<br>" + 
+p(0.66) + " rkl hiivahiutaleita<br>" + 
+p(0.33) + " tl sitruunamehua<br>" + 
+"vähän makeutusta<br>" + 
+p(0.33) + " tl salviaa<br>" + 
+p(0.166) + " tl basilikaa<br>" + 
+p(0.166) + " tl timjamia<br>" + 
+p(0.166) + " tl inkivääriä<br>" + 
+p(0.08) + " tl muskottia<br>" + 
+p(0.166) + " tl juustokuminaa<br>" + 
+p(0.08) + " tl valkopippuria<br>" + 
+p(0.166) + " tl valkosipulijauhetta<br><br>" +
+"Pirkan bataattisose on 'se oikea' tähän, mutta soseen voi toki valmistaa itsekin bataatteja keittämällä. Mausteista voi jättää pois muutaman aivan hyvin. <br> Sekoita kuivat aineet keskenään ja märät aineet keskenään. Yhdistä, muotoile pihveiksi, paista 35-40 min 190C (ei liikaa etteivät pihvit käy liian kumimaisiksi)";
+	}
+
+	if (frm.kasvissose.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Kasvissosekeitto<br><br>" + 
+		p(0.33) + " dl punaisia linssejä<br> " + 
+		p(1.5) + " dl vettä<br>" +
+		p(0.25) + " liemikuutiota<br>" +
+		p(55) + " g porkkanaa<br>" +
+		p(45) + " g perunaa<br>" +
+		p(60) + " g sipulia<br>" +
+		"Valkosipulia sopivasti<br>" +
+		"(Kaurakermaa)<br><br>" +
+		"Pilko ainekset, laita kiehumaan. Lisää vettä tarvittaessa. Paista sipuli eka, jos jaksat. Liemikuutioita ja vettä voi lisätä, jos tarvetta on. Kaurakerman voi lisätä lopuksi ennen soseuttamista.<br><br>"+
+		"Oma resepti. Testattu päiväleirillä, ainoa miinus: jos laittaa vihreitä linssejä, keitto näyttää vähän pelottavalta.";
+	}
+
+	if (frm.bolog.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Bolognese<br><br>" + 
+		p(60) + " g makaronia<br><br> " + 
+
+		p(85) + " g tomaattimurskaa<br>" +
+		p(8) + " g tomaattisosetta<br>" +
+		p(0.4) + " tl basilikaa (oreganoakin voi laittaa)<br>" +
+		p(0.4) + " tl sokeria<br>" +
+		p(24) + " g sipulia<br>" +
+		"Valkosipulia sopivasti<br>" +
+		"Soijarouhetta sopivasti, ehkä soijakastiketta siihen<br>" +
+		"Suolaa, ehkä pippuria<br><br>" +
+		"Pilko sipulit, paista ne ja lisää lopuksi soijarouhe hetkeksi pannuun. Lisää vettä niin paljon kuin rouhe imee sitä, lisää sitten muut aineet. Keittele, kunnes sipuli pehmeää. Lisää vettä tarvittaessa.<br><br>"+
+		"Yhdistelty useista resepteistä. Testattu päiväleireillä: annoskoko lastenleirillä hyvä, nuorisolle olen tehnyt isomman erän.";
+	}
+
+	if (frm.piirakka.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Kasvispiirakka<br><br>" + 
+		p(25) + " g tofua (voi olla maustettua tai ei)<br> " + 
+		p(0.6) + " dl kaurakermaa<br>" +
+		p(0.6) + " rkl perunajauhoa<br>" +
+		p(0.1) + " rkl basilikaa<br>" +
+		p(0.2) + " tl suolaa ja vähän pippuria<br>" +
+		p(16) + " g tomaattia/paprikaa tms<br>" +
+		p(16) + " g sipulia<br>" +
+		"Piirakkataikinaa sopivasti<br><br>" +
+		"Tee taikina. Esipaista, jos ohje sanoo niin. Pilko kasvikset, esipaista pannulla hieman. Murskaa tofu ja sekoita kaikki täyteaineet ja sipuli. Sauvasekoitin on kiva, muttei pakollinen. Kaada täytemössö taikinapohjan päälle ja lisää tomaatti/muut kasvikset/sienet/tms. Paista noin 30 minuuttia 200 asteisessa uunissa. Hyvää myös kylmänä - pysyy silloin paremmin kasassa.<br><br>"+
+		"Modailtu hieman Vegaanin kotiruokakirjasta. Testattu leireillä, miinuksena että taikinan ja täytteen määrä suhteessa toisiinsa vaikea arvioida. Täytemössöä voi tehdä vähemmänkin.";
+
+	}
+	
+	if (frm.pizza.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Pizza<br><br>" + 
+		p(0.5) + " dl jauhoja<br> " + 
+		p(0.21) + " dl vettä<br>" +
+		p(3.6) + " g hiivaa<br>" +
+		"suolaa, öljyä<br><br>" +
+		
+		p(66.6) + " g tomaattimurskaa<br>" +
+		p(5.33) + " g tomaattisosetta<br>" +
+		p(0.2) + " kpl valkosipulinkynttä<br>" +
+		p(8.66) + " g sipulia<br>" +
+		p(0.133) + " rkl basilikaa<br>" +
+		p(0.133) + " rkl oreganoa<br>" +
+		p(0.1) + " rkl sokeria<br>" +
+		"suolaa sopivasti<br><br>" +
+		
+		p(25) + " g paprikaa<br>" +
+		p(23) + " g ananasta<br>" +
+		p(0.5) + " dl soijarouhetta/tofua/tms<br>" +
+		p(20) + " g juustoraastetta<br><br>" +
+		"[to be added]<br><br>"+
+		"Lähde: modailtu kotitalouden kirjasta. Testattu leireillä.";
+
+	}
+	
+	if (frm.rieska.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Hillopuurorieska<br><br>" +
+		"Ainekset yhteen pellilliseen:<br>" + 
+		"3 dl jauhoja<br> " + 
+		"5 dl puuroa (ei kuumana)<br>" +
+		"1 tl suolaa<br>" +
+		"2 rkl öljyä<br>" +
+		"1 dl paistonkestävää omena/appelsiinimarmeladia (voi jättää poiskin)<br><br>" +
+		
+		"Sekoita ainekset. Levitä pellille (rieska tasoittuu hieman uunissa, ei haittaa jos se ei ole kovin tasainen uuniin mennessään. Paista 225 asteessa 20-25 minuuttia - jos teet rieskalevyn sijaan pikkurieskoja, paistoaika lyhenee. Maistuu parhaalta tuoreeltaan.<br><br>"+
+		"Lähde: muokattu Myllyn Parhaan nettisivujen reseptistä yksinkertaimmaksi. Testattu monella leirillä, helppo tapa käyttää puuron jämät.";
+
+	}
+	
+	if (frm.tofut.checked) {
+		document.getElementById("teksti").innerHTML += 
+		"<br><br>Tomaattiset tofupyörykät<br><br>" +
+		p(0.33) + " pkt tofua (siis n. 250 g paketti). Voi käyttää ainakin maustamatonta tai marinoitua<br>" + 
+		p(0.33) + " dl gramjauhoa (laita oikeasti vain sen verran kun tarvitset, tyylin puolet riittänee)<br>" + 
+		p(0.6) + " rkl soijakastiketta<br>" + 
+		p(20) + " g sipulia<br>" + 
+		p(0.33) + " kynttä valkosipulia<br>" + 
+		p(0.33) + " rkl oregano<br>" + 
+		p(0.25) + " dl tomaattisosetta<br>" + 
+		p(0.5) + " rkl basilikaa<br>" + 
+		"Voit lisätä myös esim. porkkanaraastetta, ciliä, papuja, mitä vaan <br>"+ 
+		"Leirillä lisäkkeeksi: " + p(50) + " g riisiä<br><br>" +
+		"Pilko sipuli ja valkosipuli mahdollisimman pieneksi ja paista niitä hetki. Mössää tofu, sipulit (kannattaa antaa eka jäähtyä...) ja muut ainekset paitsi jauhot keskenään. Sauvasekoittimesta on etua, pitää mössätä kunnolla. Sekoita lopuksi gramjauhoja taikinaan sen verran, että saat pullat pysymään kasassa (ei ihan pakollinen vaihe). Pyörittele suht tasakokoisia pullia, pienet pysyvät helpommin kasassa ja kypsyvät nopeammin kuin isot. Paista 200 asteessa n. 20 min kunnes pullat tummenevat vähän ja/tai tuntuvat kypsiltä jos niitä tökkii haarukalla.<br><br>"+
+		"Lähde: modailtu Kiskola&Miettunen Tofu-keittokirjasta. Testattu leireillä.";
+
+	}
+
+	if (frm.makaroni.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Makaronilaatikko<br><br>" + 
+		p(66.6) + " g makaronia<br>" +
+		p(66.6) +" g jauhelihan korviketta (=soijarouhetta randomilla)<br>" +
+		p(0.125) + " tl suolaa<br>" +
+		p(0.125) + " tl mustapippuria<br>" +
+		"(" + p(0.3) + " tl basilikaa)<br>" +
+		p(0.2) +  " kynttä valkosipulia<br>" +
+		p(13.3) +" g sipulia<br><br>" + 
+
+		p(0.33) + " kananmunaa<br>" +
+		p(1.166) + " dl maitoa<br>" +
+		p(0.166) + " tl suolaa<br><br>" +
+		
+		"1. pilko ja paista sipuli<br>2. valmista soijarouhe<br>3. keitä makaroni<br>4. riko kananmunat, sekoita hyvin. Sekoita kunnolla maitoon. (esim. ravistamalla maitotölkissä!)<br>5. paista 30-45 minuuttia 200-asteisessa uunissa (käytä alalämpöä, jos vain yläosa uhkaa kypsyä). (joissain ohjeissa paistoaika jopa yli tunti!!)<br><br>"+
+		"Lähde: modailtu Pirkan nettisivuilta. Testattu leireillä.";
+
+	}
+
+	if (frm.hernari.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Hernekeitto<br><br>" + 
+		p(71) + " g kuivattuja herneitä<br>" + 
+		p(0.14) + " tl suolaa<br>" + 
+		p(17) + " g sipulia<br>" + 
+		p(50) + " g porkkanaa<br>" + 
+		p(0.2) + " kynttä valkosipulia<br>" +
+		p(0.29) + " tl meiramia<br>" + 
+		"mustapippuria<br><br>" + 
+		
+		"Liota herneitä yön yli kattilassa. Aamulla hella päälle & parin tunnin päästä lisää sipuli ja porkkana, nauti kun nekin ovat kypsiä.<br><br>"+
+		"Lähde: modailtu Pirkan nettisivuilta. Testattu leireillä.";
+
+	}
+
+	if (frm.quinoa.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Quinoatto<br><br>" + 
+		p(0.5) + " dl kvinoaa<br>" + 
+		p(0.125) + " sitruunan mehu + kuori<br>" + 
+		p(0.125) + " tl suolaa<br>" + 
+		p(0.25) + " tl kuivattua minttua<br>" + 
+		p(30) + " g (puna)sipulia<br>" + 
+		p(30) + " g kurkkua<br>" + 
+		p(30) + " g paprikaa<br>" + 
+		p(30) + " g kesäkurpitsaa<br>" + 
+		p(20) + " g cashewpähkinää<br><br>" + 
+		
+		"Voi syödä joka kuumana tai kylmänä.<br><br>"+
+		"Lähde: jostain netistä modailtu. Testattu leiriolosuhteissa, ei varmaan lapsille kyllä maistu.";
+
+	}
+
+	if (frm.sampyla.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Perussämpylät<br><br>" + 
+		
+		p(0.25) + " dl nestettä<br>" + 
+		p(2.5) + " g hiivaa<br>" + 
+		p(0.1) + " tl sokeria<br>" + 
+		p(0.05) + " tl suolaa<br>" + 
+		p(0.6) + " dl jauhoja<br>" + 
+		p(0.2) + " rkl öljyä<br>" + 
+		
+		"Tee sämpylät. Paista 225 asteessa n. 10 minuuttia.<br><br>"+
+		"Lähde: Köksänkirja :D. Testattu leireillä.";
+	}
+	if (frm.letut.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Lettutaikina<br><br>" + 
+		
+		p(1) + " dl maitoa<br>" + 
+		p(0.66) + " dl jauhoja<br>" + 
+		p(0.33) + " rkl perunajauhoja<br>" + 
+		p(0.17) + " tl suolaa<br>" + 
+		
+		"Osannet tehdä lettuja ^^";
+	}
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!--#include virtual="nav.html"-->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+
+
+    <div class="container">
+        <p></p>
+        <p></p>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+
+
+<BODY ID="reseptit">
+
+<FORM NAME="valintaboksi">
+	<br> Herkkuja (joiden päälle lapset eivät ymmärrä)
+	<br> <input type="Checkbox" name="intia" value="Intiasoossi" onClick"">Intiasoossi
+	<br> <input type="Checkbox" name="papuk" value="Papukeitto" onClick"">Papukeitto
+	<br> <input type="Checkbox" name="okonomi" onClick"">Okonomiyaki
+	<br> <input type="Checkbox" name="seitan" onClick"">Bataattiseitan
+	<br> Leiriruokaa (jonka päälle lapset ymmärtävät)
+
+<table style="width:40%">
+
+  <tr>
+    <td><input type="Checkbox" name="kasvissose" onClick"">Kasvissosekeitto</td>
+    <td><input type="Checkbox" name="pizza" onClick"">Leiripizza</td>
+  </tr>
+  <tr>
+    <td><input type="Checkbox" name="bolog" onClick"">Bolognese</td>
+    <td><input type="Checkbox" name="piirakka" onClick"">Kasvispiirakka</td>
+  </tr>
+  <tr>
+    <td><input type="Checkbox" name="tofut" onClick"">Tomaattiset tofupyörykät</td>
+    <td><input type="Checkbox" name="rieska" onClick"">Hillopuurorieska</td>
+  </tr>
+  <tr>
+    <td><input type="Checkbox" name="makaroni" onClick"">Makaronilaatikko</td>
+    <td><input type="Checkbox" name="sampyla" onClick"">Perussämpylät</td>
+  </tr>
+  <tr>
+    <td><input type="Checkbox" name="hernari" onClick"">Hernekeitto</td>
+    <td><input type="Checkbox" name="letut" onClick"">Lettutaikina</td>
+  </tr>
+  <tr>
+    <td><input type="Checkbox" name="quinoa" onClick"">Quinoatto</td>
+    <td></td>
+  </tr>
+</table> 
+	<INPUT TYPE="Button" VALUE="Valitse, mitkä reseptit haluat nähdä" onClick="nayta(this.form)">
+</FORM>
+
+<div id="teksti"> </div>
+
+</div>
+
+<script src="skripti.js"></script>
+
+</BODY>
+</HTML>
