@@ -111,7 +111,7 @@ def tulosta_fancysti():
 	kanit = []
 	lista = [0] * 2800 #taikaluku, vähän isompi kuin kanjien määrä
 	loytyi = False
-	with open ('jarjestys_BCCWJ.txt', 'r') as f:
+	with open ('tuloksia/jarjestys_BCCWJ.txt', 'r') as f:
 		for rivi in f:
 			kanit.append(rivi.split()[0])
 			
@@ -141,6 +141,7 @@ def tulosta_fancysti():
 		loytyi = False
 	
 	with open ('fancy_lista.html', 'w') as f:
+		f.write('<meta charset="UTF-8"> ') #merkistökoodaus kuntoon
 		for rivi in lista:
 			if ('0' or 0) not in rivi: #ei kirjoiteta vikaa riviä 
 				f.write(str(rivi))
