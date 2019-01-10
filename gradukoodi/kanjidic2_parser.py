@@ -78,24 +78,20 @@ def valkkaa_sanastoa(kanji):
 	for sana in lista_sanoja:
 		ret += sana[0] + "[" + sana[1] + "] (" + str(sana[2]) + ")\n"
 		#kanjisana ja hakasulkuihin sen ääntämys, koska ankin furiganakomento. Perään frekvenssi.
+		ret += etsi_esimerkkilauseet(sana[0]) + '\n' #TODO kaikkea ei voi kääntää hiraganaksi kuten ennen
 		i += 1
 		if i > 4: #lisätään max viisi yleisintä
 			break
 	ret = ret.translate(hiraganaksi)
 	return ret + '"'
 	
-'''Tatoeba-tietokannasta max kolme lausetta, joissa kanji esiintyy'''
-def etsi_esimerkkilauseet(merkki):
-	lauseet = list()
+'''Tatoeba-tietokannasta eka lause, joissa kanjisana esiintyy'''
+def etsi_esimerkkilauseet(sana):
 	with open ('kaannokset.tsv', 'r') as f:
 		for rivi in f:
-			if merkki in rivi:
-				lauseet.append(rivi)
-				if len(lauseet) > 2:
-					break
-	if len(lauseet) == 0:
-		lauseet.append("Tietokannasta ei löytynyt esimerkkilauseita")
-	return lauseet
+			if sana in rivi:
+				return rivi
+	return "Tietokannasta ei löytynyt esimerkkilauseita"
 
 '''Haetaan esimerkkilauseet ja sitten lainausmerkit ympärille'''
 def esimerkkilauseet(merkki):
@@ -118,8 +114,9 @@ def luo_anki():
 				lista += kanji + ";"
 				lista += add_enkku(entry)
 				lista += add_lukutavat(entry)
-				lista += valkkaa_sanastoa(kanji)
-				lista += esimerkkilauseet(kanji)
+				sanastoa = valkkaa_sanastoa(kanji)
+				lista += sanastoa
+				#lista += esimerkkilauseet(kanji)
 				lista += "\n"
 		anki[kanji] = lista
 	print_anki(anki)
