@@ -83,6 +83,29 @@ def valkkaa_sanastoa(kanji):
 			break
 	ret = ret.translate(hiraganaksi)
 	return ret + '"'
+	
+'''Tatoeba-tietokannasta max kolme lausetta, joissa kanji esiintyy'''
+def etsi_esimerkkilauseet(merkki):
+	lauseet = list()
+	with open ('kaannokset.tsv', 'r') as f:
+		for rivi in f:
+			if merkki in rivi:
+				lauseet.append(rivi)
+				if len(lauseet) > 2:
+					break
+	if len(lauseet) == 0:
+		lauseet.append("Tietokannasta ei löytynyt esimerkkilauseita")
+	return lauseet
+
+'''Haetaan esimerkkilauseet ja sitten lainausmerkit ympärille'''
+def esimerkkilauseet(merkki):
+	lista = etsi_esimerkkilauseet(merkki)
+	string = ';"'
+	for entry in lista:
+		string += entry
+	string += '";'
+	return string
+				
 
 def luo_anki():
 	'''luo ankille maistuvan txt-filun merkeistä ja niiden lukutavoista'''
@@ -96,6 +119,7 @@ def luo_anki():
 				lista += add_enkku(entry)
 				lista += add_lukutavat(entry)
 				lista += valkkaa_sanastoa(kanji)
+				lista += esimerkkilauseet(kanji)
 				lista += "\n"
 		anki[kanji] = lista
 	print_anki(anki)
