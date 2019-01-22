@@ -23,7 +23,7 @@ def lisää_vetomaarat():
 			
 
 kanit = []	
-with open ('tuloksia/jarjestys_BCCWJ.txt', 'r') as f:
+with open ('tuloksia/jarjestys_BCCWJ_alku.txt', 'r') as f: #atm ottaa vain alun
 	for rivi in f:
 		kanit.append(rivi.split()[0])
 
@@ -194,6 +194,30 @@ def katakana_hiraganaksi():
 			kirjoitettava += str(rivi)
 	with open ('yhdyssanat_hira.txt', 'w') as f:
 		f.write(kirjoitettava)
+
+KANJI_DIV = '<div class="panel panel-info">\n'
+COMPONENT_DIV = '<div class="panel panel-warning">\n'
+HEADER_DIV = '<div class="panel-heading">\n'
+BODY_DIV = '<div class="panel-body">\n'
+DIV_CLOSE = '</div>\n'
+
+def luo_html():
+	html = ""
+	for kanji in kanit:
+			lista = ''
+			for entry in juuri.findall('character'):		
+				if kanji == entry.find('literal').text:
+					lista += KANJI_DIV + HEADER_DIV + kanji + DIV_CLOSE
+					lista += BODY_DIV + etsi_komponentit(kanji)
+					lista += add_enkku(entry)
+					lista += add_lukutavat(entry)
+					lista += valkkaa_sanastoa(kanji)
+					lista += DIV_CLOSE + DIV_CLOSE
+					lista = lista.replace(';', '')
+					#lista = lista.replace('\n', '\n<br>')
+			for rivi in lista.split('\n'):
+				html += rivi + '<br>\n'
+	print(html)
 		
 '''
 pääohjelma alkaa
@@ -203,7 +227,9 @@ pääohjelma alkaa
 
 #katakana_hiraganaksi()
 
-luo_anki()
+#luo_anki()
+
+luo_html()
 
 #__________________
 
