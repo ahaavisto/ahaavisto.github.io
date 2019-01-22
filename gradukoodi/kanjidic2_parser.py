@@ -37,7 +37,7 @@ def add_enkku(entry):
 				juttu += enkku.text + ', '
 		juttu += '";'
 	except AttributeError:
-		juttu += "No known translations;"
+		juttu += "Ei tunnettuja käännöksiä;"
 	return juttu
 	
 def add_lukutavat(entry):
@@ -51,12 +51,12 @@ def add_lukutavat(entry):
 		juttu = juttu[:-2] #pois vika enter
 		juttu += '";'
 	except AttributeError:
-		juttu += "No known readings;"
+		juttu += "Ei tunnettuja ääntämyksiä;"
 	return juttu
 
 	
 sanasto = []
-with open ('yhdyssanat1.txt', 'r') as f:
+with open ('yhdyssanat_hira.txt', 'r') as f:
 	for rivi in f:
 		sanasto.append(rivi)
 
@@ -67,7 +67,7 @@ hiraganaksi = str.maketrans(katakana, hiragana)
 def valkkaa_sanastoa(kanji):
 	'''kaivaa viisi yleisintä sanaa, joissa kys. kanji esiintyy''' #TODO pois tuplat kun samalla sanalla useampi POS = useampi entry?
 	ret = '"'
-	setti = ("No known frequent words","","0")
+	setti = ("Ei tunnettuja yleisiä sanoja","","0")
 	lista_sanoja = list()
 	for rivi in sanasto:
 		if kanji in rivi.split()[0]:
@@ -78,19 +78,23 @@ def valkkaa_sanastoa(kanji):
 	for sana in lista_sanoja:
 		ret += sana[0] + "[" + sana[1] + "] (" + str(sana[2]) + ")\n"
 		#kanjisana ja hakasulkuihin sen ääntämys, koska ankin furiganakomento. Perään frekvenssi.
-		ret += etsi_esimerkkilauseet(sana[0]) + '\n' #TODO kaikkea ei voi kääntää hiraganaksi kuten ennen
+		ret += etsi_esimerkkilauseet(sana[0]) + '\n'
 		i += 1
 		if i > 4: #lisätään max viisi yleisintä
 			break
-	ret = ret.translate(hiraganaksi)
 	return ret + '"'
 	
-'''Tatoeba-tietokannasta eka lause, joissa kanjisana esiintyy'''
+'''Tatoeba-tietokannasta ekat lauseet, joissa kanjisana esiintyy'''
 def etsi_esimerkkilauseet(sana):
+	i = 0
+	lauseet = ""
 	with open ('kaannokset.tsv', 'r') as f:
 		for rivi in f:
 			if sana in rivi:
-				return rivi
+				i += 1
+				lauseet += rivi
+				if i == 3: #kuinka monta lausetta halutaan
+					return lauseet
 	return "Tietokannasta ei löytynyt esimerkkilauseita"
 
 '''Haetaan esimerkkilauseet ja sitten lainausmerkit ympärille'''
@@ -101,7 +105,19 @@ def esimerkkilauseet(merkki):
 		string += entry
 	string += '";'
 	return string
-				
+	
+#luetaan komponenttilista sanakirjaksi
+komp_sanakirja = {}
+with open ('ids_jooyoo+_chine_muokattu.txt', 'r') as f:
+	for rivi in f:
+		komp_sanakirja[rivi.split(' ')[0]] = rivi.split(' ')[1]
+	
+'''Lisää lista merkin komponenteista'''
+def etsi_komponentit(merkki):
+	if merkki in komp_sanakirja:
+		return " Komponentit: " + komp_sanakirja[merkki] + ";"
+	else:
+		return "Ei tunnettuja komponentteja, jossain on siis bugi;"
 
 def luo_anki():
 	'''luo ankille maistuvan txt-filun merkeistä ja niiden lukutavoista'''
@@ -112,11 +128,10 @@ def luo_anki():
 		for entry in juuri.findall('character'):		
 			if kanji == entry.find('literal').text:
 				lista += kanji + ";"
+				lista += etsi_komponentit(kanji)
 				lista += add_enkku(entry)
 				lista += add_lukutavat(entry)
-				sanastoa = valkkaa_sanastoa(kanji)
-				lista += sanastoa
-				#lista += esimerkkilauseet(kanji)
+				lista += valkkaa_sanastoa(kanji)
 				lista += "\n"
 		anki[kanji] = lista
 	print_anki(anki)
@@ -168,44 +183,28 @@ def tulosta_fancysti():
 				f.write(str(rivi))
 				
 
-
+def katakana_hiraganaksi():
+	hiragana = "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞ"	
+	katakana = "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヽヾ"
+	hiraganaksi = str.maketrans(katakana, hiragana)
+	kirjoitettava = ""
+	with open ('yhdyssanat1.txt', 'r') as f:
+		for rivi in f:
+			rivi = rivi.translate(hiraganaksi)
+			kirjoitettava += str(rivi)
+	with open ('yhdyssanat_hira.txt', 'w') as f:
+		f.write(kirjoitettava)
+		
 '''
 pääohjelma alkaa
 '''
 
 #tulosta_fancysti()
 
+#katakana_hiraganaksi()
+
 luo_anki()
 
 #__________________
 
 #print(juuri.tag)
-'''
-for lapsi in juuri:
-	#if lapsi.attrib
-	for sisalto in lapsi:
-		#print(sisalto.tag, sisalto.attrib) #printtaa 1. tason kenttien nimet
-		for sis in sisalto:
-			print(sis.tag, sis.tostring())
-
-
-lista = []
-lista.append('本')
-
-#print(ET.tostring(juuri, encoding='utf8').decode('utf8')) #printtaa kaiken
-
-#tämä on se oikeasti hyödyllinen asia
-for juttu in juuri.iter('literal'):
-	if juttu.text in lista:
-		print('jee')
-	#print(juttu.text)
-									
-for juttu in juuri.findall("./character/radical[@cp_value='672c']"): #ei toimi, koska ??
-	print('moimoi')
-	print(juttu.text)
-
-#jos halutaan printata vanhempi	niin ...
-#for movie in root.findall("./genre/decade/movie/format[@multiple='Yes']..."):
-#    print(movie.attrib)
-
-'''
