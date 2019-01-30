@@ -141,6 +141,19 @@ def print_anki(printattava):
 		for kanji in kanit:
 			f.write(printattava[kanji])
 				
+def tulosta_vain_jooyoo():
+	kanit = []
+	lista = ""
+	with open ('tuloksia/jarjestys_BCCWJ.txt', 'r') as f:
+		for rivi in f:
+			kanit.append(rivi.split()[0])
+	for kanji in kanit:
+		for entry in juuri.findall('character'):
+			if kanji == entry.find('literal').text:
+				if onko_jooyoo(entry):
+					lista += kanji + '\n'
+	with open ('algon_jooyoo_kanjit.txt', 'w') as f:
+		f.write(lista)
 
 def tulosta_fancysti():
 	'''Tulostaa merkit siten, että ei jooyoo on värjätty ja enkkumerkitys mukana'''
@@ -155,19 +168,13 @@ def tulosta_fancysti():
 		for entry in juuri.findall('character'):
 			if kanji == entry.find('literal').text: #jos on kanjidicissa
 				loytyi = True
-				grade = 9 #default siis ei-jooyoo
 				enkku = "ei käännöstä" #default
-				try: #kaikilla ei oo
-					grade = entry.find('misc').find('grade').text
-				except AttributeError:
-					pass
-					#print(kanji, 'no grade')
 				try: #kaikilla ei oo
 					enkku = entry.find('reading_meaning').find('rmgroup').find('meaning').text #eka enkku
 				except AttributeError:
 					pass
 					#print(kanji, 'no translation')
-				if int(grade) < 7 or int(grade) == 8: #on jooyoo-kani
+				if onko_jooyoo(entry):
 					lista.insert(kanit.index(kanji), kanji + ' ' + enkku + '</br>')
 				else: #harmaaksi jos ei jooyoo
 					lista.insert(kanit.index(kanji), '<span style="color:DarkGrey">' + kanji + ' ' + enkku + '</span></br>')
@@ -195,11 +202,46 @@ def katakana_hiraganaksi():
 	with open ('yhdyssanat_hira.txt', 'w') as f:
 		f.write(kirjoitettava)
 
+def onko_jooyoo(entry):
+	try: #kaikilla ei oo
+		grade = entry.find('misc').find('grade').text
+	except AttributeError:
+		grade = 9 #oletetaan, että ei-jooyoo
+	if int(grade) < 7 or int(grade) == 8: #on jooyoo-kani
+		return True
+	else:
+		return False
+
+#wikimedia commonsin kuvat mukaan. Alustava toteutus
+def vetojarjestys(kanji):
+	img_alku = '<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/'
+	img_loppu = '-order.gif" alt="tässä pitäisi näkyä merkin vetojärjestys"><br>\n'
+	return img_alku + kanji + img_loppu
+
+HTML_ALKU = '''
+<!DOCTYPE html>\n
+<meta charset="utf-8">\n
+<html>\n
+<head>\n
+</head>\n
+<body>\n
+\t<!-- seuraavat kolme linkkiä liittyvät bootstrap-kirjastoon-->\n
+\t<!-- Latest compiled and minified CSS -->\n
+\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"\n
+\tcrossorigin="anonymous">\n
+\t<!-- Optional theme -->\n
+\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"\n
+\tcrossorigin="anonymous">\n
+\t<!-- Latest compiled and minified JavaScript -->\n
+\t<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"\n
+\tcrossorigin="anonymous"></script>\n
+'''
 KANJI_DIV = '<div class="panel panel-info">\n'
 COMPONENT_DIV = '<div class="panel panel-warning">\n'
-HEADER_DIV = '<div class="panel-heading">\n'
+HEADER_DIV = '<div class="panel-heading"><h1>\n'
 BODY_DIV = '<div class="panel-body">\n'
 DIV_CLOSE = '</div>\n'
+HTML_LOPPU = '</body>\n</html>'
 
 def luo_html():
 	html = ""
@@ -207,8 +249,13 @@ def luo_html():
 			lista = ''
 			for entry in juuri.findall('character'):		
 				if kanji == entry.find('literal').text:
-					lista += KANJI_DIV + HEADER_DIV + kanji + DIV_CLOSE
+					if onko_jooyoo(entry):
+						lista += KANJI_DIV 
+					else:
+						lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
+					lista += HEADER_DIV + kanji + '</h1>' + DIV_CLOSE
 					lista += BODY_DIV + etsi_komponentit(kanji)
+					#lista += vetojarjestys(kanji)
 					lista += add_enkku(entry)
 					lista += add_lukutavat(entry)
 					lista += valkkaa_sanastoa(kanji)
@@ -217,7 +264,7 @@ def luo_html():
 					#lista = lista.replace('\n', '\n<br>')
 			for rivi in lista.split('\n'):
 				html += rivi + '<br>\n'
-	print(html)
+	print(HTML_ALKU, html, HTML_LOPPU)
 		
 '''
 pääohjelma alkaa
@@ -229,7 +276,9 @@ pääohjelma alkaa
 
 #luo_anki()
 
-luo_html()
+#luo_html()
+
+tulosta_vain_jooyoo()
 
 #__________________
 

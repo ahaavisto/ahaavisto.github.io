@@ -13,12 +13,21 @@ with open ('heisig_order.txt', 'r') as f:
 		i += 1
 		if i >= minne_asti:
 			break
-
+'''
 algo = []
 with open ('tuloksia/pelkka_algon_tulos_BCCWJ.txt', 'r') as f:
 	i = 0
 	for rivi in f:
 		algo.append(rivi.split('\t')[1][:-1])
+		i += 1
+		if i >= minne_asti:
+			break
+'''
+algo = []
+with open ('tuloksia/algon_jooyoo_kanjit.txt', 'r') as f:
+	i = 0
+	for rivi in f:
+		algo.append(rivi[:-1])
 		i += 1
 		if i >= minne_asti:
 			break
@@ -31,8 +40,6 @@ with open ('bkb1.txt', 'r') as f:
 		i += 1
 		if i >= minne_asti:
 			break
-			
-print((bkb))
 	
 frek = []
 with open ('freq_BCCWJ.txt', 'r') as f:
@@ -67,11 +74,11 @@ for juttu in bkb:
 			i += 1
 	bkb_tulos.append(i)	
 
-
+plt.plot(range(1, minne_asti+1), color='violet', label='Yleisyysjarjestys')
 plt.plot(algon_tulos, label='Algoritmin tulos')
 plt.plot(heisig_tulos, color='green', label='Heisig')
 plt.plot(bkb_tulos, color='red', label='BKB 1')
-plt.plot(range(1, minne_asti+1), color='violet')
+
 plt.ylabel('Osuus korpuksen yleisimmista merkeista')
 plt.xlabel('Opiskellut merkit')
 pylab.legend(loc='upper left')
