@@ -1,4 +1,4 @@
-import re
+import re, random
 
 def poista_ids_turhat(lue, kirjoita):
 	'''netin ids-filusta pois turhat jutut'''
@@ -91,7 +91,8 @@ def get_vetomaara(merkki):
 	if merkki in vedot:
 		paino = 1 + float(vedot[merkki])*y
 	else:
-		paino = 5 #TODO oikeasti vetomäärät ei-jooyoo-primitiiveille eikä random purkkaa. ATM purkka parser.py tiedostossa itse asiassa
+		print("vetomäärää ei löytynyt:", merkki)
+		paino = 5.5
 	return paino
 	
 #tässä tallennetaan dictionaryksi ids-komponenttilista
@@ -139,7 +140,7 @@ def laske_centrality(lue, kirjoita):
 			if freq is not None:
 				centrality[merkki] = float(freq) / float(paino)
 			else:
-				centrality[merkki] = 0.01 #joku random pieni jos niin harvinainen, ettei mukana frekvenssilistassa
+				centrality[merkki] = 0.1 #joku random pieni jos niin harvinainen, ettei mukana frekvenssilistassa
 
 	with open (kirjoita, 'w') as f:
 		sortattu = [(k, centrality[k]) for k in sorted(centrality, key=centrality.get, reverse=False)]
@@ -153,37 +154,36 @@ def etsi_merkin_indeksi(data, merkki):
 				return data.index(rivi)
 
 jarjestettavat = []
-jarjestettavat_kanjit_vain = []
 
 def luo_jarjestettavat(lue):
 	with open (lue, 'r') as f:
 		for rivi in f:
 			jarjestettavat.append(rivi)
-			jarjestettavat_kanjit_vain.append(rivi.split()[0])
 			
 def algon_rekursio(merkki, merkin_indeksi):
 	global jarjestettavat
+	#print(merkki, merkin_indeksi)
 	if len(re.findall(r'&[^;]+;|[^&]', ids[merkki])) < 2:
 		return
 	for komponentti in re.findall(r'&[^;]+;|[^&]', ids[merkki]):
 		komponentin_indeksi = etsi_merkin_indeksi(jarjestettavat, komponentti)
+		#print(merkki, merkin_indeksi, komponentti, komponentin_indeksi)
 		if komponentin_indeksi < merkin_indeksi: #vaihdetaan
-				komponentin_centrality = jarjestettavat[komponentin_indeksi].split()[1]
-				jarjestettavat.pop(komponentin_indeksi)
-				jarjestettavat.insert(merkin_indeksi, komponentti + ' ' + komponentin_centrality + '\n')
-				komponentin_indeksi = etsi_merkin_indeksi(jarjestettavat, komponentti)
+			komponentin_centrality = jarjestettavat[komponentin_indeksi].split()[1]
+			jarjestettavat.pop(komponentin_indeksi)
+			jarjestettavat.insert(merkin_indeksi, komponentti + ' ' + komponentin_centrality + '\n')
+			komponentin_indeksi = etsi_merkin_indeksi(jarjestettavat, komponentti)
 		algon_rekursio(komponentti, komponentin_indeksi)
-		
-			
+
 				
 def algo(kirjoita):	
 	global jarjestettavat
 	for rivi in jarjestettavat:
 		merkki = rivi.split()[0]
+		#print(merkki,etsi_merkin_indeksi(jarjestettavat, merkki))
 		algon_rekursio(merkki, etsi_merkin_indeksi(jarjestettavat, merkki))
 		
 		merkin_indeksi = etsi_merkin_indeksi(jarjestettavat, merkki)
-	
 	with open (kirjoita, 'w') as f:
 		jarjestettavat = reversed(jarjestettavat)
 		for rivi in jarjestettavat:
@@ -244,9 +244,9 @@ poista_ids_turhat('ids_chine.txt', 'ids_trimmatut_chine.txt')
 #lisätään ne komponentit, jotka ovat jooyoo:n osia mutta eivät itse jooyoo
 #lisaa_ei_jooyoo_komponentit('ids_jooyoo_chine.txt', 'ids_jooyoo+_chine.txt')
 
-laske_painot('ids_jooyoo+_chine_muokattu.txt', 'painot_BCCWJ.txt') #atm ei käytä filua koska refaktorointi
+#laske_painot('ids_jooyoo+_chine_muokattu.txt', 'painot_BCCWJ.txt') #atm ei käytä filua koska refaktorointi
 
-laske_centrality('painot_BCCWJ.txt', 'tuloksia/centrality_of_kanjis_BCCWJ.txt')
+#laske_centrality('painot_BCCWJ.txt', 'tuloksia/centrality_of_kanjis_BCCWJ.txt')
 
 luo_jarjestettavat('tuloksia/centrality_of_kanjis_BCCWJ.txt') #taulukoksi myöhempään käyttöön
 
