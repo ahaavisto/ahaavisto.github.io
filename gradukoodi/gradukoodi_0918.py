@@ -109,7 +109,7 @@ def laske_painot(lue, kirjoita):
 		if merkki == ids[merkki]: #on primitiivi, jos on oma komponenttinsa
 			paino = get_vetomaara(merkki)
 		else:
-			paino = len(re.findall(r'&[^;]+;|[^&]', ids[merkki])) -1 #shaapun taikaregex #TODO: onko ids listassa vastaava määrä juttuja kuin alkuperäisen algon listassa. Sekä tsekkaa toimiiko toistuvat oikein, esim 品
+			paino = len(re.findall(r'&[^;]+;|[^&]', ids[merkki])) -1 #shaapun taikaregex
 		painot[merkki] = paino
 	
 	with open (kirjoita, 'w') as f:
@@ -139,7 +139,7 @@ def laske_centrality(lue, kirjoita):
 			if freq is not None:
 				centrality[merkki] = float(freq) / float(paino)
 			else:
-				centrality[merkki] = 1.0e-10 #joku random pieni jos niin harvinainen, ettei mukana frekvenssilistassa
+				centrality[merkki] = 0.01 #joku random pieni jos niin harvinainen, ettei mukana frekvenssilistassa
 
 	with open (kirjoita, 'w') as f:
 		sortattu = [(k, centrality[k]) for k in sorted(centrality, key=centrality.get, reverse=False)]
@@ -246,12 +246,12 @@ poista_ids_turhat('ids_chine.txt', 'ids_trimmatut_chine.txt')
 
 laske_painot('ids_jooyoo+_chine_muokattu.txt', 'painot_BCCWJ.txt') #atm ei käytä filua koska refaktorointi
 
-laske_centrality('painot_BCCWJ.txt', 'centrality_of_kanjis_BCCWJ.txt')
+laske_centrality('painot_BCCWJ.txt', 'tuloksia/centrality_of_kanjis_BCCWJ.txt')
 
-luo_jarjestettavat('centrality_of_kanjis_BCCWJ.txt') #taulukoksi myöhempään käyttöön
+luo_jarjestettavat('tuloksia/centrality_of_kanjis_BCCWJ.txt') #taulukoksi myöhempään käyttöön
 
-algo('jarjestys_BCCWJ.txt') #printtaa järkän + centralityn
+algo('tuloksia/jarjestys_BCCWJ.txt') #printtaa järkän + centralityn
 
-printtaa_listana('jarjestys_BCCWJ.txt', 'centrality_of_kanjis_BCCWJ.txt', 'freq_BCCWJ.txt', 'vertailu_BCCWJ.txt') #printtaa vertailun
+printtaa_listana('tuloksia/jarjestys_BCCWJ.txt', 'tuloksia/centrality_of_kanjis_BCCWJ.txt', 'freq_BCCWJ.txt', 'tuloksia/vertailu_BCCWJ.txt') #printtaa vertailun
 
-printtaa_pelkka_algon_tulos('jarjestys_BCCWJ.txt', 'pelkka_algon_tulos_BCCWJ.txt') #printtaa vain indeksin ja järjestyksen
+printtaa_pelkka_algon_tulos('tuloksia/jarjestys_BCCWJ.txt', 'tuloksia/pelkka_algon_tulos_BCCWJ.txt') #printtaa vain indeksin ja järjestyksen
