@@ -156,6 +156,8 @@ def etsi_merkin_indeksi(data, merkki):
 jarjestettavat = []
 
 def luo_jarjestettavat(lue):
+	global jarjestettavat
+	jarjestettavat = []
 	with open (lue, 'r') as f:
 		for rivi in f:
 			jarjestettavat.append(rivi)
@@ -180,10 +182,20 @@ def algo(kirjoita):
 	global jarjestettavat
 	for rivi in jarjestettavat:
 		merkki = rivi.split()[0]
-		#print(merkki,etsi_merkin_indeksi(jarjestettavat, merkki))
 		algon_rekursio(merkki, etsi_merkin_indeksi(jarjestettavat, merkki))
+	'''with open (kirjoita, 'w') as f:
+		jarjestettavat = reversed(jarjestettavat)
+		for rivi in jarjestettavat:
+			f.write(rivi)'''
+	
+	luo_jarjestettavat('tuloksia/jarjestys_BCCWJ.txt') #järjestetään uudestaan, jotta saadaan bugit pois
+	jarjestettavat = reversed(jarjestettavat)	
+	jarjestettavat = list(jarjestettavat)	
 		
-		merkin_indeksi = etsi_merkin_indeksi(jarjestettavat, merkki)
+	for rivi in jarjestettavat:
+		merkki = rivi.split()[0]
+		algon_rekursio(merkki, etsi_merkin_indeksi(jarjestettavat, merkki))
+
 	with open (kirjoita, 'w') as f:
 		jarjestettavat = reversed(jarjestettavat)
 		for rivi in jarjestettavat:
