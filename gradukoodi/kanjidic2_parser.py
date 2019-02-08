@@ -235,6 +235,8 @@ HTML_ALKU = '''
 \t<!-- Latest compiled and minified JavaScript -->\n
 \t<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"\n
 \tcrossorigin="anonymous"></script>\n
+\t<h1>Kanjilista</h1>\n
+\t<div>Sinisellä merkitty jooyoo-kanjit, keltaisella vain komponentteina esiintyvät. Listaa ei ole tarkistettu tai muokattu käsin vielä lainkaan, vaan se sisältää vain suoraa tietokannoista generoitua raakasisältöä. Datan lähteet: <a href="https://github.com/ahaavisto/ahaavisto.github.io">github.com/ahaavisto/ahaavisto.github.io</a> </div>
 '''
 KANJI_DIV = '<div class="panel panel-info">\n'
 COMPONENT_DIV = '<div class="panel panel-warning">\n'
@@ -276,9 +278,9 @@ pääohjelma alkaa
 
 #luo_anki()
 
-#luo_html()
+luo_html()
 
-tulosta_vain_jooyoo()
+#tulosta_vain_jooyoo()
 
 #__________________
 
