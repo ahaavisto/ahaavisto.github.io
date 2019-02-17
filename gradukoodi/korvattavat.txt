@@ -1,0 +1,16 @@
+&GT-K01090;	¡
+&CDP-8974;	￠
+&CDP-89FD; 	£
+&GT-K01443;	¤
+&CDP-8B67;	¥
+&CDP-8BBE;	¦
+&CDP-8B72;	§
+&CDP-8BB5;	¨
+&CDP-8BD9;	ª
+&CDP-89EC;	«
+&CDP-8BAE;	¬
+&CDP-8BBF;	À
+&CDP-8BB7;	®
+&GT-K02380;	¯
+&CDP-8BE8;	°
+&CDP-8BD3;	±
