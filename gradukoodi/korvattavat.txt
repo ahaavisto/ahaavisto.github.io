@@ -1,6 +1,6 @@
 &GT-K01090;	¡
 &CDP-8974;	￠
-&CDP-89FD; 	£
+&CDP-89FD;	£
 &GT-K01443;	¤
 &CDP-8B67;	¥
 &CDP-8BBE;	¦
