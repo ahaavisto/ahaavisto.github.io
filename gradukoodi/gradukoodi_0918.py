@@ -195,7 +195,7 @@ def algo(kirjoita):
 	for rivi in jarjestettavat:
 		merkki = rivi.split()[0]
 		algon_rekursio(merkki, etsi_merkin_indeksi(jarjestettavat, merkki))
-
+	
 	with open (kirjoita, 'w') as f:
 		jarjestettavat = reversed(jarjestettavat)
 		for rivi in jarjestettavat:

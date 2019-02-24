@@ -7,7 +7,7 @@ with open ('korvattavat.txt', 'r') as f:
 
 ids = []
 
-with open ('ids_jooyoo+_chine_muokattu.txt', 'r') as f:
+with open ('vedot.txt', 'r') as f:
 	for rivi in f:
 		for juttu in sanakirja:
 			rivi = rivi.replace(juttu, sanakirja[juttu])
