@@ -278,9 +278,9 @@ pääohjelma alkaa
 
 #luo_anki()
 
-luo_html()
+#luo_html()
 
-#tulosta_vain_jooyoo()
+tulosta_vain_jooyoo()
 
 #__________________
 
