@@ -5,6 +5,9 @@ juuri = puu.getroot()
 
 sanakirja = {}
 
+#SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ_alku.txt'
+SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
+
 def lisää_vetomaarat():
 	with open ('ids_jooyoo+_chine.txt', 'r') as f:
 		for rivi in f:
@@ -23,7 +26,7 @@ def lisää_vetomaarat():
 			
 
 kanit = []	
-with open ('tuloksia/jarjestys_BCCWJ_alku.txt', 'r') as f: #atm ottaa vain alun
+with open (SOURCE_FILE, 'r') as f:
 	for rivi in f:
 		kanit.append(rivi.split()[0])
 
@@ -31,25 +34,27 @@ def add_enkku(entry):
 	juttu = ""
 	try:
 		enkut = entry.find('reading_meaning').find('rmgroup').findall('meaning')
-		juttu += '"'
+		juttu += '"Kanjin merkityksiä englanniksi: '
 		for enkku in enkut:
 			if enkku.attrib == {}:
 				juttu += enkku.text + ', '
-		juttu += '";'
+		juttu = juttu.strip(" ")
+		juttu = juttu.strip(",")
+		juttu += '\n";'
 	except AttributeError:
-		juttu += "Ei tunnettuja käännöksiä;"
+		juttu += "Ei tunnettuja englanninnoksia;"
 	return juttu
 	
 def add_lukutavat(entry):
 	juttu = ""
 	try:
 		yomit = entry.find('reading_meaning').find('rmgroup').findall('reading')
-		juttu += '"'
+		juttu += '"Kanjin lukutapoja: '
 		for yomi in yomit:
 			if yomi.attrib['r_type'] == 'ja_kun' or yomi.attrib['r_type'] == 'ja_on':
 				juttu += yomi.text + '\n'
 		juttu = juttu[:-2] #pois vika enter
-		juttu += '";'
+		juttu += '\n";'
 	except AttributeError:
 		juttu += "Ei tunnettuja ääntämyksiä;"
 	return juttu
@@ -76,7 +81,7 @@ def valkkaa_sanastoa(kanji):
 	lista_sanoja = sorted(lista_sanoja, key=lambda setti: setti[2]) #yleisyysjärkkään yhdyssanat
 	i = 0
 	for sana in lista_sanoja:
-		ret += sana[0] + "[" + sana[1] + "] (" + str(sana[2]) + ")\n"
+		ret += sana[0] + "[" + sana[1] + "] (" + 'yleisyys: ' + str(sana[2]) + ".)\n"
 		#kanjisana ja hakasulkuihin sen ääntämys, koska ankin furiganakomento. Perään frekvenssi.
 		ret += etsi_esimerkkilauseet(sana[0]) + '\n'
 		i += 1
@@ -212,7 +217,7 @@ def onko_jooyoo(entry):
 	else:
 		return False
 
-#wikimedia commonsin kuvat mukaan. Alustava toteutus
+#wikimedia commonsin kuvat mukaan. Alustava toteutus ...joka toimii huonosti
 def vetojarjestys(kanji):
 	img_alku = '<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/'
 	img_loppu = '-order.gif" alt="tässä pitäisi näkyä merkin vetojärjestys"><br>\n'
@@ -247,6 +252,7 @@ HTML_LOPPU = '</body>\n</html>'
 
 def luo_html():
 	html = ""
+	i = 1
 	for kanji in kanit:
 			lista = ''
 			for entry in juuri.findall('character'):		
@@ -256,16 +262,19 @@ def luo_html():
 					else:
 						lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
 					lista += HEADER_DIV + kanji + '</h1>' + DIV_CLOSE
-					lista += BODY_DIV + etsi_komponentit(kanji)
+					lista += str(i) + '. merkki\n'
+					lista += BODY_DIV + etsi_komponentit(kanji) + '\n'
 					#lista += vetojarjestys(kanji)
-					lista += add_enkku(entry)
-					lista += add_lukutavat(entry)
-					lista += valkkaa_sanastoa(kanji)
+					lista += add_enkku(entry).replace('"', '') + '\n'
+					lista += add_lukutavat(entry).replace('"', '') + '\n'
+					if onko_jooyoo(entry):
+					    lista += valkkaa_sanastoa(kanji)
 					lista += DIV_CLOSE + DIV_CLOSE
 					lista = lista.replace(';', '')
 					#lista = lista.replace('\n', '\n<br>')
 			for rivi in lista.split('\n'):
 				html += rivi + '<br>\n'
+			i += 1
 	print(HTML_ALKU, html, HTML_LOPPU)
 		
 '''
@@ -278,9 +287,9 @@ pääohjelma alkaa
 
 #luo_anki()
 
-#luo_html()
+luo_html()
 
-tulosta_vain_jooyoo()
+#tulosta_vain_jooyoo()
 
 #__________________
 
