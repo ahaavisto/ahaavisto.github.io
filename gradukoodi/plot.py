@@ -35,6 +35,7 @@ with open ('tuloksia/algon_jooyoo_kanjit.txt', 'r') as f:
 		if i >= minne_asti:
 			break
 
+
 bkb = []
 with open ('bkb1.txt', 'r') as f:
 	i = 0
@@ -53,6 +54,16 @@ with open ('muok_listan_jooyoo_kanjit.txt', 'r') as f: #vain jooyoo
 		i += 1
 		if i >= minne_asti:
 			break
+			
+kyoiku = []
+with open ('kyoiku.txt', 'r') as f:
+	i = 0
+	for merkki in f:
+		kyoiku.append(merkki[:-1])
+		i += 1
+		if i >= minne_asti:
+			break
+
 	
 frek = []
 with open ('freq_BCCWJ.txt', 'r') as f:
@@ -89,15 +100,17 @@ bkb_tulos = luo_plot(bkb, [])
 algon_tulos = luo_plot(algo, [])
 heisig_tulos = luo_plot(heisig, [])
 muok_tulos = luo_plot(muok, [])
+kyoiku_tulos = luo_plot(kyoiku, [])
 
-plt.plot(range(1, minne_asti+1), color='violet', label='Yleisyysjarjestys')
-plt.plot(algon_tulos, label='Algoritmin tulos')
-plt.plot(muok_tulos, color='orange' , label='Muokattu algoritmin tulos')
+plt.plot(range(1, minne_asti+1), color='grey', linestyle = 'dashed', label='Yleisyysjarjestys')
+plt.plot(muok_tulos, linewidth=2, color='violet' , label='Muokattu algoritmin tulos')
+plt.plot(algon_tulos, linewidth=2, label='Algoritmin tulos')
+plt.plot(kyoiku_tulos, color='orange', label='Kyooiku')
 plt.plot(bkb_tulos, color='red', label='BKB 1')
 plt.plot(heisig_tulos, color='green', label='Heisig')
 
-plt.ylabel('Osuus korpuksen yleisimmista merkeista')
-plt.xlabel('Opiskellut merkit')
+plt.ylabel('Opiskeltujen merkkien osuus korpuksen yleisimmista merkeista')
+plt.xlabel('Opiskeltujen merkkien maara')
 pylab.legend(loc='upper left')
 plt.axis([1, minne_asti, 1, minne_asti])
 plt.show()

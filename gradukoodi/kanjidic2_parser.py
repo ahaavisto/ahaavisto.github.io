@@ -5,8 +5,9 @@ juuri = puu.getroot()
 
 sanakirja = {}
 
+SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ.txt'
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ_alku.txt'
-SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
+#SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
 
 def lisää_vetomaarat():
 	with open ('ids_jooyoo+_chine.txt', 'r') as f:
@@ -149,7 +150,7 @@ def print_anki(printattava):
 def tulosta_vain_jooyoo():
 	kanit = []
 	lista = ""
-	with open ('tuloksia/jarjestys_BCCWJ.txt', 'r') as f:
+	with open (SOURCE_FILE, 'r') as f:
 		for rivi in f:
 			kanit.append(rivi.split()[0])
 	for kanji in kanit:
@@ -157,15 +158,15 @@ def tulosta_vain_jooyoo():
 			if kanji == entry.find('literal').text:
 				if onko_jooyoo(entry):
 					lista += kanji + '\n'
-	with open ('algon_jooyoo_kanjit.txt', 'w') as f:
+	with open ('muok_listan_jooyoo_kanjit.txt', 'w') as f:
 		f.write(lista)
 
 def tulosta_fancysti():
 	'''Tulostaa merkit siten, että ei jooyoo on värjätty ja enkkumerkitys mukana'''
 	kanit = []
-	lista = [0] * 2800 #taikaluku, vähän isompi kuin kanjien määrä
+	lista = [0] * 2700 #taikaluku, vähän isompi kuin kanjien määrä
 	loytyi = False
-	with open ('tuloksia/jarjestys_BCCWJ.txt', 'r') as f:
+	with open (SOURCE_FILE, 'r') as f:
 		for rivi in f:
 			kanit.append(rivi.split()[0])
 			
@@ -178,7 +179,6 @@ def tulosta_fancysti():
 					enkku = entry.find('reading_meaning').find('rmgroup').find('meaning').text #eka enkku
 				except AttributeError:
 					pass
-					#print(kanji, 'no translation')
 				if onko_jooyoo(entry):
 					lista.insert(kanit.index(kanji), kanji + ' ' + enkku + '</br>')
 				else: #harmaaksi jos ei jooyoo
@@ -188,11 +188,12 @@ def tulosta_fancysti():
 			lista.insert(kanit.index(kanji), '<span style="color:DarkGrey">' + kanji + ' ei käännöstä' + '</span></br>')	
 		loytyi = False
 	
-	with open ('fancy_lista.html', 'w') as f:
+	with open ('tuloksia/fancy_lista.html', 'w') as f:
 		f.write('<meta charset="UTF-8"> ') #merkistökoodaus kuntoon
 		for rivi in lista:
-			if ('0' or 0) not in rivi: #ei kirjoiteta vikaa riviä 
-				f.write(str(rivi))
+		    f.write(str(rivi))
+			#if ('0' or 0) not in rivi: #ei kirjoiteta vikaa riviä 
+			#	f.write(str(rivi))
 				
 
 def katakana_hiraganaksi():
@@ -262,8 +263,8 @@ def luo_html():
 					else:
 						lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
 					lista += HEADER_DIV + kanji + '</h1>' + DIV_CLOSE
-					lista += str(i) + '. merkki\n'
 					lista += BODY_DIV + etsi_komponentit(kanji) + '\n'
+					lista += str(i) + '. merkki\n'
 					#lista += vetojarjestys(kanji)
 					lista += add_enkku(entry).replace('"', '') + '\n'
 					lista += add_lukutavat(entry).replace('"', '') + '\n'
@@ -276,18 +277,18 @@ def luo_html():
 				html += rivi + '<br>\n'
 			i += 1
 	print(HTML_ALKU, html, HTML_LOPPU)
-		
+
 '''
 pääohjelma alkaa
 '''
 
-#tulosta_fancysti()
+tulosta_fancysti()
 
 #katakana_hiraganaksi()
 
 #luo_anki()
 
-luo_html()
+#luo_html()
 
 #tulosta_vain_jooyoo()
 
