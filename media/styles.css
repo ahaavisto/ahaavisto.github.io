@@ -6,6 +6,5 @@ url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.ttf") format("truetype
 }
 
 .jpn { 
-font-family: "TakaoMinchoEd", "Meiryo";
-  color: blue;
+font-family: "TakaoMinchoEd";
 }
