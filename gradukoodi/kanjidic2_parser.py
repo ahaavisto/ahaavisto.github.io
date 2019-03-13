@@ -5,9 +5,9 @@ juuri = puu.getroot()
 
 sanakirja = {}
 
-SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ.txt'
+#SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ.txt'
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ_alku.txt'
-#SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
+SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
 
 def lisää_vetomaarat():
 	with open ('ids_jooyoo+_chine.txt', 'r') as f:
@@ -35,13 +35,13 @@ def add_enkku(entry):
 	juttu = ""
 	try:
 		enkut = entry.find('reading_meaning').find('rmgroup').findall('meaning')
-		juttu += '"Kanjin merkityksiä englanniksi: '
+		juttu += 'Kanjin merkityksiä englanniksi: '
 		for enkku in enkut:
 			if enkku.attrib == {}:
 				juttu += enkku.text + ', '
 		juttu = juttu.strip(" ")
 		juttu = juttu.strip(",")
-		juttu += '\n";'
+		juttu += ';'
 	except AttributeError:
 		juttu += "Ei tunnettuja englanninnoksia;"
 	return juttu
@@ -84,7 +84,7 @@ def valkkaa_sanastoa(kanji):
 	for sana in lista_sanoja:
 		ret += sana[0] + "[" + sana[1] + "] (" + 'yleisyys: ' + str(sana[2]) + ".)\n"
 		#kanjisana ja hakasulkuihin sen ääntämys, koska ankin furiganakomento. Perään frekvenssi.
-		ret += etsi_esimerkkilauseet(sana[0]) + '\n'
+		#ret += etsi_esimerkkilauseet(sana[0]) + '\n'
 		i += 1
 		if i > 4: #lisätään max viisi yleisintä
 			break
@@ -116,8 +116,8 @@ def esimerkkilauseet(merkki):
 komp_sanakirja = {}
 with open ('ids_jooyoo+_chine_muokattu.txt', 'r') as f:
 	for rivi in f:
-		komp_sanakirja[rivi.split(' ')[0]] = rivi.split(' ')[1]
-	
+		komp_sanakirja[rivi.split(' ')[0]] = rivi.split(' ')[1][:-1]
+		
 '''Lisää lista merkin komponenteista'''
 def etsi_komponentit(merkki):
 	if merkki in komp_sanakirja:
@@ -138,12 +138,12 @@ def luo_anki():
 				lista += add_enkku(entry)
 				lista += add_lukutavat(entry)
 				lista += valkkaa_sanastoa(kanji)
-				lista += "\n"
+				lista += "\n\n"
 		anki[kanji] = lista
 	print_anki(anki)
 				
 def print_anki(printattava):
-	with open ('anki.txt', 'w') as f:
+	with open ('anki_uusi.txt', 'w') as f:
 		for kanji in kanit:
 			f.write(printattava[kanji])
 				
@@ -282,11 +282,11 @@ def luo_html():
 pääohjelma alkaa
 '''
 
-tulosta_fancysti()
+#tulosta_fancysti()
 
 #katakana_hiraganaksi()
 
-#luo_anki()
+luo_anki()
 
 #luo_html()
 

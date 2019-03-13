@@ -1,0 +1,2172 @@
+一; Komponentit: 一;Kanjin merkityksiä englanniksi: one, one radical (no.1);"Kanjin lukutapoja: イチ
+イツ
+ひと-
+ひと.
+";"一[いち] (yleisyys: 23.)
+一[ひと] (yleisyys: 146.)
+一人[ひとり] (yleisyys: 234.)
+一寸[ちょっと] (yleisyys: 287.)
+一般[いっぱん] (yleisyys: 338.)
+"
+
+二; Komponentit: 二;Kanjin merkityksiä englanniksi: two, two radical (no. 7);"Kanjin lukutapoja: ニ
+ジ
+ふた
+ふた.つ
+ふたた
+";"二[に] (yleisyys: 28.)
+二十[にじゅう] (yleisyys: 66.)
+二千[にせん] (yleisyys: 193.)
+二百[にひゃく] (yleisyys: 239.)
+二人[ふたり] (yleisyys: 252.)
+"
+
+三; Komponentit: 三;Kanjin merkityksiä englanniksi: three;"Kanjin lukutapoja: サン
+ゾウ
+み
+み.つ
+みっ.
+";"三[さん] (yleisyys: 32.)
+三十[さんじゅう] (yleisyys: 89.)
+三百[さんびゃく] (yleisyys: 368.)
+三[み] (yleisyys: 586.)
+三千[さんぜん] (yleisyys: 675.)
+"
+
+刀; Komponentit: 刀;Kanjin merkityksiä englanniksi: sword, saber, knife;"Kanjin lukutapoja: トウ
+かたな
+そ
+";"刀[かたな] (yleisyys: 4356.)
+"
+
+八; Komponentit: 八;Kanjin merkityksiä englanniksi: eight, eight radical (no. 12);"Kanjin lukutapoja: ハチ
+や
+や.つ
+やっ.つ
+よ
+";"八[はち] (yleisyys: 70.)
+八十[はちじゅう] (yleisyys: 170.)
+八百[はっぴゃく] (yleisyys: 349.)
+八千[はっせん] (yleisyys: 1507.)
+八[や] (yleisyys: 2228.)
+"
+
+分; Komponentit: 八刀;Kanjin merkityksiä englanniksi: part, minute of time, segment, share, degree, one's lot, duty, understand, know, rate, 1%, chances, shaku/100;"Kanjin lukutapoja: ブン
+フン
+ブ
+わ.ける
+わ.け
+わ.かれる
+わ.かる
+わ.か
+";"自分[じぶん] (yleisyys: 87.)
+分かる[わかる] (yleisyys: 105.)
+分[ふん] (yleisyys: 238.)
+部分[ぶぶん] (yleisyys: 344.)
+分[ぶん] (yleisyys: 476.)
+"
+
+人; Komponentit: 人;Kanjin merkityksiä englanniksi: person;"Kanjin lukutapoja: ジン
+ニン
+ひと
+-り
+-
+";"人[ひと] (yleisyys: 67.)
+人[にん] (yleisyys: 132.)
+人[じん] (yleisyys: 138.)
+人間[にんげん] (yleisyys: 192.)
+一人[ひとり] (yleisyys: 234.)
+"
+
+日; Komponentit: 日;Kanjin merkityksiä englanniksi: day, sun, Japan, counter for days;"Kanjin lukutapoja: ニチ
+ジツ
+ひ
+-び
+-
+";"日本[にっぽん] (yleisyys: 78.)
+日[にち] (yleisyys: 106.)
+日[ひ] (yleisyys: 150.)
+日[か] (yleisyys: 169.)
+今日[きょう] (yleisyys: 247.)
+"
+
+門; Komponentit: 門;Kanjin merkityksiä englanniksi: gate, counter for cannons;"Kanjin lukutapoja: モン
+かど
+
+";"専門[せんもん] (yleisyys: 743.)
+部門[ぶもん] (yleisyys: 1640.)
+門[もん] (yleisyys: 2145.)
+"
+
+間; Komponentit: 門日;Kanjin merkityksiä englanniksi: interval, space;"Kanjin lukutapoja: カン
+ケン
+あいだ
+ま
+あ
+";"時間[じかん] (yleisyys: 134.)
+人間[にんげん] (yleisyys: 192.)
+間[あいだ] (yleisyys: 228.)
+期間[きかん] (yleisyys: 525.)
+年間[ねんかん] (yleisyys: 564.)
+"
+
+木; Komponentit: 木;Kanjin merkityksiä englanniksi: tree, wood;"Kanjin lukutapoja: ボク
+モク
+き
+こ
+";"木[き] (yleisyys: 648.)
+木材[もくざい] (yleisyys: 4555.)
+木曜[もくよう] (yleisyys: 4908.)
+"
+
+本; Komponentit: 木一;Kanjin merkityksiä englanniksi: book, present, main, origin, true, real, counter for long cylindrical things;"Kanjin lukutapoja: ホン
+も
+";"日本[にっぽん] (yleisyys: 78.)
+本当[ほんとう] (yleisyys: 248.)
+基本[きほん] (yleisyys: 367.)
+本[ほん] (yleisyys: 538.)
+本[ほん] (yleisyys: 539.)
+"
+
+寸; Komponentit: 寸;Kanjin merkityksiä englanniksi: measurement, tenth of a shaku, a little, small;"Kanjin lukutapoja: ス
+";"一寸[ちょっと] (yleisyys: 287.)
+"
+
+土; Komponentit: 土;Kanjin merkityksiä englanniksi: soil, earth, ground, Turkey;"Kanjin lukutapoja: ド
+ト
+つ
+";"土地[とち] (yleisyys: 646.)
+土[ど] (yleisyys: 1281.)
+国土[こくど] (yleisyys: 2429.)
+土[つち] (yleisyys: 2515.)
+土曜[どよう] (yleisyys: 2586.)
+"
+
+寺; Komponentit: 土寸;Kanjin merkityksiä englanniksi: Buddhist temple;"Kanjin lukutapoja: ジ
+て
+";"寺[じ] (yleisyys: 1161.)
+寺[てら] (yleisyys: 2546.)
+"
+
+時; Komponentit: 日寺;Kanjin merkityksiä englanniksi: time, hour;"Kanjin lukutapoja: ジ
+とき
+-ど
+";"時[とき] (yleisyys: 64.)
+時[じ] (yleisyys: 122.)
+時間[じかん] (yleisyys: 134.)
+何時[いつ] (yleisyys: 202.)
+時代[じだい] (yleisyys: 244.)
+"
+
+月; Komponentit: 月;Kanjin merkityksiä englanniksi: month, moon;"Kanjin lukutapoja: ゲツ
+ガツ
+つ
+";"月[がつ] (yleisyys: 69.)
+箇月[かげつ] (yleisyys: 488.)
+月[つき] (yleisyys: 1101.)
+正月[しょうがつ] (yleisyys: 3161.)
+毎月[まいつき] (yleisyys: 3327.)
+"
+
+火; Komponentit: 火;Kanjin merkityksiä englanniksi: fire;"Kanjin lukutapoja: カ
+ひ
+-び
+ほ
+";"火[ひ] (yleisyys: 1325.)
+火[か] (yleisyys: 2029.)
+火災[かさい] (yleisyys: 2842.)
+火山[かざん] (yleisyys: 4509.)
+花火[はなび] (yleisyys: 4892.)
+"
+
+水; Komponentit: 水;Kanjin merkityksiä englanniksi: water;"Kanjin lukutapoja: スイ
+みず
+みず
+";"水[みず] (yleisyys: 378.)
+水準[すいじゅん] (yleisyys: 1691.)
+水[すい] (yleisyys: 1956.)
+水[すい] (yleisyys: 2362.)
+水産[すいさん] (yleisyys: 2660.)
+"
+
+金; Komponentit: 金;Kanjin merkityksiä englanniksi: gold;"Kanjin lukutapoja: キン
+コン
+ゴン
+かね
+かな-
+-が
+";"金[かね] (yleisyys: 454.)
+金[きん] (yleisyys: 466.)
+年金[ねんきん] (yleisyys: 750.)
+金融[きんゆう] (yleisyys: 831.)
+資金[しきん] (yleisyys: 847.)
+"
+
+丁; Komponentit: 丁;Kanjin merkityksiä englanniksi: street, ward, town, counter for guns, tools, leaves or cakes of something, even number, 4th calendar sign;"Kanjin lukutapoja: チョウ
+テイ
+チン
+トウ
+チ
+ひの
+";"丁度[ちょうど] (yleisyys: 1460.)
+丁目[ちょうめ] (yleisyys: 2709.)
+丁寧[ていねい] (yleisyys: 3051.)
+"
+
+亍; Komponentit: 一丁;Kanjin merkityksiä englanniksi: to take small steps, Korean place name;"Kanjin lukutapoja: チョク
+たたず.
+";""
+
+彳; Komponentit: 彳;Kanjin merkityksiä englanniksi: stop, linger, loiter, going man radical (no. 60);"Kanjin lukutapoja: テキ
+たたず.
+";""
+
+行; Komponentit: 彳亍;Kanjin merkityksiä englanniksi: going, journey, carry out, conduct, act, line, row, bank;"Kanjin lukutapoja: コウ
+ギョウ
+アン
+い.く
+ゆ.く
+-ゆ.き
+-ゆき
+-い.き
+-いき
+おこな.う
+おこ.な
+";"行く[いく] (yleisyys: 48.)
+行う[おこなう] (yleisyys: 112.)
+行動[こうどう] (yleisyys: 576.)
+行為[こうい] (yleisyys: 617.)
+銀行[ぎんこう] (yleisyys: 674.)
+"
+
+大; Komponentit: 大;Kanjin merkityksiä englanniksi: large, big;"Kanjin lukutapoja: ダイ
+タイ
+おお-
+おお.きい
+-おお.い
+";"大[だい] (yleisyys: 213.)
+大きい[おおきい] (yleisyys: 233.)
+大きな[おおきな] (yleisyys: 282.)
+大学[だいがく] (yleisyys: 318.)
+大臣[だいじん] (yleisyys: 534.)
+"
+
+小; Komponentit: 小;Kanjin merkityksiä englanniksi: little, small;"Kanjin lukutapoja: ショウ
+ちい.さい
+こ-
+お-
+さ
+";"小[しょう] (yleisyys: 399.)
+小さい[ちいさい] (yleisyys: 714.)
+小さな[ちいさな] (yleisyys: 726.)
+小説[しょうせつ] (yleisyys: 1433.)
+小学[しょうがく] (yleisyys: 1839.)
+"
+
+心; Komponentit: 心;Kanjin merkityksiä englanniksi: heart, mind, spirit, heart radical (no. 61);"Kanjin lukutapoja: シン
+こころ
+-ごこ
+";"心[こころ] (yleisyys: 272.)
+中心[ちゅうしん] (yleisyys: 413.)
+心配[しんぱい] (yleisyys: 773.)
+安心[あんしん] (yleisyys: 1359.)
+関心[かんしん] (yleisyys: 1396.)
+"
+
+田; Komponentit: 田;Kanjin merkityksiä englanniksi: rice field, rice paddy;"Kanjin lukutapoja: デン
+
+";"田舎[いなか] (yleisyys: 3643.)
+豊田[とよた] (yleisyys: 4044.)
+"
+
+思; Komponentit: 田心;Kanjin merkityksiä englanniksi: think;"Kanjin lukutapoja: シ
+おも.う
+おもえら.く
+おぼ.
+";"思う[おもう] (yleisyys: 46.)
+思い[おもい] (yleisyys: 744.)
+思い出す[おもいだす] (yleisyys: 1034.)
+不思議[ふしぎ] (yleisyys: 1280.)
+思想[しそう] (yleisyys: 1476.)
+"
+
+四; Komponentit: 四;Kanjin merkityksiä englanniksi: four;"Kanjin lukutapoja: シ
+よ
+よ.つ
+よっ.つ
+よ
+";"四[よん] (yleisyys: 49.)
+四十[よんじゅう] (yleisyys: 136.)
+四百[よんひゃく] (yleisyys: 499.)
+四[し] (yleisyys: 673.)
+四千[よんせん] (yleisyys: 1136.)
+"
+
+五; Komponentit: 五;Kanjin merkityksiä englanniksi: five;"Kanjin lukutapoja: ゴ
+いつ
+いつ.
+";"五[ご] (yleisyys: 44.)
+五十[ごじゅう] (yleisyys: 109.)
+五百[ごひゃく] (yleisyys: 341.)
+五千[ごせん] (yleisyys: 799.)
+五[いつ] (yleisyys: 1450.)
+"
+
+六; Komponentit: 亠八;Kanjin merkityksiä englanniksi: six;"Kanjin lukutapoja: ロク
+リク
+む
+む.つ
+むっ.つ
+む
+";"六[ろく] (yleisyys: 65.)
+六十[ろくじゅう] (yleisyys: 161.)
+六百[ろっぴゃく] (yleisyys: 568.)
+六千[ろくせん] (yleisyys: 1309.)
+六[む] (yleisyys: 2141.)
+"
+
+七; Komponentit: 七;Kanjin merkityksiä englanniksi: seven;"Kanjin lukutapoja: シチ
+なな
+なな.つ
+な
+";"七[なな] (yleisyys: 75.)
+七十[ななじゅう] (yleisyys: 184.)
+七[しち] (yleisyys: 518.)
+七百[ななひゃく] (yleisyys: 579.)
+七千[ななせん] (yleisyys: 1593.)
+"
+
+九; Komponentit: 九;Kanjin merkityksiä englanniksi: nine;"Kanjin lukutapoja: キュウ
+ク
+ここの
+ここの.
+";"九[きゅう] (yleisyys: 76.)
+九百[きゅうひゃく] (yleisyys: 119.)
+九十[きゅうじゅう] (yleisyys: 163.)
+九千[きゅうせん] (yleisyys: 1610.)
+九[ここの] (yleisyys: 2578.)
+"
+
+十; Komponentit: 十;Kanjin merkityksiä englanniksi: ten;"Kanjin lukutapoja: ジュウ
+ジッ
+ジュッ
+とお
+
+";"十[じゅう] (yleisyys: 33.)
+二十[にじゅう] (yleisyys: 66.)
+三十[さんじゅう] (yleisyys: 89.)
+五十[ごじゅう] (yleisyys: 109.)
+四十[よんじゅう] (yleisyys: 136.)
+"
+
+勿; Komponentit: 勿;Kanjin merkityksiä englanniksi: not, must not, do not, be not;"Kanjin lukutapoja: モチ
+ブツ
+ボツ
+なか.れ
+な
+";"勿論[もちろん] (yleisyys: 412.)
+勿体[もったい] (yleisyys: 4687.)
+"
+
+昜; Komponentit: 勿日一;Kanjin merkityksiä englanniksi: open, sun;"Kanjin lukutapoja: ヨ
+";""
+
+場; Komponentit: 土昜;Kanjin merkityksiä englanniksi: location, place;"Kanjin lukutapoja: ジョウ
+チョウ
+
+";"場合[ばあい] (yleisyys: 97.)
+場所[ばしょ] (yleisyys: 332.)
+場[じょう] (yleisyys: 638.)
+市場[しじょう] (yleisyys: 639.)
+場[ば] (yleisyys: 832.)
+"
+
+𠆢; Komponentit: 𠆢;Ei tunnettuja englanninnoksia;Ei tunnettuja ääntämyksiä;""
+
+口; Komponentit: 口;Kanjin merkityksiä englanniksi: mouth;"Kanjin lukutapoja: コウ
+ク
+く
+";"口[くち] (yleisyys: 403.)
+人口[じんこう] (yleisyys: 1071.)
+入り口[いりぐち] (yleisyys: 2372.)
+窓口[まどぐち] (yleisyys: 2671.)
+口調[くちょう] (yleisyys: 2812.)
+"
+
+合; Komponentit: 𠆢一口;Kanjin merkityksiä englanniksi: fit, suit, join, 0.1;"Kanjin lukutapoja: ゴウ
+ガッ
+カッ
+あ.う
+-あ.う
+あ.い
+あい-
+-あ.い
+-あい
+あ.わす
+あ.わせる
+-あ.わせ
+";"場合[ばあい] (yleisyys: 97.)
+合わせる[あわせる] (yleisyys: 613.)
+総合[そうごう] (yleisyys: 837.)
+合う[あう] (yleisyys: 925.)
+問い合わせ[といあわせ] (yleisyys: 1052.)
+"
+
+上; Komponentit: 上;Kanjin merkityksiä englanniksi: above, up;"Kanjin lukutapoja: ジョウ
+ショウ
+シャン
+うえ
+-うえ
+うわ-
+かみ
+あ.げる
+-あ.げる
+あ.がる
+-あ.がる
+あ.がり
+-あ.がり
+のぼ.る
+のぼ.り
+のぼ.せる
+のぼ.す
+たてまつ.
+";"上[うえ] (yleisyys: 167.)
+以上[いじょう] (yleisyys: 178.)
+上げる[あげる] (yleisyys: 229.)
+上[じょう] (yleisyys: 308.)
+上がる[あがる] (yleisyys: 838.)
+"
+
+下; Komponentit: 下;Kanjin merkityksiä englanniksi: below, down, descend, give, low, inferior;"Kanjin lukutapoja: カ
+ゲ
+した
+しも
+もと
+さ.げる
+さ.がる
+くだ.る
+くだ.り
+くだ.す
+-くだ.す
+くだ.さる
+お.ろす
+お.り
+";"下さる[くださる] (yleisyys: 125.)
+下[した] (yleisyys: 469.)
+以下[いか] (yleisyys: 485.)
+下[もと] (yleisyys: 855.)
+下りる[おりる] (yleisyys: 1343.)
+"
+
+中; Komponentit: 中;Kanjin merkityksiä englanniksi: in, inside, middle, mean, center;"Kanjin lukutapoja: チュウ
+なか
+うち
+あた.
+";"中[なか] (yleisyys: 82.)
+中[ちゅう] (yleisyys: 208.)
+中国[ちゅうごく] (yleisyys: 390.)
+中心[ちゅうしん] (yleisyys: 413.)
+中[ちゅう] (yleisyys: 729.)
+"
+
+子; Komponentit: 子;Kanjin merkityksiä englanniksi: child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac;"Kanjin lukutapoja: シ
+ス
+ツ
+こ
+-こ
+
+";"子供[こども] (yleisyys: 149.)
+子[こ] (yleisyys: 289.)
+様子[ようす] (yleisyys: 846.)
+息子[むすこ] (yleisyys: 1113.)
+原子[げんし] (yleisyys: 1294.)
+"
+
+学; Komponentit: ¤子;Kanjin merkityksiä englanniksi: study, learning, science;"Kanjin lukutapoja: ガク
+まな.
+";"学校[がっこう] (yleisyys: 227.)
+大学[だいがく] (yleisyys: 318.)
+学[がく] (yleisyys: 521.)
+科学[かがく] (yleisyys: 782.)
+学習[がくしゅう] (yleisyys: 1062.)
+"
+
+生; Komponentit: 生;Kanjin merkityksiä englanniksi: life, genuine, birth;"Kanjin lukutapoja: セイ
+ショウ
+い.きる
+い.かす
+い.ける
+う.まれる
+うま.れる
+う.まれ
+うまれ
+う.む
+お.う
+は.える
+は.やす
+き
+なま
+なま-
+な.る
+な.す
+む.す
+-
+";"生活[せいかつ] (yleisyys: 196.)
+先生[せんせい] (yleisyys: 320.)
+生[せい] (yleisyys: 330.)
+生きる[いきる] (yleisyys: 421.)
+生産[せいさん] (yleisyys: 465.)
+"
+
+亠; Komponentit: 亠;Kanjin merkityksiä englanniksi: kettle lid radical (no. 8);"Kanjin lukutapoja: ト
+";""
+
+冂; Komponentit: 冂;Kanjin merkityksiä englanniksi: upside-down box radical (no. 13);"Kanjin lukutapoja: キョウ
+ケ
+";""
+
+高; Komponentit: 亠口冂;Kanjin merkityksiä englanniksi: tall, high, expensive;"Kanjin lukutapoja: コウ
+たか.い
+たか
+-だか
+たか.まる
+たか.め
+";"高い[たかい] (yleisyys: 203.)
+高齢[こうれい] (yleisyys: 853.)
+最高[さいこう] (yleisyys: 919.)
+高校[こうこう] (yleisyys: 934.)
+高[こう] (yleisyys: 1087.)
+"
+
+儿; Komponentit: 儿;Kanjin merkityksiä englanniksi: legs radical (no. 10);"Kanjin lukutapoja: ジン
+ニン
+が
+";""
+
+先; Komponentit: ⺧儿;Kanjin merkityksiä englanniksi: before, ahead, previous, future, precedence;"Kanjin lukutapoja: セン
+さき
+ま.
+";"先[さき] (yleisyys: 288.)
+先ず[まず] (yleisyys: 315.)
+先生[せんせい] (yleisyys: 320.)
+先程[さきほど] (yleisyys: 1267.)
+先日[せんじつ] (yleisyys: 2190.)
+"
+
+乁; Komponentit: 乁;Kanjin merkityksiä englanniksi:;"Kanjin lukutapoja: イ
+なが.れ
+";""
+
+𠂉; Komponentit: 𠂉;Ei tunnettuja englanninnoksia;Ei tunnettuja ääntämyksiä;""
+
+气; Komponentit: 𠂉一乁;Kanjin merkityksiä englanniksi: spirit, steam radical (no. 84);"Kanjin lukutapoja: キ
+ケ
+い
+";""
+
+気; Komponentit: 气㐅;Kanjin merkityksiä englanniksi: spirit, mind, air, atmosphere, mood;"Kanjin lukutapoja: キ
+ケ
+い
+";"気[き] (yleisyys: 153.)
+気持ち[きもち] (yleisyys: 364.)
+気付く[きづく] (yleisyys: 833.)
+病気[びょうき] (yleisyys: 1017.)
+人気[にんき] (yleisyys: 1056.)
+"
+
+宀; Komponentit: 宀;Kanjin merkityksiä englanniksi: shaped crown, katakana u radical (no. 40);"Kanjin lukutapoja: ベン
+メ
+";""
+
+実; Komponentit: 宀¡;Kanjin merkityksiä englanniksi: reality, truth;"Kanjin lukutapoja: ジツ
+シツ
+み
+みの.る
+まこと
+みの
+みち.
+";"実施[じっし] (yleisyys: 380.)
+実際[じっさい] (yleisyys: 438.)
+実[じつ] (yleisyys: 446.)
+事実[じじつ] (yleisyys: 607.)
+現実[げんじつ] (yleisyys: 774.)
+"
+
+耂; Komponentit: 耂;Kanjin merkityksiä englanniksi: variant of radical 125;"Kanjin lukutapoja
+";""
+
+者; Komponentit: 耂日;Kanjin merkityksiä englanniksi: someone, person;"Kanjin lukutapoja: シャ
+も
+";"者[しゃ] (yleisyys: 53.)
+者[もの] (yleisyys: 249.)
+患者[かんじゃ] (yleisyys: 796.)
+若者[わかもの] (yleisyys: 1884.)
+医者[いしゃ] (yleisyys: 2001.)
+"
+
+今; Komponentit: 𠆢𪜊;Kanjin merkityksiä englanniksi: now;"Kanjin lukutapoja: コン
+キン
+い
+";"今[いま] (yleisyys: 99.)
+今日[きょう] (yleisyys: 247.)
+今回[こんかい] (yleisyys: 560.)
+今後[こんご] (yleisyys: 637.)
+今度[こんど] (yleisyys: 762.)
+"
+
+明; Komponentit: 日月;Kanjin merkityksiä englanniksi: bright, light;"Kanjin lukutapoja: メイ
+ミョウ
+ミン
+あ.かり
+あか.るい
+あか.るむ
+あか.らむ
+あき.らか
+あ.ける
+-あ.け
+あ.く
+あ.くる
+あ.か
+";"説明[せつめい] (yleisyys: 374.)
+明らか[あきらか] (yleisyys: 732.)
+明日[あす] (yleisyys: 910.)
+明治[めいじ] (yleisyys: 1038.)
+明るい[あかるい] (yleisyys: 1374.)
+"
+
+出; Komponentit: 出;Kanjin merkityksiä englanniksi: exit, leave, go out, come out, put out, protrude;"Kanjin lukutapoja: シュツ
+スイ
+で.る
+-で
+だ.す
+-だ.す
+い.でる
+い.だ
+";"出来る[できる] (yleisyys: 50.)
+出る[でる] (yleisyys: 110.)
+出す[だす] (yleisyys: 171.)
+思い出す[おもいだす] (yleisyys: 1034.)
+提出[ていしゅつ] (yleisyys: 1251.)
+"
+
+入; Komponentit: 入;Kanjin merkityksiä englanniksi: enter, insert;"Kanjin lukutapoja: ニュウ
+ジュ
+い.る
+-い.る
+-い.り
+い.れる
+-い.れ
+はい.
+";"入る[はいる] (yleisyys: 152.)
+入れる[いれる] (yleisyys: 223.)
+購入[こうにゅう] (yleisyys: 872.)
+輸入[ゆにゅう] (yleisyys: 1112.)
+導入[どうにゅう] (yleisyys: 1180.)
+"
+
+里; Komponentit: 田土;Kanjin merkityksiä englanniksi: ri, village, parent's home, league;"Kanjin lukutapoja: リ
+さ
+";"里[さと] (yleisyys: 4292.)
+"
+
+王; Komponentit: 王;Kanjin merkityksiä englanniksi: king, rule, magnate;"Kanjin lukutapoja: オウ
+-ノ
+";"王[おう] (yleisyys: 1278.)
+女王[じょおう] (yleisyys: 4477.)
+国王[こくおう] (yleisyys: 4928.)
+"
+
+理; Komponentit: 王里;Kanjin merkityksiä englanniksi: logic, arrangement, reason, justice, truth;"Kanjin lukutapoja: リ
+ことわ
+";"管理[かんり] (yleisyys: 394.)
+理由[りゆう] (yleisyys: 460.)
+理解[りかい] (yleisyys: 491.)
+処理[しょり] (yleisyys: 605.)
+料理[りょうり] (yleisyys: 735.)
+"
+
+彐; Komponentit: 彐;Kanjin merkityksiä englanniksi: snout, pig's head radical (no. 58);"Kanjin lukutapoja: ケ
+";""
+
+当; Komponentit: ⺌彐;Kanjin merkityksiä englanniksi: hit, right, appropriate, himself;"Kanjin lukutapoja: トウ
+あ.たる
+あ.たり
+あ.てる
+あ.て
+まさ.に
+まさ.にべ
+";"本当[ほんとう] (yleisyys: 248.)
+当たる[あたる] (yleisyys: 506.)
+当時[とうじ] (yleisyys: 524.)
+当該[とうがい] (yleisyys: 767.)
+担当[たんとう] (yleisyys: 960.)
+"
+
+豕; Komponentit: 豕;Kanjin merkityksiä englanniksi: pig, hog, pig radical (no. 152);"Kanjin lukutapoja: 
+";""
+
+家; Komponentit: 宀豕;Kanjin merkityksiä englanniksi: house, home, family, professional, expert, performer;"Kanjin lukutapoja: カ
+ケ
+いえ
+や
+う
+";"家[いえ] (yleisyys: 258.)
+家[か] (yleisyys: 285.)
+家族[かぞく] (yleisyys: 478.)
+家庭[かてい] (yleisyys: 706.)
+国家[こっか] (yleisyys: 758.)
+"
+
+母; Komponentit: 母;Kanjin merkityksiä englanniksi: mother;"Kanjin lukutapoja: ボ
+はは
+
+";"母[はは] (yleisyys: 493.)
+母親[ははおや] (yleisyys: 1026.)
+母[かあ] (yleisyys: 1098.)
+伯母[おば] (yleisyys: 2053.)
+母子[ぼし] (yleisyys: 4054.)
+"
+
+父; Komponentit: 父;Kanjin merkityksiä englanniksi: father;"Kanjin lukutapoja: フ
+ち
+";"父[ちち] (yleisyys: 554.)
+父親[ちちおや] (yleisyys: 1372.)
+伯父[おじ] (yleisyys: 1528.)
+父[とう] (yleisyys: 1611.)
+親父[おやじ] (yleisyys: 2817.)
+"
+
+交; Komponentit: 亠父;Kanjin merkityksiä englanniksi: mingle, mixing, association, coming & going;"Kanjin lukutapoja: コウ
+まじ.わる
+まじ.える
+ま.じる
+まじ.る
+ま.ざる
+ま.ぜる
+-か.う
+か.わす
+かわ.す
+こもご
+";"交通[こうつう] (yleisyys: 684.)
+交換[こうかん] (yleisyys: 1240.)
+交流[こうりゅう] (yleisyys: 1423.)
+交渉[こうしょう] (yleisyys: 1727.)
+交付[こうふ] (yleisyys: 2134.)
+"
+
+校; Komponentit: 木交;Kanjin merkityksiä englanniksi: exam, school, printing, proof, correction;"Kanjin lukutapoja: コウ
+キョ
+";"学校[がっこう] (yleisyys: 227.)
+高校[こうこう] (yleisyys: 934.)
+校[こう] (yleisyys: 2991.)
+校長[こうちょう] (yleisyys: 4397.)
+登校[とうこう] (yleisyys: 4888.)
+"
+
+立; Komponentit: 立;Kanjin merkityksiä englanniksi: stand up, rise, set up, erect;"Kanjin lukutapoja: リツ
+リュウ
+リットル
+た.つ
+-た.つ
+た.ち-
+た.てる
+-た.てる
+た.て-
+たて-
+-た.て
+-だ.て
+-だ.て
+";"立つ[たつ] (yleisyys: 384.)
+立てる[たてる] (yleisyys: 699.)
+立場[たちば] (yleisyys: 970.)
+成立[せいりつ] (yleisyys: 1316.)
+独立[どくりつ] (yleisyys: 1475.)
+"
+
+咅; Komponentit: 立口;Kanjin merkityksiä englanniksi: to spit out;"Kanjin lukutapoja: トウ
+つばをはいていな.
+";""
+
+部; Komponentit: 咅⻏;Kanjin merkityksiä englanniksi: section, bureau, dept, class, copy, part, portion, counter for copies of a newspaper or magazine;"Kanjin lukutapoja: ブ
+-
+";"部[ぶ] (yleisyys: 283.)
+部分[ぶぶん] (yleisyys: 344.)
+部屋[へや] (yleisyys: 439.)
+一部[いちぶ] (yleisyys: 640.)
+全部[ぜんぶ] (yleisyys: 964.)
+"
+
+力; Komponentit: 力;Kanjin merkityksiä englanniksi: power, strength, strong, strain, bear up, exert;"Kanjin lukutapoja: リョク
+リキ
+リイ
+ちか
+";"力[りょく] (yleisyys: 306.)
+力[ちから] (yleisyys: 441.)
+協力[きょうりょく] (yleisyys: 597.)
+能力[のうりょく] (yleisyys: 752.)
+努力[どりょく] (yleisyys: 933.)
+"
+
+男; Komponentit: 田力;Kanjin merkityksiä englanniksi: male;"Kanjin lukutapoja: ダン
+ナン
+おとこ
+
+";"男[おとこ] (yleisyys: 209.)
+男性[だんせい] (yleisyys: 708.)
+男女[だんじょ] (yleisyys: 1691.)
+男子[だんし] (yleisyys: 2273.)
+男の子[おとこのこ] (yleisyys: 2645.)
+"
+
+女; Komponentit: 女;Kanjin merkityksiä englanniksi: woman, female;"Kanjin lukutapoja: ジョ
+ニョ
+ニョウ
+おんな
+
+";"彼女[かのじょ] (yleisyys: 217.)
+女性[じょせい] (yleisyys: 264.)
+女[おんな] (yleisyys: 307.)
+女子[じょし] (yleisyys: 1442.)
+女の子[おんなのこ] (yleisyys: 1465.)
+"
+
+重; Komponentit: 重;Kanjin merkityksiä englanniksi: heavy, important, esteem, respect, heap up, pile up, nest of boxes, -fold;"Kanjin lukutapoja: ジュウ
+チョウ
+え
+おも.い
+おも.り
+おも.なう
+かさ.ねる
+かさ.なる
+お
+";"重要[じゅうよう] (yleisyys: 383.)
+重い[おもい] (yleisyys: 1332.)
+重[じゅう] (yleisyys: 1748.)
+重ねる[かさねる] (yleisyys: 2119.)
+重視[じゅうし] (yleisyys: 2367.)
+"
+
+動; Komponentit: 重力;Kanjin merkityksiä englanniksi: move, motion, change, confusion, shift, shake;"Kanjin lukutapoja: ドウ
+うご.く
+うご.か
+";"活動[かつどう] (yleisyys: 275.)
+運動[うんどう] (yleisyys: 507.)
+行動[こうどう] (yleisyys: 576.)
+自動[じどう] (yleisyys: 580.)
+動く[うごく] (yleisyys: 754.)
+"
+
+亻; Komponentit: 亻;Kanjin merkityksiä englanniksi: radical number 9;"Kanjin lukutapoja
+";""
+
+体; Komponentit: 亻本;Kanjin merkityksiä englanniksi: body, substance, object, reality, counter for images;"Kanjin lukutapoja: タイ
+テイ
+からだ
+かた
+";"体[からだ] (yleisyys: 370.)
+全体[ぜんたい] (yleisyys: 462.)
+団体[だんたい] (yleisyys: 652.)
+体[たい] (yleisyys: 660.)
+具体[ぐたい] (yleisyys: 795.)
+"
+
+厶; Komponentit: 厶;Kanjin merkityksiä englanniksi: I, myself, katakana mu radical (no. 28);"Kanjin lukutapoja: シ
+ボウ
+ム
+わたくし
+ござ.
+";""
+
+云; Komponentit: 二厶;Kanjin merkityksiä englanniksi: say;"Kanjin lukutapoja: ウン
+い.う
+ここ
+";""
+
+会; Komponentit: 𠆢云;Kanjin merkityksiä englanniksi: meeting, meet, party, association, interview, join;"Kanjin lukutapoja: カイ
+エ
+あ.う
+あ.わせる
+あつ.ま
+";"会[かい] (yleisyys: 147.)
+社会[しゃかい] (yleisyys: 173.)
+会社[かいしゃ] (yleisyys: 201.)
+会う[あう] (yleisyys: 484.)
+会議[かいぎ] (yleisyys: 805.)
+"
+
+礻; Komponentit: 示;Kanjin merkityksiä englanniksi: cult, showing radical (no. 113);"Kanjin lukutapoja: 
+";""
+
+社; Komponentit: 礻土;Kanjin merkityksiä englanniksi: company, firm, office, association, shrine;"Kanjin lukutapoja: シャ
+やし
+";"社会[しゃかい] (yleisyys: 173.)
+会社[かいしゃ] (yleisyys: 201.)
+社[しゃ] (yleisyys: 529.)
+社長[しゃちょう] (yleisyys: 1333.)
+社員[しゃいん] (yleisyys: 1566.)
+"
+
+仕; Komponentit: 亻士;Kanjin merkityksiä englanniksi: attend, doing, official, serve;"Kanjin lukutapoja: シ
+ジ
+つか.え
+";"仕舞う[しまう] (yleisyys: 93.)
+仕事[しごと] (yleisyys: 232.)
+仕方[しかた] (yleisyys: 1515.)
+仕様[しよう] (yleisyys: 1538.)
+仕組み[しくみ] (yleisyys: 2278.)
+"
+
+事; Komponentit: 事;Kanjin merkityksiä englanniksi: matter, thing, fact, business, reason, possibly;"Kanjin lukutapoja: ジ
+ズ
+こと
+つか.う
+つか.え
+";"事[こと] (yleisyys: 19.)
+事業[じぎょう] (yleisyys: 179.)
+仕事[しごと] (yleisyys: 232.)
+事件[じけん] (yleisyys: 407.)
+事務[じむ] (yleisyys: 565.)
+"
+
+文; Komponentit: 文;Kanjin merkityksiä englanniksi: sentence, literature, style, art, decoration, figures, plan, literary radical (no. 67);"Kanjin lukutapoja: ブン
+モン
+ふみ
+あ
+";"文化[ぶんか] (yleisyys: 423.)
+文字[もじ] (yleisyys: 629.)
+文[ぶん] (yleisyys: 1285.)
+文学[ぶんがく] (yleisyys: 1682.)
+文書[ぶんしょ] (yleisyys: 1694.)
+"
+
+対; Komponentit: 文寸;Kanjin merkityksiä englanniksi: vis-a-vis, opposite, even, equal, versus, anti-, compare;"Kanjin lukutapoja: タイ
+ツイ
+あいて
+こた.える
+そろ.い
+つれあ.い
+なら.ぶ
+むか.
+";"対する[たいする] (yleisyys: 129.)
+対象[たいしょう] (yleisyys: 358.)
+対策[たいさく] (yleisyys: 492.)
+対応[たいおう] (yleisyys: 503.)
+絶対[ぜったい] (yleisyys: 790.)
+"
+
+必; Komponentit: 必;Kanjin merkityksiä englanniksi: invariably, certain, inevitable;"Kanjin lukutapoja: ヒツ
+かなら.
+";"必要[ひつよう] (yleisyys: 128.)
+必ず[かならず] (yleisyys: 620.)
+必死[ひっし] (yleisyys: 2931.)
+"
+
+覀; Komponentit: 覀;Kanjin merkityksiä englanniksi: variant of radical 146;"Kanjin lukutapoja
+";""
+
+要; Komponentit: 覀女;Kanjin merkityksiä englanniksi: need, main point, essence, pivot, key to;"Kanjin lukutapoja: ヨウ
+い.る
+かな
+";"必要[ひつよう] (yleisyys: 128.)
+重要[じゅうよう] (yleisyys: 383.)
+要求[ようきゅう] (yleisyys: 1230.)
+要する[ようする] (yleisyys: 1342.)
+要素[ようそ] (yleisyys: 1551.)
+"
+
+目; Komponentit: 目;Kanjin merkityksiä englanniksi: eye, class, look, insight, experience, care, favor;"Kanjin lukutapoja: モク
+ボク
+め
+-め
+ま
+";"目[め] (yleisyys: 162.)
+目[め] (yleisyys: 300.)
+目的[もくてき] (yleisyys: 433.)
+駄目[だめ] (yleisyys: 741.)
+目標[もくひょう] (yleisyys: 989.)
+"
+
+又; Komponentit: 又;Kanjin merkityksiä englanniksi: or again, furthermore, on the other hand;"Kanjin lukutapoja: ユウ
+また
+また-
+また.の
+";"又[また] (yleisyys: 84.)
+又[また] (yleisyys: 297.)
+"
+
+耳; Komponentit: 耳;Kanjin merkityksiä englanniksi: ear;"Kanjin lukutapoja: ジ
+み
+";"耳[みみ] (yleisyys: 1049.)
+"
+
+取; Komponentit: 耳又;Kanjin merkityksiä englanniksi: take, fetch, take up;"Kanjin lukutapoja: シュ
+と.る
+と.り
+と.り-
+とり
+-ど.
+";"取る[とる] (yleisyys: 113.)
+取り引き[とりひき] (yleisyys: 756.)
+取れる[とれる] (yleisyys: 1171.)
+取得[しゅとく] (yleisyys: 1352.)
+取り組む[とりくむ] (yleisyys: 1623.)
+"
+
+最; Komponentit: 日取;Kanjin merkityksiä englanniksi: utmost, most, extreme;"Kanjin lukutapoja: サイ
+シュ
+もっと.も
+つ
+";"最近[さいきん] (yleisyys: 405.)
+最初[さいしょ] (yleisyys: 437.)
+最後[さいご] (yleisyys: 472.)
+最も[もっとも] (yleisyys: 508.)
+最高[さいこう] (yleisyys: 919.)
+"
+
+音; Komponentit: 音;Kanjin merkityksiä englanniksi: sound, noise;"Kanjin lukutapoja: オン
+イン
+-ノン
+おと
+
+";"音[おと] (yleisyys: 572.)
+音楽[おんがく] (yleisyys: 849.)
+音[おん] (yleisyys: 3470.)
+音声[おんせい] (yleisyys: 4341.)
+録音[ろくおん] (yleisyys: 4373.)
+"
+
+意; Komponentit: 音心;Kanjin merkityksiä englanniksi: idea, mind, heart, taste, thought, desire, care, liking;"Kanjin lukutapoja: 
+";"意味[いみ] (yleisyys: 215.)
+意識[いしき] (yleisyys: 541.)
+意見[いけん] (yleisyys: 642.)
+注意[ちゅうい] (yleisyys: 663.)
+用意[ようい] (yleisyys: 1341.)
+"
+
+未; Komponentit: 未;Kanjin merkityksiä englanniksi: un-, not yet, hitherto, still, even now, sign of the ram, 1-3PM, eighth sign of Chinese zodiac;"Kanjin lukutapoja: ミ
+ビ
+いま.だ
+ま.だ
+ひつ
+";"未だ[まだ] (yleisyys: 262.)
+未[み] (yleisyys: 1842.)
+未来[みらい] (yleisyys: 2096.)
+未だ[いまだ] (yleisyys: 2264.)
+未だ未だ[まだまだ] (yleisyys: 2512.)
+"
+
+味; Komponentit: 口未;Kanjin merkityksiä englanniksi: flavor, taste;"Kanjin lukutapoja: ミ
+あじ
+あじ.わ
+";"意味[いみ] (yleisyys: 215.)
+美味しい[おいしい] (yleisyys: 777.)
+興味[きょうみ] (yleisyys: 1172.)
+味[あじ] (yleisyys: 1214.)
+味噌[みそ] (yleisyys: 2376.)
+"
+
+貝; Komponentit: 目八;Kanjin merkityksiä englanniksi: shellfish;"Kanjin lukutapoja: バイ
+か
+";""
+
+斤; Komponentit: 斤;Kanjin merkityksiä englanniksi: axe, 1.32 lb, catty, counter for loaves of bread, axe radical (no. 69);"Kanjin lukutapoja: キ
+";""
+
+質; Komponentit: 貝斤;Kanjin merkityksiä englanniksi: substance, quality, matter, temperament;"Kanjin lukutapoja: シツ
+シチ
+チ
+たち
+ただ.す
+もと
+わり
+";"質問[しつもん] (yleisyys: 372.)
+物質[ぶっしつ] (yleisyys: 1197.)
+質[しつ] (yleisyys: 1962.)
+実質[じっしつ] (yleisyys: 2294.)
+性質[せいしつ] (yleisyys: 2412.)
+"
+
+問; Komponentit: 門口;Kanjin merkityksiä englanniksi: question, ask, problem;"Kanjin lukutapoja: モン
+と.う
+と.い
+と
+";"問題[もんだい] (yleisyys: 127.)
+質問[しつもん] (yleisyys: 372.)
+問い合わせ[といあわせ] (yleisyys: 1052.)
+訪問[ほうもん] (yleisyys: 1719.)
+問う[とう] (yleisyys: 1744.)
+"
+
+頁; Komponentit: 頁;Kanjin merkityksiä englanniksi: page, leaf;"Kanjin lukutapoja: ケツ
+ぺえじ
+おおがい
+かし
+";""
+
+是; Komponentit: 日𤴓;Kanjin merkityksiä englanniksi: just so, this, right, justice;"Kanjin lukutapoja: ゼ
+シ
+これ
+この
+こ
+";"是非[ぜひ] (yleisyys: 1293.)
+"
+
+題; Komponentit: 是頁;Kanjin merkityksiä englanniksi: topic, subject;"Kanjin lukutapoja: ダ
+";"問題[もんだい] (yleisyys: 127.)
+課題[かだい] (yleisyys: 1120.)
+話題[わだい] (yleisyys: 1880.)
+主題[しゅだい] (yleisyys: 4724.)
+"
+
+可; Komponentit: ￠口;Kanjin merkityksiä englanniksi: can, passable, mustn't, should not, do not;"Kanjin lukutapoja: カ
+コク
+-べ.き
+-べ.
+";"可能[かのう] (yleisyys: 237.)
+可成[かなり] (yleisyys: 532.)
+可愛い[かわいい] (yleisyys: 1064.)
+可笑しい[おかしい] (yleisyys: 1504.)
+許可[きょか] (yleisyys: 1638.)
+"
+
+何; Komponentit: 亻可;Kanjin merkityksiä englanniksi: what;"Kanjin lukutapoja: カ
+なに
+なん
+なに-
+なん
+";"何[なに] (yleisyys: 62.)
+何時[いつ] (yleisyys: 202.)
+何処[どこ] (yleisyys: 240.)
+何[なん] (yleisyys: 277.)
+何の[どの] (yleisyys: 323.)
+"
+
+語; Komponentit: 言五口;Kanjin merkityksiä englanniksi: word, speech, language;"Kanjin lukutapoja: ゴ
+かた.る
+かた.ら
+";"語[ご] (yleisyys: 408.)
+語る[かたる] (yleisyys: 890.)
+英語[えいご] (yleisyys: 1185.)
+物語[ものがたり] (yleisyys: 1490.)
+言語[げんご] (yleisyys: 1510.)
+"
+
+右; Komponentit: 𠂇口;Kanjin merkityksiä englanniksi: right;"Kanjin lukutapoja: ウ
+ユウ
+み
+";"右[みぎ] (yleisyys: 897.)
+左右[さゆう] (yleisyys: 1892.)
+右手[みぎて] (yleisyys: 2761.)
+右側[みぎがわ] (yleisyys: 4765.)
+"
+
+工; Komponentit: 工;Kanjin merkityksiä englanniksi: craft, construction, katakana e radical (no. 48);"Kanjin lukutapoja: コウ
+ク
+
+";"工事[こうじ] (yleisyys: 1247.)
+工場[こうじょう] (yleisyys: 1292.)
+工業[こうぎょう] (yleisyys: 1485.)
+加工[かこう] (yleisyys: 2183.)
+工夫[くふう] (yleisyys: 2190.)
+"
+
+左; Komponentit: 𠂇工;Kanjin merkityksiä englanniksi: left;"Kanjin lukutapoja: サ
+シャ
+ひだ
+";"左[ひだり] (yleisyys: 1149.)
+左右[さゆう] (yleisyys: 1892.)
+左手[ひだりて] (yleisyys: 3296.)
+左側[ひだりがわ] (yleisyys: 4828.)
+"
+
+扌; Komponentit: 扌;Kanjin merkityksiä englanniksi: hand, hand radical (no. 64);"Kanjin lukutapoja: シ
+";""
+
+持; Komponentit: 扌寺;Kanjin merkityksiä englanniksi: hold, have;"Kanjin lukutapoja: ジ
+も.つ
+-も.ち
+も.て
+";"持つ[もつ] (yleisyys: 100.)
+気持ち[きもち] (yleisyys: 364.)
+維持[いじ] (yleisyys: 1152.)
+支持[しじ] (yleisyys: 2430.)
+持続[じぞく] (yleisyys: 3630.)
+"
+
+用; Komponentit: 用;Kanjin merkityksiä englanniksi: utilize, business, service, use, employ;"Kanjin lukutapoja: ヨウ
+もち.い
+";"利用[りよう] (yleisyys: 245.)
+用[よう] (yleisyys: 314.)
+使用[しよう] (yleisyys: 342.)
+用いる[もちいる] (yleisyys: 740.)
+費用[ひよう] (yleisyys: 1096.)
+"
+
+甬; Komponentit: 龴用;Kanjin merkityksiä englanniksi: road with walls on both sides;"Kanjin lukutapoja: ヨ
+";""
+
+辶; Komponentit: 辶;Kanjin merkityksiä englanniksi: walk, walking, road radical variant (no. 162);"Kanjin lukutapoja: チャ
+";""
+
+通; Komponentit: 辶甬;Kanjin merkityksiä englanniksi: traffic, pass through, avenue, commute, counter for letters, notes, documents, etc.;"Kanjin lukutapoja: ツウ
+ツ
+とお.る
+とお.り
+-とお.り
+-どお.り
+とお.す
+とお.し
+-どお.し
+かよ.
+";"通り[とおり] (yleisyys: 269.)
+普通[ふつう] (yleisyys: 468.)
+交通[こうつう] (yleisyys: 684.)
+通信[つうしん] (yleisyys: 804.)
+通ずる[つうずる] (yleisyys: 867.)
+"
+
+手; Komponentit: 手;Kanjin merkityksiä englanniksi: hand;"Kanjin lukutapoja: シュ
+ズ
+て
+て-
+-て
+た
+";"手[て] (yleisyys: 177.)
+相手[あいて] (yleisyys: 299.)
+選手[せんしゅ] (yleisyys: 800.)
+手続き[てつづき] (yleisyys: 1119.)
+手紙[てがみ] (yleisyys: 1336.)
+"
+
+夕; Komponentit: 夕;Kanjin merkityksiä englanniksi: evening;"Kanjin lukutapoja: セキ
+ゆ
+";"夕方[ゆうがた] (yleisyys: 2535.)
+夕食[ゆうしょく] (yleisyys: 3271.)
+"
+
+多; Komponentit: 夕夕;Kanjin merkityksiä englanniksi: many, frequent, much;"Kanjin lukutapoja: タ
+おお.い
+まさ.に
+まさ.
+";"多い[おおい] (yleisyys: 158.)
+多く[おおく] (yleisyys: 418.)
+多分[たぶん] (yleisyys: 1223.)
+多数[たすう] (yleisyys: 1466.)
+多様[たよう] (yleisyys: 1706.)
+"
+
+少; Komponentit: 小丿;Kanjin merkityksiä englanniksi: few, little;"Kanjin lukutapoja: ショウ
+すく.ない
+すこ.
+";"少し[すこし] (yleisyys: 246.)
+少ない[すくない] (yleisyys: 340.)
+少年[しょうねん] (yleisyys: 883.)
+減少[げんしょう] (yleisyys: 1002.)
+少女[しょうじょ] (yleisyys: 1952.)
+"
+
+舌; Komponentit: 舌;Kanjin merkityksiä englanniksi: tongue, reed, clapper;"Kanjin lukutapoja: ゼツ
+し
+";"舌[した] (yleisyys: 3403.)
+"
+
+氵; Komponentit: 氵;Kanjin merkityksiä englanniksi: water, water radical (no. 85);"Kanjin lukutapoja: さんず
+";""
+
+活; Komponentit: 氵舌;Kanjin merkityksiä englanniksi: lively, resuscitation, being helped, living;"Kanjin lukutapoja: カツ
+い.きる
+い.かす
+い.け
+";"生活[せいかつ] (yleisyys: 196.)
+活動[かつどう] (yleisyys: 275.)
+活用[かつよう] (yleisyys: 1265.)
+活躍[かつやく] (yleisyys: 1964.)
+活性[かっせい] (yleisyys: 2288.)
+"
+
+言; Komponentit: 言;Kanjin merkityksiä englanniksi: say, word;"Kanjin lukutapoja: ゲン
+ゴン
+い.う
+こ
+";"言う[いう] (yleisyys: 18.)
+言葉[ことば] (yleisyys: 222.)
+言語[げんご] (yleisyys: 1510.)
+発言[はつげん] (yleisyys: 1947.)
+一言[ひとこと] (yleisyys: 1994.)
+"
+
+話; Komponentit: 言舌;Kanjin merkityksiä englanniksi: tale, talk;"Kanjin lukutapoja: ワ
+はな.す
+はな
+";"話[はなし] (yleisyys: 174.)
+電話[でんわ] (yleisyys: 290.)
+話す[はなす] (yleisyys: 389.)
+会話[かいわ] (yleisyys: 1825.)
+話題[わだい] (yleisyys: 1880.)
+"
+
+天; Komponentit: 一大;Kanjin merkityksiä englanniksi: heavens, sky, imperial;"Kanjin lukutapoja: テン
+あまつ
+あめ
+あま
+";"天皇[てんのう] (yleisyys: 1111.)
+天[てん] (yleisyys: 2325.)
+天気[てんき] (yleisyys: 2392.)
+天井[てんじょう] (yleisyys: 3086.)
+天然[てんねん] (yleisyys: 3246.)
+"
+
+关; Komponentit: 丷天;Kanjin merkityksiä englanniksi: frontier pass, close, relation;"Kanjin lukutapoja
+";""
+
+関; Komponentit: 門关;Kanjin merkityksiä englanniksi: connection, barrier, gateway, involve, concerning;"Kanjin lukutapoja: カン
+せき
+-ぜき
+かか.わる
+からくり
+かんぬ
+";"関係[かんけい] (yleisyys: 156.)
+関する[かんする] (yleisyys: 225.)
+機関[きかん] (yleisyys: 414.)
+関わる[かかわる] (yleisyys: 645.)
+関連[かんれん] (yleisyys: 840.)
+"
+
+系; Komponentit: 丿糸;Kanjin merkityksiä englanniksi: lineage, system;"Kanjin lukutapoja: ケ
+";"系[けい] (yleisyys: 502.)
+体系[たいけい] (yleisyys: 2834.)
+系統[けいとう] (yleisyys: 4800.)
+"
+
+係; Komponentit: 亻系;Kanjin merkityksiä englanniksi: person in charge, connection, duty, concern oneself;"Kanjin lukutapoja: ケイ
+かか.る
+かかり
+-がかり
+かか.わ
+";"関係[かんけい] (yleisyys: 156.)
+係[かかり] (yleisyys: 2092.)
+"
+
+見; Komponentit: 見;Kanjin merkityksiä englanniksi: see, hopes, chances, idea, opinion, look at, visible;"Kanjin lukutapoja: ケン
+み.る
+み.える
+み.せ
+";"見る[みる] (yleisyys: 47.)
+見える[みえる] (yleisyys: 241.)
+見せる[みせる] (yleisyys: 562.)
+意見[いけん] (yleisyys: 642.)
+発見[はっけん] (yleisyys: 980.)
+"
+
+現; Komponentit: 王見;Kanjin merkityksiä englanniksi: present, existing, actual;"Kanjin lukutapoja: ゲン
+あらわ.れる
+あらわ.す
+うつつ
+うつ.
+";"現在[げんざい] (yleisyys: 256.)
+表現[ひょうげん] (yleisyys: 745.)
+現実[げんじつ] (yleisyys: 774.)
+現われる[あらわれる] (yleisyys: 776.)
+実現[じつげん] (yleisyys: 1035.)
+"
+
+在; Komponentit: 𠂇丨土;Kanjin merkityksiä englanniksi: exist, outskirts, suburbs, located in;"Kanjin lukutapoja: ザイ
+あ.
+";"現在[げんざい] (yleisyys: 256.)
+存在[そんざい] (yleisyys: 360.)
+在住[ざいじゅう] (yleisyys: 2882.)
+所在[しょざい] (yleisyys: 3453.)
+滞在[たいざい] (yleisyys: 3664.)
+"
+
+全; Komponentit: 𠆢王;Kanjin merkityksiä englanniksi: whole, entire, all, complete, fulfill;"Kanjin lukutapoja: ゼン
+まった.く
+すべ.
+";"全て[すべて] (yleisyys: 254.)
+全く[まったく] (yleisyys: 382.)
+全体[ぜんたい] (yleisyys: 462.)
+安全[あんぜん] (yleisyys: 523.)
+全国[ぜんこく] (yleisyys: 735.)
+"
+
+艮; Komponentit: 艮;Kanjin merkityksiä englanniksi: northeast (Oriental zodiac), stopping, good radical (no. 138);"Kanjin lukutapoja: コン
+ゴン
+うしと
+";""
+
+丶; Komponentit: 丶;Kanjin merkityksiä englanniksi: dot, tick or dot radical (no. 3);"Kanjin lukutapoja: チ
+";""
+
+食; Komponentit: 艮𠆢丶;Kanjin merkityksiä englanniksi: eat, food;"Kanjin lukutapoja: ショク
+ジキ
+く.う
+く.らう
+た.べる
+は.
+";"食べる[たべる] (yleisyys: 266.)
+食事[しょくじ] (yleisyys: 907.)
+食[しょく] (yleisyys: 1487.)
+食品[しょくひん] (yleisyys: 1658.)
+食う[くう] (yleisyys: 1725.)
+"
+
+来; Komponentit: 来;Kanjin merkityksiä englanniksi: come, due, next, cause, become;"Kanjin lukutapoja: ライ
+タイ
+く.る
+きた.る
+きた.す
+き.たす
+き.たる
+き
+
+";"来る[くる] (yleisyys: 43.)
+出来る[できる] (yleisyys: 50.)
+将来[しょうらい] (yleisyys: 1031.)
+以来[いらい] (yleisyys: 1179.)
+従来[じゅうらい] (yleisyys: 1389.)
+"
+
+帚; Komponentit: 彐冖巾;Kanjin merkityksiä englanniksi: broom;"Kanjin lukutapoja: ソウ
+シュウ
+ほう
+";""
+
+帰; Komponentit: 刂帚;Kanjin merkityksiä englanniksi: homecoming, arrive at, lead to, result in;"Kanjin lukutapoja: キ
+かえ.る
+かえ.す
+おく.る
+とつ.
+";"帰り[かえり] (yleisyys: 2672.)
+帰国[きこく] (yleisyys: 3237.)
+帰宅[きたく] (yleisyys: 3402.)
+復帰[ふっき] (yleisyys: 3771.)
+"
+
+玉; Komponentit: 丶王;Kanjin merkityksiä englanniksi: jewel, ball;"Kanjin lukutapoja: ギョク
+たま
+たま-
+-だ
+";"玉[たま] (yleisyys: 2388.)
+玉葱[たまねぎ] (yleisyys: 3848.)
+"
+
+囗; Komponentit: 囗;Kanjin merkityksiä englanniksi: box, box or enclosure radical (no. 31);"Kanjin lukutapoja: イ
+コ
+";""
+
+国; Komponentit: 囗玉;Kanjin merkityksiä englanniksi: country;"Kanjin lukutapoja: コク
+く
+";"国[くに] (yleisyys: 224.)
+国[こく] (yleisyys: 366.)
+中国[ちゅうごく] (yleisyys: 390.)
+国民[こくみん] (yleisyys: 409.)
+国際[こくさい] (yleisyys: 430.)
+"
+
+戸; Komponentit: 戸;Kanjin merkityksiä englanniksi: door, counter for houses, door radical (no. 63);"Kanjin lukutapoja: コ
+
+";"戸[こ] (yleisyys: 4025.)
+戸[と] (yleisyys: 4620.)
+"
+
+所; Komponentit: 戸斤;Kanjin merkityksiä englanniksi: place, extent;"Kanjin lukutapoja: ショ
+ところ
+-ところ
+どころ
+と
+";"所[ところ] (yleisyys: 88.)
+所[しょ] (yleisyys: 231.)
+場所[ばしょ] (yleisyys: 332.)
+所謂[いわゆる] (yleisyys: 967.)
+所得[しょとく] (yleisyys: 1018.)
+"
+
+也; Komponentit: 也;Kanjin merkityksiä englanniksi: to be (classical);"Kanjin lukutapoja: ヤ
+エ
+なり
+か
+ま
+";""
+
+地; Komponentit: 土也;Kanjin merkityksiä englanniksi: ground, earth;"Kanjin lukutapoja: チ
+
+";"地域[ちいき] (yleisyys: 211.)
+地[ち] (yleisyys: 311.)
+地方[ちほう] (yleisyys: 391.)
+土地[とち] (yleisyys: 646.)
+地区[ちく] (yleisyys: 1038.)
+"
+
+卜; Komponentit: 卜;Kanjin merkityksiä englanniksi: divining, fortune-telling, divination or katakana to radical (no. 25);"Kanjin lukutapoja: ボク
+うらな.う
+うらな
+";""
+
+外; Komponentit: 夕卜;Kanjin merkityksiä englanniksi: outside;"Kanjin lukutapoja: ガイ
+ゲ
+そと
+ほか
+はず.す
+はず.れる
+と
+";"以外[いがい] (yleisyys: 467.)
+外国[がいこく] (yleisyys: 701.)
+外[そと] (yleisyys: 718.)
+海外[かいがい] (yleisyys: 1084.)
+外[がい] (yleisyys: 1798.)
+"
+
+戊; Komponentit: 戊;Kanjin merkityksiä englanniksi: 5th calendar sign;"Kanjin lukutapoja: ボ
+ボウ
+つちの
+";""
+
+成; Komponentit: 戊𠃌;Kanjin merkityksiä englanniksi: turn into, become, get, grow, elapse, reach;"Kanjin lukutapoja: セイ
+ジョウ
+な.る
+な.す
+-な.
+";"成る[なる] (yleisyys: 22.)
+平成[へいせい] (yleisyys: 350.)
+可成[かなり] (yleisyys: 532.)
+作成[さくせい] (yleisyys: 749.)
+構成[こうせい] (yleisyys: 819.)
+"
+
+牛; Komponentit: 牛;Kanjin merkityksiä englanniksi: cow;"Kanjin lukutapoja: ギュウ
+う
+";"牛[うし] (yleisyys: 3102.)
+牛乳[ぎゅうにゅう] (yleisyys: 3596.)
+"
+
+物; Komponentit: 牛勿;Kanjin merkityksiä englanniksi: thing, object, matter;"Kanjin lukutapoja: ブツ
+モツ
+もの
+もの
+";"物[もの] (yleisyys: 36.)
+物[ぶつ] (yleisyys: 400.)
+動物[どうぶつ] (yleisyys: 993.)
+物[もの] (yleisyys: 1079.)
+人物[じんぶつ] (yleisyys: 1160.)
+"
+
+方; Komponentit: 方;Kanjin merkityksiä englanniksi: direction, person, alternative;"Kanjin lukutapoja: ホウ
+かた
+-かた
+-が
+";"方[ほう] (yleisyys: 96.)
+方[かた] (yleisyys: 154.)
+貴方[あなた] (yleisyys: 175.)
+方法[ほうほう] (yleisyys: 260.)
+地方[ちほう] (yleisyys: 391.)
+"
+
+丂; Komponentit: 丂;Kanjin merkityksiä englanniksi: obstruction of breath (qi) as it seeks release, variant of other characters;"Kanjin lukutapoja: コウ
+さまた.げられ
+";""
+
+考; Komponentit: 耂丂;Kanjin merkityksiä englanniksi: consider, think over;"Kanjin lukutapoja: コウ
+かんが.える
+かんが.
+";"考える[かんがえる] (yleisyys: 92.)
+参考[さんこう] (yleisyys: 930.)
+考え[かんがえ] (yleisyys: 997.)
+考慮[こうりょ] (yleisyys: 2271.)
+思考[しこう] (yleisyys: 2971.)
+"
+
+定; Komponentit: 宀𤴓;Kanjin merkityksiä englanniksi: determine, fix, establish, decide;"Kanjin lukutapoja: テイ
+ジョウ
+さだ.める
+さだ.まる
+さだ.
+";"規定[きてい] (yleisyys: 369.)
+決定[けってい] (yleisyys: 584.)
+設定[せってい] (yleisyys: 624.)
+定める[さだめる] (yleisyys: 626.)
+予定[よてい] (yleisyys: 692.)
+"
+
+矢; Komponentit: 丿天;Kanjin merkityksiä englanniksi: dart, arrow;"Kanjin lukutapoja: シ
+
+";"矢張り[やはり] (yleisyys: 265.)
+"
+
+知; Komponentit: 矢口;Kanjin merkityksiä englanniksi: know, wisdom;"Kanjin lukutapoja: チ
+し.る
+し.らせ
+";"知る[しる] (yleisyys: 139.)
+知れる[しれる] (yleisyys: 218.)
+知識[ちしき] (yleisyys: 1043.)
+知恵[ちえ] (yleisyys: 1701.)
+通知[つうち] (yleisyys: 2317.)
+"
+
+自; Komponentit: 自;Kanjin merkityksiä englanniksi: oneself;"Kanjin lukutapoja: ジ
+シ
+みずか.ら
+おの.ずから
+おの.ず
+";"自分[じぶん] (yleisyys: 87.)
+自由[じゆう] (yleisyys: 463.)
+自然[しぜん] (yleisyys: 519.)
+自身[じしん] (yleisyys: 542.)
+自動[じどう] (yleisyys: 580.)
+"
+
+忄; Komponentit: 忄;Kanjin merkityksiä englanniksi: heart, standing heart radical variant (no. 61);"Kanjin lukutapoja: シン
+ここ
+";""
+
+性; Komponentit: 忄生;Kanjin merkityksiä englanniksi: sex, gender, nature;"Kanjin lukutapoja: セイ
+ショウ
+さ
+";"性[せい] (yleisyys: 118.)
+女性[じょせい] (yleisyys: 264.)
+男性[だんせい] (yleisyys: 708.)
+性格[せいかく] (yleisyys: 1310.)
+活性[かっせい] (yleisyys: 2288.)
+"
+
+乍; Komponentit: 乍;Kanjin merkityksiä englanniksi: though, notwithstanding, while, during, both, all;"Kanjin lukutapoja: サ
+サク
+-なが.ら
+たちま.
+";""
+
+作; Komponentit: 亻乍;Kanjin merkityksiä englanniksi: make, production, prepare, build;"Kanjin lukutapoja: サク
+サ
+つく.る
+つく.り
+-づく.
+";"作る[つくる] (yleisyys: 155.)
+作品[さくひん] (yleisyys: 566.)
+作業[さぎょう] (yleisyys: 697.)
+作成[さくせい] (yleisyys: 749.)
+作り[つくり] (yleisyys: 1066.)
+"
+
+弋; Komponentit: 弋;Kanjin merkityksiä englanniksi: piling, ceremony radical (no. 56);"Kanjin lukutapoja: ヨク
+いぐる
+";""
+
+代; Komponentit: 亻弋;Kanjin merkityksiä englanniksi: substitute, change, convert, replace, period, age, counter for decades of ages, eras, etc., generation, charge, rate, fee;"Kanjin lukutapoja: ダイ
+タイ
+か.わる
+かわ.る
+かわ.り
+か.わり
+-がわ.り
+-が.わり
+か.える
+よ
+し
+";"時代[じだい] (yleisyys: 244.)
+代[だい] (yleisyys: 336.)
+代表[だいひょう] (yleisyys: 695.)
+現代[げんだい] (yleisyys: 1270.)
+代わり[かわり] (yleisyys: 1404.)
+"
+
+化; Komponentit: 亻𠤎;Kanjin merkityksiä englanniksi: change, take the form of, influence, enchant, delude, -ization;"Kanjin lukutapoja: カ
+ケ
+ば.ける
+ば.かす
+ふ.ける
+け.す
+";"化[か] (yleisyys: 133.)
+文化[ぶんか] (yleisyys: 423.)
+変化[へんか] (yleisyys: 464.)
+強化[きょうか] (yleisyys: 1287.)
+化学[かがく] (yleisyys: 1745.)
+"
+
+禾; Komponentit: 禾;Kanjin merkityksiä englanniksi: two-branch tree radical (no. 115);"Kanjin lukutapoja: カ
+い
+";""
+
+私; Komponentit: 禾厶;Kanjin merkityksiä englanniksi: private, I, me;"Kanjin lukutapoja: シ
+わたくし
+わた
+";"私[わたくし] (yleisyys: 54.)
+私[わたし] (yleisyys: 182.)
+私立[しりつ] (yleisyys: 4782.)
+"
+
+赤; Komponentit: 赤;Kanjin merkityksiä englanniksi: red;"Kanjin lukutapoja: セキ
+シャク
+あか
+あか-
+あか.い
+あか.らむ
+あか.らめ
+";"赤い[あかい] (yleisyys: 1555.)
+赤[あか] (yleisyys: 1793.)
+赤ちゃん[あかちゃん] (yleisyys: 2303.)
+赤字[あかじ] (yleisyys: 3097.)
+真っ赤[まっか] (yleisyys: 4807.)
+"
+
+灬; Komponentit: 灬;Kanjin merkityksiä englanniksi: fire, fire radical (no. 86);"Kanjin lukutapoja: ヒョウ
+
+";""
+
+黒; Komponentit: 田土灬;Kanjin merkityksiä englanniksi: black;"Kanjin lukutapoja: コク
+くろ
+くろ.ずむ
+くろ.
+";"黒[くろ] (yleisyys: 1003.)
+黒い[くろい] (yleisyys: 1835.)
+黒人[こくじん] (yleisyys: 4415.)
+"
+
+青; Komponentit: 龶月;Kanjin merkityksiä englanniksi: blue, green;"Kanjin lukutapoja: セイ
+ショウ
+あお
+あお-
+あお.
+";"青年[せいねん] (yleisyys: 2022.)
+青い[あおい] (yleisyys: 2601.)
+青[あお] (yleisyys: 3205.)
+青少年[せいしょうねん] (yleisyys: 3227.)
+"
+
+情; Komponentit: 忄青;Kanjin merkityksiä englanniksi: feelings, emotion, passion, sympathy, circumstances, facts;"Kanjin lukutapoja: ジョウ
+セイ
+なさ.
+";"情報[じょうほう] (yleisyys: 214.)
+表情[ひょうじょう] (yleisyys: 1204.)
+事情[じじょう] (yleisyys: 1277.)
+感情[かんじょう] (yleisyys: 1414.)
+情勢[じょうせい] (yleisyys: 3163.)
+"
+
+幸; Komponentit: 土𢆉;Kanjin merkityksiä englanniksi: happiness, blessing, fortune;"Kanjin lukutapoja: コウ
+さいわ.い
+さち
+しあわ.
+";"幸せ[しあわせ] (yleisyys: 1592.)
+不幸[ふこう] (yleisyys: 3425.)
+幸福[こうふく] (yleisyys: 3553.)
+幸い[さいわい] (yleisyys: 4648.)
+"
+
+報; Komponentit: 幸𠬝;Kanjin merkityksiä englanniksi: report, news, reward, retribution;"Kanjin lukutapoja: ホウ
+むく.い
+";"情報[じょうほう] (yleisyys: 214.)
+報告[ほうこく] (yleisyys: 600.)
+報道[ほうどう] (yleisyys: 2109.)
+広報[こうほう] (yleisyys: 3144.)
+報酬[ほうしゅう] (yleisyys: 3187.)
+"
+
+年; Komponentit: 年;Kanjin merkityksiä englanniksi: year, counter for years;"Kanjin lukutapoja: ネン
+と
+";"年[ねん] (yleisyys: 42.)
+年度[ねんど] (yleisyys: 273.)
+年間[ねんかん] (yleisyys: 564.)
+年金[ねんきん] (yleisyys: 750.)
+今年[ことし] (yleisyys: 845.)
+"
+
+夂; Komponentit: 夂;Kanjin merkityksiä englanniksi: late, delayed, winter radical (no. 34);"Kanjin lukutapoja: チ
+しゅ
+";""
+
+亦; Komponentit: 亦;Kanjin merkityksiä englanniksi: also, again;"Kanjin lukutapoja: エキ
+ヤク
+ま
+";""
+
+変; Komponentit: 亦夂;Kanjin merkityksiä englanniksi: unusual, change, strange;"Kanjin lukutapoja: ヘン
+か.わる
+か.わり
+か.え
+";"変わる[かわる] (yleisyys: 293.)
+変化[へんか] (yleisyys: 464.)
+変える[かえる] (yleisyys: 573.)
+変更[へんこう] (yleisyys: 827.)
+大変[たいへん] (yleisyys: 925.)
+"
+
+表; Komponentit: 龶¥;Kanjin merkityksiä englanniksi: surface, table, chart, diagram;"Kanjin lukutapoja: ヒョウ
+おもて
+-おもて
+あらわ.す
+あらわ.れる
+あら.わ
+";"表[ひょう] (yleisyys: 381.)
+表示[ひょうじ] (yleisyys: 612.)
+代表[だいひょう] (yleisyys: 695.)
+表現[ひょうげん] (yleisyys: 745.)
+発表[はっぴょう] (yleisyys: 948.)
+"
+
+去; Komponentit: 土厶;Kanjin merkityksiä englanniksi: gone, past, quit, leave, elapse, eliminate, divorce;"Kanjin lukutapoja: キョ
+コ
+さ.る
+-さ.
+";"過去[かこ] (yleisyys: 996.)
+去る[さる] (yleisyys: 2370.)
+去年[きょねん] (yleisyys: 2932.)
+除去[じょきょ] (yleisyys: 4592.)
+"
+
+法; Komponentit: 氵去;Kanjin merkityksiä englanniksi: method, law, rule, principle, model, system;"Kanjin lukutapoja: ホウ
+ハッ
+ホッ
+フラン
+の
+";"法[ほう] (yleisyys: 197.)
+方法[ほうほう] (yleisyys: 260.)
+法律[ほうりつ] (yleisyys: 578.)
+法人[ほうじん] (yleisyys: 747.)
+法[ほう] (yleisyys: 1663.)
+"
+
+聿; Komponentit: 聿;Kanjin merkityksiä englanniksi: brush, finally, self, relate, follow, here, fast, writing brush radical (no. 129);"Kanjin lukutapoja: イチ
+イツ
+ふで
+ここ
+";""
+
+書; Komponentit: 聿日;Kanjin merkityksiä englanniksi: write;"Kanjin lukutapoja: ショ
+か.く
+-が.き
+-が
+";"書く[かく] (yleisyys: 199.)
+書[しょ] (yleisyys: 326.)
+図書[としょ] (yleisyys: 1411.)
+文書[ぶんしょ] (yleisyys: 1694.)
+書類[しょるい] (yleisyys: 1981.)
+"
+
+新; Komponentit: 亲斤;Kanjin merkityksiä englanniksi: new;"Kanjin lukutapoja: シン
+あたら.しい
+あら.た
+あら-
+にい
+";"新しい[あたらしい] (yleisyys: 388.)
+新[しん] (yleisyys: 451.)
+新聞[しんぶん] (yleisyys: 664.)
+新た[あらた] (yleisyys: 920.)
+更新[こうしん] (yleisyys: 2114.)
+"
+
+欠; Komponentit: 欠;Kanjin merkityksiä englanniksi: lack, gap, fail, yawning radical (no. 76);"Kanjin lukutapoja: ケツ
+ケン
+か.ける
+か.
+";"不可欠[ふかけつ] (yleisyys: 3573.)
+欠ける[かける] (yleisyys: 4013.)
+欠かす[かかす] (yleisyys: 4172.)
+"
+
+冫; Komponentit: 冫;Kanjin merkityksiä englanniksi: two-stroke water radical or ice radical (no. 15);"Kanjin lukutapoja: ヒョウ
+こお
+";""
+
+次; Komponentit: 冫欠;Kanjin merkityksiä englanniksi: next, order, sequence;"Kanjin lukutapoja: ジ
+シ
+つ.ぐ
+つ
+";"次[つぎ] (yleisyys: 194.)
+次[じ] (yleisyys: 915.)
+次第[しだい] (yleisyys: 1110.)
+次々[つぎつぎ] (yleisyys: 2258.)
+次ぐ[つぐ] (yleisyys: 3187.)
+"
+
+士; Komponentit: 士;Kanjin merkityksiä englanniksi: gentleman, scholar, samurai, samurai radical (no. 33);"Kanjin lukutapoja: シ
+さむら
+";"士[し] (yleisyys: 780.)
+同士[どうし] (yleisyys: 1881.)
+博士[はかせ] (yleisyys: 2510.)
+武士[ぶし] (yleisyys: 3440.)
+兵士[へいし] (yleisyys: 3516.)
+"
+
+吉; Komponentit: 士口;Kanjin merkityksiä englanniksi: good luck, joy, congratulations;"Kanjin lukutapoja: キチ
+キツ
+よ
+";""
+
+糸; Komponentit: 糸;Kanjin merkityksiä englanniksi: thread;"Kanjin lukutapoja: シ
+い
+";"糸[いと] (yleisyys: 3171.)
+"
+
+結; Komponentit: 糸吉;Kanjin merkityksiä englanniksi: tie, bind, contract, join, organize, do up hair, fasten;"Kanjin lukutapoja: ケツ
+ケチ
+むす.ぶ
+ゆ.う
+ゆ.わえ
+";"結果[けっか] (yleisyys: 291.)
+結婚[けっこん] (yleisyys: 544.)
+結局[けっきょく] (yleisyys: 962.)
+結構[けっこう] (yleisyys: 1211.)
+結ぶ[むすぶ] (yleisyys: 1558.)
+"
+
+果; Komponentit: 田木;Kanjin merkityksiä englanniksi: fruit, reward, carry out, achieve, complete, end, finish, succeed;"Kanjin lukutapoja: カ
+は.たす
+はた.す
+-は.たす
+は.てる
+-は.てる
+は.
+";"結果[けっか] (yleisyys: 291.)
+効果[こうか] (yleisyys: 479.)
+果たす[はたす] (yleisyys: 1350.)
+成果[せいか] (yleisyys: 1901.)
+果たして[はたして] (yleisyys: 3276.)
+"
+
+止; Komponentit: 止;Kanjin merkityksiä englanniksi: stop, halt;"Kanjin lukutapoja: シ
+と.まる
+-ど.まり
+と.める
+-と.める
+-ど.め
+とど.める
+とど.め
+とど.まる
+や.める
+や.む
+-や.む
+よ.す
+-さ.す
+-さ.
+";"止める[やめる] (yleisyys: 769.)
+止める[とめる] (yleisyys: 984.)
+防止[ぼうし] (yleisyys: 1089.)
+止まる[とまる] (yleisyys: 1407.)
+禁止[きんし] (yleisyys: 1704.)
+"
+
+正; Komponentit: 一止;Kanjin merkityksiä englanniksi: correct, justice, righteous, 10**40;"Kanjin lukutapoja: セイ
+ショウ
+ただ.しい
+ただ.す
+まさ
+まさ.
+";"改正[かいせい] (yleisyys: 1139.)
+正しい[ただしい] (yleisyys: 1147.)
+正に[まさに] (yleisyys: 1234.)
+正確[せいかく] (yleisyys: 1898.)
+適正[てきせい] (yleisyys: 2546.)
+"
+
+幺; Komponentit: 幺;Kanjin merkityksiä englanniksi: short thread radical (no. 52);"Kanjin lukutapoja: ヨウ
+ちいさ
+";""
+
+後; Komponentit: 彳夂幺;Kanjin merkityksiä englanniksi: behind, back, later;"Kanjin lukutapoja: ゴ
+コウ
+のち
+うし.ろ
+うしろ
+あと
+おく.れ
+";"後[あと] (yleisyys: 141.)
+後[ご] (yleisyys: 274.)
+最後[さいご] (yleisyys: 472.)
+午後[ごご] (yleisyys: 513.)
+今後[こんご] (yleisyys: 637.)
+"
+
+名; Komponentit: 夕口;Kanjin merkityksiä englanniksi: name, noted, distinguished, reputation;"Kanjin lukutapoja: メイ
+ミョウ
+な
+-
+";"名[めい] (yleisyys: 548.)
+名前[なまえ] (yleisyys: 569.)
+名[な] (yleisyys: 953.)
+有名[ゆうめい] (yleisyys: 1275.)
+名称[めいしょう] (yleisyys: 2985.)
+"
+
+皮; Komponentit: 皮;Kanjin merkityksiä englanniksi: pelt, skin, hide, leather, skin radical (no. 107);"Kanjin lukutapoja: ヒ
+か
+";"皮膚[ひふ] (yleisyys: 2539.)
+皮[かわ] (yleisyys: 2603.)
+"
+
+彼; Komponentit: 彳皮;Kanjin merkityksiä englanniksi: he, that, the;"Kanjin lukutapoja: ヒ
+かれ
+かの
+か.
+";"彼[かれ] (yleisyys: 101.)
+彼女[かのじょ] (yleisyys: 217.)
+彼の[あの] (yleisyys: 251.)
+彼れ[あれ] (yleisyys: 760.)
+彼奴[あいつ] (yleisyys: 2887.)
+"
+
+咸; Komponentit: 口戊一;Kanjin merkityksiä englanniksi: all, same;"Kanjin lukutapoja: カン
+ゲ
+";""
+
+感; Komponentit: 咸心;Kanjin merkityksiä englanniksi: emotion, feeling, sensation;"Kanjin lukutapoja: カ
+";"感ずる[かんずる] (yleisyys: 302.)
+感じ[かんじ] (yleisyys: 440.)
+感[かん] (yleisyys: 495.)
+感覚[かんかく] (yleisyys: 1376.)
+感情[かんじょう] (yleisyys: 1414.)
+"
+
+無; Komponentit: ¦灬;Kanjin merkityksiä englanniksi: nothingness, none, ain't, nothing, nil, not;"Kanjin lukutapoja: ム
+ブ
+な.
+";"無い[ない] (yleisyys: 24.)
+無[む] (yleisyys: 621.)
+無し[なし] (yleisyys: 811.)
+無理[むり] (yleisyys: 927.)
+無くなる[なくなる] (yleisyys: 943.)
+"
+
+近; Komponentit: 辶斤;Kanjin merkityksiä englanniksi: near, early, akin, tantamount;"Kanjin lukutapoja: キン
+コン
+ちか.
+";"最近[さいきん] (yleisyys: 405.)
+近く[ちかく] (yleisyys: 703.)
+近い[ちかい] (yleisyys: 834.)
+近付く[ちかづく] (yleisyys: 1345.)
+近代[きんだい] (yleisyys: 1671.)
+"
+
+内; Komponentit: 内;Kanjin merkityksiä englanniksi: inside, within, between, among, house, home;"Kanjin lukutapoja: ナイ
+ダイ
+う
+";"内[うち] (yleisyys: 181.)
+内[ない] (yleisyys: 298.)
+内容[ないよう] (yleisyys: 324.)
+国内[こくない] (yleisyys: 1101.)
+内部[ないぶ] (yleisyys: 1601.)
+"
+
+刂; Komponentit: 刂;Kanjin merkityksiä englanniksi: knife, standing sword radical (no. 18);"Kanjin lukutapoja: ト
+";""
+
+䒑; Komponentit: 䒑;Kanjin merkityksiä englanniksi: grass, straw, herbs, weeds;"Kanjin lukutapoja
+";""
+
+前; Komponentit: 䒑月刂;Kanjin merkityksiä englanniksi: in front, before;"Kanjin lukutapoja: ゼン
+まえ
+-ま
+";"前[まえ] (yleisyys: 111.)
+名前[なまえ] (yleisyys: 569.)
+御前[おまえ] (yleisyys: 653.)
+午前[ごぜん] (yleisyys: 689.)
+以前[いぜん] (yleisyys: 716.)
+"
+
+相; Komponentit: 木目;Kanjin merkityksiä englanniksi: inter-, mutual, together, each other, minister of state, councillor, aspect, phase, physiognomy;"Kanjin lukutapoja: ソウ
+ショウ
+あい
+";"相手[あいて] (yleisyys: 299.)
+相談[そうだん] (yleisyys: 498.)
+相[あい] (yleisyys: 1456.)
+相互[そうご] (yleisyys: 1706.)
+相当[そうとう] (yleisyys: 1771.)
+"
+
+能; Komponentit: 厶月匕;Kanjin merkityksiä englanniksi: ability, talent, skill, capacity;"Kanjin lukutapoja: ノウ
+よ.
+";"可能[かのう] (yleisyys: 237.)
+機能[きのう] (yleisyys: 482.)
+能力[のうりょく] (yleisyys: 752.)
+性能[せいのう] (yleisyys: 2819.)
+芸能[げいのう] (yleisyys: 3216.)
+"
+
+枼; Komponentit: 世木;Kanjin merkityksiä englanniksi: table, flat pieces of wood, slip, leaf;"Kanjin lukutapoja: ヨウ
+うすいきふだ
+ま
+";""
+
+艹; Komponentit: 艹;Kanjin merkityksiä englanniksi: grass, radical number 140;"Kanjin lukutapoja
+";""
+
+葉; Komponentit: 艹枼;Kanjin merkityksiä englanniksi: leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece;"Kanjin lukutapoja: ヨウ
+
+";"言葉[ことば] (yleisyys: 222.)
+葉[は] (yleisyys: 1895.)
+葉書[はがき] (yleisyys: 2903.)
+"
+
+吏; Komponentit: 吏;Kanjin merkityksiä englanniksi: officer, an official;"Kanjin lukutapoja: 
+";""
+
+使; Komponentit: 亻吏;Kanjin merkityksiä englanniksi: use, send on a mission, order, messenger, envoy, ambassador, cause;"Kanjin lukutapoja: シ
+つか.う
+つか.い
+-つか.い
+-づか.
+";"使う[つかう] (yleisyys: 130.)
+使用[しよう] (yleisyys: 342.)
+行使[こうし] (yleisyys: 3315.)
+大使[たいし] (yleisyys: 3751.)
+使い[つかい] (yleisyys: 4249.)
+"
+
+車; Komponentit: 車;Kanjin merkityksiä englanniksi: car;"Kanjin lukutapoja: シャ
+くる
+";"車[しゃ] (yleisyys: 333.)
+車[くるま] (yleisyys: 402.)
+電車[でんしゃ] (yleisyys: 1978.)
+駐車[ちゅうしゃ] (yleisyys: 2013.)
+車両[しゃりょう] (yleisyys: 2377.)
+"
+
+特; Komponentit: 牛寺;Kanjin merkityksiä englanniksi: special;"Kanjin lukutapoja: ト
+";"特に[とくに] (yleisyys: 321.)
+特別[とくべつ] (yleisyys: 595.)
+特定[とくてい] (yleisyys: 857.)
+特徴[とくちょう] (yleisyys: 1070.)
+特殊[とくしゅ] (yleisyys: 1881.)
+"
+
+別; Komponentit: 𠮠刂;Kanjin merkityksiä englanniksi: separate, branch off, diverge, fork, another, extra, specially;"Kanjin lukutapoja: ベツ
+わか.れる
+わ.け
+";"別[べつ] (yleisyys: 263.)
+特別[とくべつ] (yleisyys: 595.)
+差別[さべつ] (yleisyys: 2406.)
+別れる[わかれる] (yleisyys: 2477.)
+個別[こべつ] (yleisyys: 2567.)
+"
+
+勹; Komponentit: 勹;Kanjin merkityksiä englanniksi: wrapping enclosure, wrapping radical (no. 20);"Kanjin lukutapoja: ホウ
+つつ.
+";""
+
+勺; Komponentit: 勹丶;Kanjin merkityksiä englanniksi: ladle, one tenth of a go, dip;"Kanjin lukutapoja: シャ
+";""
+
+丿; Komponentit: 丿;Kanjin merkityksiä englanniksi: katakana no radical (no. 4);"Kanjin lukutapoja: ヘツ
+えい
+よ
+";""
+
+白; Komponentit: 丿日;Kanjin merkityksiä englanniksi: white;"Kanjin lukutapoja: ハク
+ビャク
+しろ
+しら-
+しろ.
+";"面白い[おもしろい] (yleisyys: 785.)
+白い[しろい] (yleisyys: 1045.)
+白[しろ] (yleisyys: 1053.)
+蛋白[たんぱく] (yleisyys: 2811.)
+告白[こくはく] (yleisyys: 4025.)
+"
+
+的; Komponentit: 白勺;Kanjin merkityksiä englanniksi: bull's eye, mark, target, object, adjective ending;"Kanjin lukutapoja: テキ
+ま
+";"的[てき] (yleisyys: 37.)
+目的[もくてき] (yleisyys: 433.)
+公的[こうてき] (yleisyys: 2947.)
+知的[ちてき] (yleisyys: 3094.)
+法的[ほうてき] (yleisyys: 3566.)
+"
+
