@@ -1,0 +1,12 @@
+@font-face {
+font-family: "TakaoMinchoEd";
+src: url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.woff");
+src: url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.woff") format("woff"),
+url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.ttf") format("truetype")
+}
+
+.jpn { 
+font-family: TakaoMinchoEd; "Meiryo";
+color: blue;
+
+}
