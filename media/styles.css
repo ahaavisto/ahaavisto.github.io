@@ -1,8 +1,8 @@
 @font-face {
 font-family: "TakaoMinchoEd";
-src: url("https://ahaavisto.github.io/media/TakaoExMinchoEdited.woff");
-src: url("https://ahaavisto.github.io/media/TakaoExMinchoEdited.woff") format("woff"),
-url("https://ahaavisto.github.io/media/TakaoExMinchoEdited.ttf") format("truetype");
+src: url("media/TakaoExMinchoEdited.woff");
+src: url("media/TakaoExMinchoEdited.woff") format("woff"),
+url("media/TakaoExMinchoEdited.ttf") format("truetype");
 }
 
 .jpn { 
