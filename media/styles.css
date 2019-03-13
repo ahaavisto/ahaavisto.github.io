@@ -2,7 +2,7 @@
 font-family: "TakaoMinchoEd";
 src: url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.woff");
 src: url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.woff") format("woff"),
-url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.ttf") format("truetype")
+url("http://ahaavisto.github.io/media/TakaoExMinchoEdited.ttf") format("truetype");
 }
 
 .jpn { 
