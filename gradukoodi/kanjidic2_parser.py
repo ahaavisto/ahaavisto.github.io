@@ -84,7 +84,7 @@ def valkkaa_sanastoa(kanji):
 	for sana in lista_sanoja:
 		ret += sana[0] + "[" + sana[1] + "] (" + 'yleisyys: ' + str(sana[2]) + ".)\n"
 		#kanjisana ja hakasulkuihin sen ääntämys, koska ankin furiganakomento. Perään frekvenssi.
-		#ret += etsi_esimerkkilauseet(sana[0]) + '\n'
+		ret += etsi_esimerkkilauseet(sana[0]) + '\n'
 		i += 1
 		if i > 4: #lisätään max viisi yleisintä
 			break
