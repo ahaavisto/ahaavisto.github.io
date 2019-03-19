@@ -248,6 +248,7 @@ KANJI_DIV = '<div class="panel panel-info">\n'
 COMPONENT_DIV = '<div class="panel panel-warning">\n'
 HEADER_DIV = '<div class="panel-heading"><h1>\n'
 BODY_DIV = '<div class="panel-body">\n'
+FONT_DIV = '<div class="jpn">'
 DIV_CLOSE = '</div>\n'
 HTML_LOPPU = '</body>\n</html>'
 
@@ -262,8 +263,8 @@ def luo_html():
 						lista += KANJI_DIV 
 					else:
 						lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
-					lista += HEADER_DIV + kanji + '</h1>' + DIV_CLOSE
-					lista += BODY_DIV + etsi_komponentit(kanji) + '\n'
+					lista += HEADER_DIV + FONT_DIV + kanji + '</h1>' + DIV_CLOSE + DIV_CLOSE
+					lista += BODY_DIV + FONT_DIV + etsi_komponentit(kanji) + DIV_CLOSE
 					lista += str(i) + '. merkki\n'
 					#lista += vetojarjestys(kanji)
 					lista += add_enkku(entry).replace('"', '') + '\n'
@@ -286,9 +287,9 @@ pääohjelma alkaa
 
 #katakana_hiraganaksi()
 
-luo_anki()
+#luo_anki()
 
-#luo_html()
+luo_html()
 
 #tulosta_vain_jooyoo()
 
