@@ -1,5 +1,9 @@
+#-*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
 import pylab
+
+plt.rc('axes', labelsize=20)
+plt.rc('legend', fontsize=20)
 
 minne_asti = 250
 
@@ -25,7 +29,7 @@ with open ('tuloksia/pelkka_algon_tulos_BCCWJ.txt', 'r') as f:
 			break
 
 #jos mukana vain jooyoo-kanjit
-
+'''
 algo = []
 with open ('tuloksia/algon_jooyoo_kanjit.txt', 'r') as f:
 	i = 0
@@ -34,7 +38,7 @@ with open ('tuloksia/algon_jooyoo_kanjit.txt', 'r') as f:
 		i += 1
 		if i >= minne_asti:
 			break
-
+'''
 
 bkb = []
 with open ('bkb1.txt', 'r') as f:
@@ -46,8 +50,8 @@ with open ('bkb1.txt', 'r') as f:
 			break
 			
 muok = []
-#with open ('tuloksia/muokattu_opiskelujarjestys.txt', 'r') as f: #komponentit
-with open ('muok_listan_jooyoo_kanjit.txt', 'r') as f: #vain jooyoo
+with open ('tuloksia/muokattu_opiskelujarjestys.txt', 'r') as f: #komponentit
+#with open ('muok_listan_jooyoo_kanjit.txt', 'r') as f: #vain jooyoo
 	i = 0
 	for merkki in f:
 		muok.append(merkki[:-1])
@@ -109,7 +113,7 @@ plt.plot(kyoiku_tulos, color='orange', label='Kyooiku')
 plt.plot(bkb_tulos, color='red', label='BKB 1')
 plt.plot(heisig_tulos, color='green', label='Heisig')
 
-plt.ylabel('Opiskeltujen merkkien osuus korpuksen yleisimmista merkeista')
+plt.ylabel('Opiskeltujen merkkien osuus yleisimmista merkeista')
 plt.xlabel('Opiskeltujen merkkien maara')
 pylab.legend(loc='upper left')
 plt.axis([1, minne_asti, 1, minne_asti])
