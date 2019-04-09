@@ -8,6 +8,7 @@ sanakirja = {}
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ.txt'
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ_alku.txt'
 SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
+TSV_FILE = 'kirja/kirjan_taulukko.tsv'
 
 def lisää_vetomaarat():
 	with open ('ids_jooyoo+_chine.txt', 'r') as f:
@@ -47,6 +48,16 @@ def add_enkku(entry):
 	return juttu
 	
 def add_lukutavat(entry):
+	lukutavat = []
+	try:
+		yomit = entry.find('reading_meaning').find('rmgroup').findall('reading')
+		for yomi in yomit:
+			if yomi.attrib['r_type'] == 'ja_kun' or yomi.attrib['r_type'] == 'ja_on':
+				lukutavat.append(yomi.text)
+	except AttributeError:
+		lukutavat.append("Ei tunnettuja ääntämyksiä;")
+	return lukutavat
+	'''
 	juttu = ""
 	try:
 		yomit = entry.find('reading_meaning').find('rmgroup').findall('reading')
@@ -58,7 +69,7 @@ def add_lukutavat(entry):
 		juttu += '\n";'
 	except AttributeError:
 		juttu += "Ei tunnettuja ääntämyksiä;"
-	return juttu
+	return juttu'''
 
 	
 sanasto = []
@@ -70,9 +81,9 @@ hiragana = "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざ�
 katakana = "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヽヾ"
 hiraganaksi = str.maketrans(katakana, hiragana)
 
-def valkkaa_sanastoa(kanji):
+def valkkaa_sanastoa(kanji, tuleeko_lauseita):
 	'''kaivaa viisi yleisintä sanaa, joissa kys. kanji esiintyy''' #TODO pois tuplat kun samalla sanalla useampi POS = useampi entry?
-	ret = '"'
+	ret = []
 	setti = ("Ei tunnettuja yleisiä sanoja","","0")
 	lista_sanoja = list()
 	for rivi in sanasto:
@@ -82,13 +93,13 @@ def valkkaa_sanastoa(kanji):
 	lista_sanoja = sorted(lista_sanoja, key=lambda setti: setti[2]) #yleisyysjärkkään yhdyssanat
 	i = 0
 	for sana in lista_sanoja:
-		ret += sana[0] + "[" + sana[1] + "] (" + 'yleisyys: ' + str(sana[2]) + ".)\n"
+		ret.append(sana[0] + "[" + sana[1] + "] (" + 'yleisyys: ' + str(sana[2]) + ".)")
 		#kanjisana ja hakasulkuihin sen ääntämys, koska ankin furiganakomento. Perään frekvenssi.
-		ret += etsi_esimerkkilauseet(sana[0]) + '\n'
+		if tuleeko_lauseita: ret.append(etsi_esimerkkilauseet(sana[0]) + '\n')
 		i += 1
 		if i > 4: #lisätään max viisi yleisintä
 			break
-	return ret + '"'
+	return ret
 	
 '''Tatoeba-tietokannasta ekat lauseet, joissa kanjisana esiintyy'''
 def etsi_esimerkkilauseet(sana):
@@ -121,7 +132,7 @@ with open ('ids_jooyoo+_chine_muokattu.txt', 'r') as f:
 '''Lisää lista merkin komponenteista'''
 def etsi_komponentit(merkki):
 	if merkki in komp_sanakirja:
-		return " Komponentit: " + komp_sanakirja[merkki] + ";"
+		return komp_sanakirja[merkki]
 	else:
 		return "Ei tunnettuja komponentteja, jossain on siis bugi;"
 
@@ -134,10 +145,10 @@ def luo_anki():
 		for entry in juuri.findall('character'):		
 			if kanji == entry.find('literal').text:
 				lista += kanji + ";"
-				lista += etsi_komponentit(kanji)
+				lista += "Komponentit: " + etsi_komponentit(kanji) + ";"
 				lista += add_enkku(entry)
-				lista += add_lukutavat(entry)
-				lista += valkkaa_sanastoa(kanji)
+				lista += '\n'.join(add_lukutavat(entry))
+				lista += '"' + ', '.join(valkkaa_sanastoa(kanji, False)) + '"\n'
 				lista += "\n\n"
 		anki[kanji] = lista
 	print_anki(anki)
@@ -264,13 +275,13 @@ def luo_html():
 					else:
 						lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
 					lista += HEADER_DIV + FONT_DIV + kanji + '</h1>' + DIV_CLOSE + DIV_CLOSE
-					lista += BODY_DIV + FONT_DIV + etsi_komponentit(kanji) + DIV_CLOSE
+					lista += BODY_DIV + FONT_DIV + "Komponentit:" + etsi_komponentit(kanji) + DIV_CLOSE
 					lista += str(i) + '. merkki\n'
 					#lista += vetojarjestys(kanji)
 					lista += add_enkku(entry).replace('"', '') + '\n'
-					lista += add_lukutavat(entry).replace('"', '') + '\n'
+					lista += ','.join(add_lukutavat(entry)) + '\n'
 					if onko_jooyoo(entry):
-					    lista += valkkaa_sanastoa(kanji)
+					    lista += '\n'.join(valkkaa_sanastoa(kanji, True))
 					lista += DIV_CLOSE + DIV_CLOSE
 					lista = lista.replace(';', '')
 					#lista = lista.replace('\n', '\n<br>')
@@ -279,9 +290,42 @@ def luo_html():
 			i += 1
 	print(HTML_ALKU, html, HTML_LOPPU)
 
+taul = []	
+	
+def lue_tsv():
+	i = 0
+	with open (TSV_FILE, 'r') as f:
+		for rivi in f:
+			taul.append(rivi.split('\t'))
+			i += 1
+	
+'''kirjan tsv-muotoa varten täytetään taulukko kanjidic-tietokannalla'''		
+def luo_kentat():
+	for entry in juuri.findall('character'):		
+		for rivi in taul:
+			kanji = rivi[0]
+			if kanji == entry.find('literal').text:
+				rivi[3] = etsi_komponentit(kanji)
+				if rivi[6] == '': rivi[6] = add_enkku(entry) #lisätään enkku vain, jos ei ollut ennestään jotain
+				rivi[4] = ','.join(add_lukutavat(entry))
+				rivi[7] = ','.join(valkkaa_sanastoa(kanji, False))
+
+def tee_tsv():
+	luo_kentat()
+	with open ('kirja/tuloste.tsv', 'w') as f:
+		for rivi in taul:
+			for juttu in rivi:
+				if juttu is not '\n':
+					f.write(juttu + '\t')
+			f.write('\n')
+
 '''
 pääohjelma alkaa
 '''
+
+lue_tsv()
+
+tee_tsv()
 
 #tulosta_fancysti()
 
@@ -289,7 +333,7 @@ pääohjelma alkaa
 
 #luo_anki()
 
-luo_html()
+#luo_html()
 
 #tulosta_vain_jooyoo()
 
