@@ -1,50 +1,106 @@
-kanži	osion nro	target/joyo/komponentti	komponentit	kaikki lukutavat	kirjan lukutavat	suomennos	korpuksesta esimerkkisanat	esim1	esim 1 suomeksi	esim 2	esim 2 suomeksi	esim 3	esim 3 suomeksi	muu esim	muu esim suomeksi	esimerkkilauseet korpuksesta	kirjan esimerkkilauseet	kirjan lauseet suomeksi	tehtävä 1	tehtävä 1 vastaus	tehtävä 2	tehtävä 2 vastaus																						
-間	3	target	門日	kan, ken, aida, ma, a	kan, aida	tila; väli	時間[じかん].人間[にんげん],間[あいだ],期間[きかん],年間[ねんかん]	時間[じかん]	ajanjakso	間[あいだ]	tila; väli					tähän paljon valinnanvaraa esimerkkilauseiksi	１０年といえば相当な時間[じかん]だ。, 父は映画の間[あいだ]眠り通しだった。	Kymmenen vuotta on huomattava aika. , Isäni nukkui koko elokuvan ajan.	１０年といえば相当な()だ。,	時間[じかん]	父は映画の(間)眠り通しだった。	[あいだ]
-一	1		一	ひと（つ）、ついたち、イチ、イッ	ひと（つ）、イチ	yksi													コーヒーを（）ください。	一[ひとつ]		
-二	1																					
-三	1																					
-四	1																					
-五	1																					
-六	1																					
-七	1																					
-八	1																					
-九	1																					
-十	1																					
-年	1																					
-生	1																					
-人	1																					
-日	1																					
-本	1																					
-大	1																					
-小	1																					
-中	1																					
-分	1																					
-月	1																					
-何	2																					
-古	2																					
-新	2																					
-明	2																					
-音	2																					
-暗	2																					
-楽	2																					
-好	2																					
-女	2																					
-子	2																					
-男	2																					
-口	2																					
-目	2																					
-手	2																					
-上	2																					
-下	2																					
-白	2																					
-黒	2																					
-色	2																					
-百	2																					
-千	2																					
-万	2																					
-円	2																					
-魚	2																					
-肉	2																					
-牛	2																					
-出	2																					
-入	2																					
+kanži	osion nro	target/joyo/komponentti	komponentit	kaikki lukutavat	kirjan lukutavat	suomennos	korpuksesta esimerkkisanat	esim1	esim 1 suomeksi	esim 2	esim 2 suomeksi	esim 3	esim 3 suomeksi	muu esim	muu esim suomeksi	esimerkkilauseet korpuksesta	kirjan esimerkkilauseet	kirjan lauseet suomeksi	tehtävä 1	tehtävä 1 vastaus	tehtävä 2	tehtävä 2 vastaus																
+一	1	target	一	イチ,イツ,ひと-,ひと.つ	ひと（つ）、イチ	yksi	一[いち] (yleisyys: 23.),一[ひと] (yleisyys: 146.),一人[ひとり] (yleisyys: 234.),一寸[ちょっと] (yleisyys: 287.),一般[いっぱん] (yleisyys: 338.)												コーヒーを（）ください。	一[ひとつ]		
+二	1	target	二	ニ,ジ,ふた,ふた.つ,ふたたび		kaksi	二[に] (yleisyys: 28.),二十[にじゅう] (yleisyys: 66.),二千[にせん] (yleisyys: 193.),二百[にひゃく] (yleisyys: 239.),二人[ふたり] (yleisyys: 252.)															
+三	1	target	三	サン,ゾウ,み,み.つ,みっ.つ		kolme	三[さん] (yleisyys: 32.),三十[さんじゅう] (yleisyys: 89.),三百[さんびゃく] (yleisyys: 368.),三[み] (yleisyys: 586.),三千[さんぜん] (yleisyys: 675.)															
+四	1	target	四	シ,よ,よ.つ,よっ.つ,よん		neljä	四[よん] (yleisyys: 49.),四十[よんじゅう] (yleisyys: 136.),四百[よんひゃく] (yleisyys: 499.),四[し] (yleisyys: 673.),四千[よんせん] (yleisyys: 1136.)															
+五	1	target	五	ゴ,いつ,いつ.つ		viisi	五[ご] (yleisyys: 44.),五十[ごじゅう] (yleisyys: 109.),五百[ごひゃく] (yleisyys: 341.),五千[ごせん] (yleisyys: 799.),五[いつ] (yleisyys: 1450.)															
+六	1	target	亠八	ロク,リク,む,む.つ,むっ.つ,むい		kuusi	六[ろく] (yleisyys: 65.),六十[ろくじゅう] (yleisyys: 161.),六百[ろっぴゃく] (yleisyys: 568.),六千[ろくせん] (yleisyys: 1309.),六[む] (yleisyys: 2141.)															
+七	1	target	七	シチ,なな,なな.つ,なの		seitsemän	七[なな] (yleisyys: 75.),七十[ななじゅう] (yleisyys: 184.),七[しち] (yleisyys: 518.),七百[ななひゃく] (yleisyys: 579.),七千[ななせん] (yleisyys: 1593.)															
+八	1	target	八	ハチ,や,や.つ,やっ.つ,よう		kahdeksan	八[はち] (yleisyys: 70.),八十[はちじゅう] (yleisyys: 170.),八百[はっぴゃく] (yleisyys: 349.),八千[はっせん] (yleisyys: 1507.),八[や] (yleisyys: 2228.)															
+九	1	target	九	キュウ,ク,ここの,ここの.つ		yhdeksän	九[きゅう] (yleisyys: 76.),九百[きゅうひゃく] (yleisyys: 119.),九十[きゅうじゅう] (yleisyys: 163.),九千[きゅうせん] (yleisyys: 1610.),九[ここの] (yleisyys: 2578.)															
+十	1	target	十	ジュウ,ジッ,ジュッ,とお,と		kymmenen	十[じゅう] (yleisyys: 33.),二十[にじゅう] (yleisyys: 66.),三十[さんじゅう] (yleisyys: 89.),五十[ごじゅう] (yleisyys: 109.),四十[よんじゅう] (yleisyys: 136.)															
+年	1	target	年	ネン,とし		vuosi	年[ねん] (yleisyys: 42.),年度[ねんど] (yleisyys: 273.),年間[ねんかん] (yleisyys: 564.),年金[ねんきん] (yleisyys: 750.),今年[ことし] (yleisyys: 845.)															
+生	1	target	生	セイ,ショウ,い.きる,い.かす,い.ける,う.まれる,うま.れる,う.まれ,うまれ,う.む,お.う,は.える,は.やす,き,なま,なま-,な.る,な.す,む.す,-う		Kanjin merkityksiä englanniksi: life, genuine, birth;	生活[せいかつ] (yleisyys: 196.),先生[せんせい] (yleisyys: 320.),生[せい] (yleisyys: 330.),生きる[いきる] (yleisyys: 421.),生産[せいさん] (yleisyys: 465.)															
+人	1	target	人	ジン,ニン,ひと,-り,-と		ihminen	人[ひと] (yleisyys: 67.),人[にん] (yleisyys: 132.),人[じん] (yleisyys: 138.),人間[にんげん] (yleisyys: 192.),一人[ひとり] (yleisyys: 234.)															
+日	1	target	日	ニチ,ジツ,ひ,-び,-か		Kanjin merkityksiä englanniksi: day, sun, Japan, counter for days;	日本[にっぽん] (yleisyys: 78.),日[にち] (yleisyys: 106.),日[ひ] (yleisyys: 150.),日[か] (yleisyys: 169.),今日[きょう] (yleisyys: 247.)															
+本	1	target	木一	ホン,もと		Kanjin merkityksiä englanniksi: book, present, main, origin, true, real, counter for long cylindrical things;	日本[にっぽん] (yleisyys: 78.),本当[ほんとう] (yleisyys: 248.),基本[きほん] (yleisyys: 367.),本[ほん] (yleisyys: 538.),本[ほん] (yleisyys: 539.)															
+大	1	target	大	ダイ,タイ,おお-,おお.きい,-おお.いに		suuri	大[だい] (yleisyys: 213.),大きい[おおきい] (yleisyys: 233.),大きな[おおきな] (yleisyys: 282.),大学[だいがく] (yleisyys: 318.),大臣[だいじん] (yleisyys: 534.)															
+小	1	target	小	ショウ,ちい.さい,こ-,お-,さ-		pieni	小[しょう] (yleisyys: 399.),小さい[ちいさい] (yleisyys: 714.),小さな[ちいさな] (yleisyys: 726.),小説[しょうせつ] (yleisyys: 1433.),小学[しょうがく] (yleisyys: 1839.)															
+中	1	target	中	チュウ,なか,うち,あた.る		Kanjin merkityksiä englanniksi: in, inside, middle, mean, center;	中[なか] (yleisyys: 82.),中[ちゅう] (yleisyys: 208.),中国[ちゅうごく] (yleisyys: 390.),中心[ちゅうしん] (yleisyys: 413.),中[ちゅう] (yleisyys: 729.)															
+分	1	target	八刀	ブン,フン,ブ,わ.ける,わ.け,わ.かれる,わ.かる,わ.かつ		Kanjin merkityksiä englanniksi: part, minute of time, segment, share, degree, one's lot, duty, understand, know, rate, 1%, chances, shaku/100;	自分[じぶん] (yleisyys: 87.),分かる[わかる] (yleisyys: 105.),分[ふん] (yleisyys: 238.),部分[ぶぶん] (yleisyys: 344.),分[ぶん] (yleisyys: 476.)															
+月	1	target	月	ゲツ,ガツ,つき		kuu; kuukausi	月[がつ] (yleisyys: 69.),箇月[かげつ] (yleisyys: 488.),月[つき] (yleisyys: 1101.),正月[しょうがつ] (yleisyys: 3161.),毎月[まいつき] (yleisyys: 3327.)															
+何	2	target	亻可	カ,なに,なん,なに-,なん-		mikä?	何[なに] (yleisyys: 62.),何時[いつ] (yleisyys: 202.),何処[どこ] (yleisyys: 240.),何[なん] (yleisyys: 277.),何の[どの] (yleisyys: 323.)															
+古	2	target	十口	コ,ふる.い,ふる-,-ふる.す		vanha	古い[ふるい] (yleisyys: 1190.),古代[こだい] (yleisyys: 2464.),古典[こてん] (yleisyys: 4049.),稽古[けいこ] (yleisyys: 4502.),古墳[こふん] (yleisyys: 4728.)															
+新	2	target	亲斤	シン,あたら.しい,あら.た,あら-,にい-		uusi	新しい[あたらしい] (yleisyys: 388.),新[しん] (yleisyys: 451.),新聞[しんぶん] (yleisyys: 664.),新た[あらた] (yleisyys: 920.),更新[こうしん] (yleisyys: 2114.)															
+明	2	target	日月	メイ,ミョウ,ミン,あ.かり,あか.るい,あか.るむ,あか.らむ,あき.らか,あ.ける,-あ.け,あ.く,あ.くる,あ.かす		Kanjin merkityksiä englanniksi: bright, light;	説明[せつめい] (yleisyys: 374.),明らか[あきらか] (yleisyys: 732.),明日[あす] (yleisyys: 910.),明治[めいじ] (yleisyys: 1038.),明るい[あかるい] (yleisyys: 1374.)															
+音	2	target	音	オン,イン,-ノン,おと,ね		ääni	音[おと] (yleisyys: 572.),音楽[おんがく] (yleisyys: 849.),音[おん] (yleisyys: 3470.),音声[おんせい] (yleisyys: 4341.),録音[ろくおん] (yleisyys: 4373.)															
+暗	2	target	日音	アン,くら.い,くら.む,くれ.る		Kanjin merkityksiä englanniksi: darkness, disappear, shade, informal, grow dark, be blinded;	暗い[くらい] (yleisyys: 1796.)															
+楽	2	target	&CDP-89AE;白木	ガク,ラク,ゴウ,たの.しい,たの.しむ,この.む		Kanjin merkityksiä englanniksi: music, comfort, ease;	楽しい[たのしい] (yleisyys: 746.),楽しむ[たのしむ] (yleisyys: 792.),音楽[おんがく] (yleisyys: 849.),楽しみ[たのしみ] (yleisyys: 1760.),楽[らく] (yleisyys: 1928.)															
+好	2	target	女子	コウ,この.む,す.く,よ.い,い.い		Kanjin merkityksiä englanniksi: fond, pleasing, like something;	好き[すき] (yleisyys: 353.),格好[かっこう] (yleisyys: 1527.),大好き[だいすき] (yleisyys: 2015.),好み[このみ] (yleisyys: 2579.),好む[このむ] (yleisyys: 3349.)															
+女	2	target	女	ジョ,ニョ,ニョウ,おんな,め		nainen	彼女[かのじょ] (yleisyys: 217.),女性[じょせい] (yleisyys: 264.),女[おんな] (yleisyys: 307.),女子[じょし] (yleisyys: 1442.),女の子[おんなのこ] (yleisyys: 1465.)															
+子	2	target	子	シ,ス,ツ,こ,-こ,ね		lapsi	子供[こども] (yleisyys: 149.),子[こ] (yleisyys: 289.),様子[ようす] (yleisyys: 846.),息子[むすこ] (yleisyys: 1113.),原子[げんし] (yleisyys: 1294.)															
+男	2	target	田力	ダン,ナン,おとこ,お		mies	男[おとこ] (yleisyys: 209.),男性[だんせい] (yleisyys: 708.),男女[だんじょ] (yleisyys: 1691.),男子[だんし] (yleisyys: 2273.),男の子[おとこのこ] (yleisyys: 2645.)															
+口	2	target	口	コウ,ク,くち		suuri	口[くち] (yleisyys: 403.),人口[じんこう] (yleisyys: 1071.),入り口[いりぐち] (yleisyys: 2372.),窓口[まどぐち] (yleisyys: 2671.),口調[くちょう] (yleisyys: 2812.)															
+目	2	target	目	モク,ボク,め,-め,ま-		silmä	目[め] (yleisyys: 162.),目[め] (yleisyys: 300.),目的[もくてき] (yleisyys: 433.),駄目[だめ] (yleisyys: 741.),目標[もくひょう] (yleisyys: 989.)															
+手	2	target	手	シュ,ズ,て,て-,-て,た-		käsi	手[て] (yleisyys: 177.),相手[あいて] (yleisyys: 299.),選手[せんしゅ] (yleisyys: 800.),手続き[てつづき] (yleisyys: 1119.),手紙[てがみ] (yleisyys: 1336.)															
+上	2	target	上	ジョウ,ショウ,シャン,うえ,-うえ,うわ-,かみ,あ.げる,-あ.げる,あ.がる,-あ.がる,あ.がり,-あ.がり,のぼ.る,のぼ.り,のぼ.せる,のぼ.す,たてまつ.る		yllä, ylös	上[うえ] (yleisyys: 167.),以上[いじょう] (yleisyys: 178.),上げる[あげる] (yleisyys: 229.),上[じょう] (yleisyys: 308.),上がる[あがる] (yleisyys: 838.)															
+下	2	target	下	カ,ゲ,した,しも,もと,さ.げる,さ.がる,くだ.る,くだ.り,くだ.す,-くだ.す,くだ.さる,お.ろす,お.りる		alla, alas	下さる[くださる] (yleisyys: 125.),下[した] (yleisyys: 469.),以下[いか] (yleisyys: 485.),下[もと] (yleisyys: 855.),下りる[おりる] (yleisyys: 1343.)															
+白	2	target	丿日	ハク,ビャク,しろ,しら-,しろ.い		valkoinen	面白い[おもしろい] (yleisyys: 785.),白い[しろい] (yleisyys: 1045.),白[しろ] (yleisyys: 1053.),蛋白[たんぱく] (yleisyys: 2811.),告白[こくはく] (yleisyys: 4025.)															
+黒	2	target	田土灬	コク,くろ,くろ.ずむ,くろ.い		musta	黒[くろ] (yleisyys: 1003.),黒い[くろい] (yleisyys: 1835.),黒人[こくじん] (yleisyys: 4415.)															
+色	2	target	色	ショク,シキ,いろ		väri	色[いろ] (yleisyys: 558.),色々[いろいろ] (yleisyys: 707.),色々[いろいろ] (yleisyys: 921.),色んな[いろんな] (yleisyys: 1542.),色[しょく] (yleisyys: 2658.)															
+百	2	target	一白	ヒャク,ビャク,もも		sata	九百[きゅうひゃく] (yleisyys: 119.),百[ひゃく] (yleisyys: 124.),二百[にひゃく] (yleisyys: 239.),五百[ごひゃく] (yleisyys: 341.),八百[はっぴゃく] (yleisyys: 349.)															
+千	2	target	千	セン,ち	セン,ち	tuhat	千[せん] (yleisyys: 86.),二千[にせん] (yleisyys: 193.),三千[さんぜん] (yleisyys: 675.),五千[ごせん] (yleisyys: 799.),四千[よんせん] (yleisyys: 1136.)															
+万	2	target	万	マン,バン,よろず	マン	10 000	万[まん] (yleisyys: 117.)															
+円	2	target	円	エン,まる.い,まる,まど,まど.か,まろ.やか		Kanjin merkityksiä englanniksi: circle, yen, round;	円[えん] (yleisyys: 116.),円[えん] (yleisyys: 2823.),円滑[えんかつ] (yleisyys: 3738.)															
+魚	2	target	魚	ギョ,うお,さかな,-ざかな		kala	魚[さかな] (yleisyys: 1575.)															
+肉	2	target	肉	ニク,しし		liha	肉[にく] (yleisyys: 1661.),筋肉[きんにく] (yleisyys: 2635.),肉体[にくたい] (yleisyys: 2896.)															
+牛	2	target	牛	ギュウ,うし		lehmä, nauta	牛[うし] (yleisyys: 3102.),牛乳[ぎゅうにゅう] (yleisyys: 3596.)															
+出	2	target	出	シュツ,スイ,で.る,-で,だ.す,-だ.す,い.でる,い.だす		mennä ulos	出来る[できる] (yleisyys: 50.),出る[でる] (yleisyys: 110.),出す[だす] (yleisyys: 171.),思い出す[おもいだす] (yleisyys: 1034.),提出[ていしゅつ] (yleisyys: 1251.)															
+入	2	target	入	ニュウ,ジュ,い.る,-い.る,-い.り,い.れる,-い.れ,はい.る		mennä sisään	入る[はいる] (yleisyys: 152.),入れる[いれる] (yleisyys: 223.),購入[こうにゅう] (yleisyys: 872.),輸入[ゆにゅう] (yleisyys: 1112.),導入[どうにゅう] (yleisyys: 1180.)															
+火	3	target																				
+水	3	target																				
+木	3	target																				
+金	3	target																				
+土	3	target																				
+聞	3	target																				
+耳	3	target																				
+見	3	target																				
+店	3	target																				
+右	3	target																				
+左	3	target																				
+学	3	target																				
+校	3	target																				
+先	3	target																				
+後	3	target																				
+前	3	target																				
+帰	3	target																				
+来	3	target																				
+行	3	target			い・く	mennä																
+食	3	target			たべ・る、しょく																	
+朝	3	target																				
+昼	3	target																				
+夜	3	target																				
+休	3	target																				
+夏	4	target																				
+秋	4	target																				
+冬	4	target																				
+春	4	target																				
+赤	4	target																				
+青	4	target																				
+私	4	target																				
+強	4	target																				
+弱	4	target																				
+湯	4	target																				
+温	4	target																				
+泉	4	target																				
+線	4	target																				
+元	4	target																				
+気	4	target																				
+話	4	target																				
+言	4	target																				
+語	4	target																				
+決	4	target																				
+起	4	target																				
+米	4	target																				
+飯	4	target																				
+高	4	target																				
+安	4	target																				
+買	4	target																				
+体	4	target																				
+間	4	target																				
+料	4	target																				
+理	4	target																				
+心	5	target																				
+安	5	target																				
+不	5	target																				
+無	5	target																																				
