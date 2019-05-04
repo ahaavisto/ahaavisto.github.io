@@ -51,12 +51,14 @@ def luo_html():
 			lista += KANJI_DIV 
 		else:
 			lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
-		lista += "\t" + HEADER_DIV + "\t\t" + FONT_DIV + entry[0] + DIV_CLOSE + "\n" + DIV_CLOSE
+		otsikko = "\t\t" + FONT_DIV + entry[0] + DIV_CLOSE + "\n" + DIV_CLOSE
+		lista += "\t" + HEADER_DIV + '\n <a data-toggle="collapse" href="#' + str(i) + '">' + otsikko + '</a>'
+		lista += '<div id="' + str(i) + '" class="panel-collapse collapse">'
 		lista += "\t" + BODY_DIV + "\t\t" + FONT_DIV + "Komponentit:" + entry[3] + "<br>" + DIV_CLOSE
 		lista += "\t\t" + entry[6] + '<br>\n' #suomennos
 		lista += "\t\t" + entry[4] + '<br>\n' #kaikki lukutavat, TODO aikanaan kirjan lukutavoiksi entry[5]
 		lista += "\t\t" + str(i) + '. merkki\n'
-		lista += "\t\t" + DIV_CLOSE + "\t" + DIV_CLOSE
+		lista += "\t\t" + DIV_CLOSE + "\t\t" + DIV_CLOSE + "\t" + DIV_CLOSE
 			
 		for rivi in lista.split('\n'):
 			html += rivi + '\n'
