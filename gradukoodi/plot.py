@@ -5,7 +5,7 @@ import pylab
 plt.rc('axes', labelsize=20)
 plt.rc('legend', fontsize=20)
 
-minne_asti = 250
+minne_asti = 500
 
 heisig = []
 with open ('heisig_order.txt', 'r') as f:
@@ -68,6 +68,15 @@ with open ('kyoiku.txt', 'r') as f:
 		if i >= minne_asti:
 			break
 
+kirja = []
+with open ('kirja/kanjilista.txt', 'r') as f:
+	i = 0
+	for merkki in f:
+		kirja.append(merkki[:-1])
+		i += 1
+		if i >= minne_asti:
+			break
+
 	
 frek = []
 with open ('freq_BCCWJ.txt', 'r') as f:
@@ -105,13 +114,15 @@ algon_tulos = luo_plot(algo, [])
 heisig_tulos = luo_plot(heisig, [])
 muok_tulos = luo_plot(muok, [])
 kyoiku_tulos = luo_plot(kyoiku, [])
+kirja_tulos = luo_plot(kirja, [])
 
 plt.plot(range(1, minne_asti+1), color='grey', linestyle = 'dashed', label='Yleisyysjarjestys')
 plt.plot(muok_tulos, linewidth=2, color='violet' , label='Muokattu algoritmin tulos')
-plt.plot(algon_tulos, linewidth=2, label='Algoritmin tulos')
+#plt.plot(algon_tulos, linewidth=2, label='Algoritmin tulos')
 plt.plot(kyoiku_tulos, color='orange', label='Kyooiku')
 plt.plot(bkb_tulos, color='red', label='BKB 1')
-plt.plot(heisig_tulos, color='green', label='Heisig')
+#plt.plot(heisig_tulos, color='green', label='Heisig')
+plt.plot(kirja_tulos, color='yellow', label='kirja')
 
 plt.ylabel('Opiskeltujen merkkien osuus yleisimmista merkeista')
 plt.xlabel('Opiskeltujen merkkien maara')
