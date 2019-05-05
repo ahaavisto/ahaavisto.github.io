@@ -27,7 +27,7 @@ HEADER_DIV = '<div class="panel-heading">\n'
 BODY_DIV = '<div class="panel-body">\n'
 FONT_DIV = '<div class="jpn">'
 DIV_CLOSE = '</div>\n'
-HTML_LOPPU = '\t</div>\n\t</div>\n</body>\n</html>'
+HTML_LOPPU = '</div>\n</div>\n</body>\n</html>'
 
 data = []
 with open ('kirja/tuloste.tsv', 'r') as f:
@@ -51,17 +51,18 @@ def luo_html():
 			lista += KANJI_DIV 
 		else:
 			lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
-		otsikko = "\t\t" + FONT_DIV + entry[0] + DIV_CLOSE + "\n" + DIV_CLOSE
-		lista += "\t" + HEADER_DIV + '\n <a data-toggle="collapse" href="#' + str(i) + '">' + otsikko + '</a>'
+		otsikko = FONT_DIV + str(i) + ". " + entry[0] + DIV_CLOSE + "\n" + DIV_CLOSE
+		lista += HEADER_DIV + '\n <a data-toggle="collapse" href="#' + str(i) + '">' + otsikko + '</a>'
 		lista += '<div id="' + str(i) + '" class="panel-collapse collapse">'
-		lista += "\t" + BODY_DIV + "\t\t" + FONT_DIV + "Komponentit:" + entry[3] + "<br>" + DIV_CLOSE
-		lista += "\t\t" + entry[6] + '<br>\n' #suomennos
-		lista += "\t\t" + entry[4] + '<br>\n' #kaikki lukutavat, TODO aikanaan kirjan lukutavoiksi entry[5]
-		lista += "\t\t" + str(i) + '. merkki\n'
-		lista += "\t\t" + DIV_CLOSE + "\t\t" + DIV_CLOSE + "\t" + DIV_CLOSE
+		lista += BODY_DIV + FONT_DIV + "Komponentit:" + entry[3] + "<br>" + DIV_CLOSE
+		lista += entry[6] + '<br>\n' #suomennos
+		lista += entry[4] + '<br>\n' #kaikki lukutavat, TODO aikanaan kirjan lukutavoiksi entry[5]
+		lista += str(i) + '. merkki\n'
+		lista += DIV_CLOSE + DIV_CLOSE + DIV_CLOSE
 			
 		for rivi in lista.split('\n'):
 			html += rivi + '\n'
+		html += "<br>\n"
 		i += 1
 	print(HTML_ALKU, html, HTML_LOPPU)
 	
