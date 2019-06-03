@@ -1,5 +1,4 @@
-HTML_ALKU = '''
-<!DOCTYPE html>\n
+HTML_ALKU = '''<!DOCTYPE html>\n
 <meta charset="utf-8">\n
 <html>\n
 <head>\n
@@ -54,12 +53,21 @@ def luo_html():
 		otsikko = FONT_DIV + str(i) + ". " + entry[0] + DIV_CLOSE + "\n" + DIV_CLOSE
 		lista += HEADER_DIV + '\n <a data-toggle="collapse" href="#' + str(i) + '">' + otsikko + '</a>'
 		lista += '<div id="' + str(i) + '" class="panel-collapse collapse">'
-		lista += BODY_DIV + FONT_DIV + "Komponentit:" + entry[3] + "<br>" + DIV_CLOSE
-		lista += entry[6] + '<br>\n' #suomennos
-		lista += entry[4] + '<br>\n' #kaikki lukutavat, TODO aikanaan kirjan lukutavoiksi entry[5]
+		lista += BODY_DIV + entry[6] + '<br><br>\n' #suomennos
+		lista += "Tähän tulee vetojärjestys<br><br>"
+		lista += FONT_DIV + "Komponentit:" + entry[3] + "<br>" + DIV_CLOSE
+		lista += 'Merkin lukutapoja:' + entry[5] + '<br><br>\n' #lukutavat
+		
+		lista += entry[8] + ' ' + entry[9] + '&nbsp;&nbsp;&nbsp;&nbsp;'+ entry[16] + ' ' + entry[17] + '<br>\n' #esimerkit
+		lista += entry[10] + ' ' + entry[11]+ '&nbsp;&nbsp;&nbsp;&nbsp;' + entry[18] + ' ' + entry[19] + '<br>\n'
+		lista += entry[12] + ' ' + entry[13]+ '&nbsp;&nbsp;&nbsp;&nbsp;' + entry[20] + ' ' + entry[21] + '<br>\n'
+		lista += entry[14] + ' ' + entry[15]+ '&nbsp;&nbsp;&nbsp;&nbsp;' + entry[22] + '<br>\n'
+		
+		lista += entry[23] + '\n<br> ' + entry[24] + '\n<br><br>' #ekstrahommat
+		
 		lista += str(i) + '. merkki\n'
 		lista += DIV_CLOSE + DIV_CLOSE + DIV_CLOSE
-			
+		print(lista)	
 		for rivi in lista.split('\n'):
 			html += rivi + '\n'
 		html += "<br>\n"

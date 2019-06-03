@@ -25,7 +25,9 @@ def lisää_vetomaarat():
 	with open ('vedot.txt', 'w') as f:
 		for avain,arvo in sanakirja.items():
 			f.write(avain + ' ' + str(arvo) + '\n')
-			
+
+def get_vetomaara(entry):
+	return entry.find('misc').find('stroke_count').text
 
 kanit = []	
 with open (SOURCE_FILE, 'r') as f:
@@ -57,20 +59,6 @@ def add_lukutavat(entry):
 	except AttributeError:
 		lukutavat.append("Ei tunnettuja ääntämyksiä;")
 	return lukutavat
-	'''
-	juttu = ""
-	try:
-		yomit = entry.find('reading_meaning').find('rmgroup').findall('reading')
-		juttu += '"Kanjin lukutapoja: '
-		for yomi in yomit:
-			if yomi.attrib['r_type'] == 'ja_kun' or yomi.attrib['r_type'] == 'ja_on':
-				juttu += yomi.text + '\n'
-		juttu = juttu[:-2] #pois vika enter
-		juttu += '\n";'
-	except AttributeError:
-		juttu += "Ei tunnettuja ääntämyksiä;"
-	return juttu'''
-
 	
 sanasto = []
 with open ('yhdyssanat_hira.txt', 'r') as f:
@@ -309,6 +297,8 @@ def luo_kentat():
 				if rivi[6] == '': rivi[6] = add_enkku(entry) #lisätään enkku vain, jos ei ollut ennestään jotain
 				rivi[4] = ','.join(add_lukutavat(entry))
 				rivi[7] = ','.join(valkkaa_sanastoa(kanji, False))
+				#sekalaiset:
+				rivi[23] = 'Merkin vetojen lukumäärä: ' + get_vetomaara(entry) + ' <br> <a href="https://jisho.org/search/' + kanji + '%23kanji" target="_blank">'+ kanji + ' Jisho-sanakirjassa</a>'
 
 def tee_tsv():
 	luo_kentat()
