@@ -45,7 +45,6 @@ def luo_html():
 			kirjanLuku = entry[1]
 			lista += "<h1> Kokonaisuus " + kirjanLuku + "</h1>\n"
 			lista += "\n"
-		
 		if entry[2] == "target":
 			lista += KANJI_DIV 
 		else:
@@ -58,10 +57,17 @@ def luo_html():
 		lista += FONT_DIV + "Komponentit:" + entry[3] + "<br>" + DIV_CLOSE
 		lista += 'Merkin lukutapoja:' + entry[5] + '<br><br>\n' #lukutavat
 		
-		lista += entry[8] + ' ' + entry[9] + '&nbsp;&nbsp;&nbsp;&nbsp;'+ entry[16] + ' ' + entry[17] + '<br>\n' #esimerkit
-		lista += entry[10] + ' ' + entry[11]+ '&nbsp;&nbsp;&nbsp;&nbsp;' + entry[18] + ' ' + entry[19] + '<br>\n'
-		lista += entry[12] + ' ' + entry[13]+ '&nbsp;&nbsp;&nbsp;&nbsp;' + entry[20] + ' ' + entry[21] + '<br>\n'
-		lista += entry[14] + ' ' + entry[15]+ '&nbsp;&nbsp;&nbsp;&nbsp;' + entry[22] + '<br>\n'
+		#esimerkit
+		lista += '<div class="row"> <br>'
+		lista += '<div class="col-sm-4">' + entry[8] + ' ' + entry[9] + '</div>'
+		lista += '<div class="col-sm-8">' + entry[16] + ' ' + entry[17] + '</div>'
+		lista += '<div class="col-sm-4">' + entry[10] + ' ' + entry[11] + '</div>'
+		lista += '<div class="col-sm-8">' + entry[18] + ' ' + entry[19] + '</div>'
+		lista += '<div class="col-sm-4">' + entry[12] + ' ' + entry[13] + '</div>'
+		lista += '<div class="col-sm-8">' + entry[20] + ' ' + entry[21] + '</div>'
+		lista += '<div class="col-sm-4">' + entry[14] + ' ' + entry[15] + '</div>'
+		lista += '<div class="col-sm-8">' + entry[22] + '</div>'
+		lista += '</div><br>'
 		
 		lista += entry[23] + '\n<br> ' + entry[24] + '\n<br><br>' #ekstrahommat
 		
