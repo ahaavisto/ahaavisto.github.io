@@ -16,17 +16,16 @@ vedot = os.listdir('../../../kanji_stroke_order')
 
 sanakirja = {}
 
+
+'''yhdistetään kanji ja sen heksakoodi'''
 for kanji in juuri.findall('character'):
 	merkki = kanji.find('literal').text
 	heksa = hex(ord(merkki))
 	heksa = heksa.replace('x', '')
 	sanakirja[heksa + '.svg'] = merkki
 
-
+'''kopioidaan ja uudelleen nimetään kuvakansiosta halutut merkit'''
 for kuva in vedot:
-	if kuva in sanakirja:
-		path = '../uuet/'+sanakirja[kuva]
-		shutil.copy('../../kanji_stroke_order/'+kuva, path)
-		print('moi')
-	else:
-		print('ei')
+	if kuva in sanakirja and sanakirja[kuva] in kanit:
+		path = '../../vedot/' + sanakirja[kuva] + '.svg'
+		shutil.copy('../../../kanji_stroke_order/'+kuva, path)
