@@ -53,9 +53,9 @@ def luo_html():
 		lista += HEADER_DIV + '\n <a data-toggle="collapse" href="#' + str(i) + '">' + otsikko + '</a>'
 		lista += '<div id="' + str(i) + '" class="panel-collapse collapse">'
 		lista += BODY_DIV + entry[6] + '<br><br>\n' #suomennos
-		lista += "Tähän tulee vetojärjestys<br><br>"
-		lista += FONT_DIV + "Komponentit:" + entry[3] + "<br>" + DIV_CLOSE
-		lista += 'Merkin lukutapoja:' + entry[5] + '<br><br>\n' #lukutavat
+		lista += '<img src="/vedot/' + entry[0] + '.svg" alt="vetojärjestys"><br><br>' #vetokuva
+		lista += FONT_DIV + "Komponentit: " + entry[3] + "<br>" + DIV_CLOSE
+		lista += 'Merkin lukutapoja: ' + entry[5] + '<br><br>\n' #lukutavat
 		
 		#esimerkit
 		lista += '<div class="row"> <br>'
@@ -78,7 +78,7 @@ def luo_html():
 			html += rivi + '\n'
 		html += "<br>\n"
 		i += 1
-	print(HTML_ALKU, html, HTML_LOPPU)
+	#print(HTML_ALKU, html, HTML_LOPPU)
 	
 	
 	
