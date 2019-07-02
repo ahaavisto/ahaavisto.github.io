@@ -1,0 +1,541 @@
+一	yksi	Komponentit: 一	Merkin lukutapoja: ひと・つ、イチ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 1 	kokonaisuus1
+二	kaksi	Komponentit: 二	Merkin lukutapoja: ふた・つ、ニ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 2 	kokonaisuus1
+三	kolme	Komponentit: 三	Merkin lukutapoja: みっ・つ、サン	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus1
+四	neljä	Komponentit: 四	Merkin lukutapoja: よっ・つ、シ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus1
+五	viisi	Komponentit: 五	Merkin lukutapoja: いつ・つ、ゴ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus1
+六	kuusi	Komponentit: 亠八	Merkin lukutapoja: むっ・つ、ロク	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus1
+七	seitsemän	Komponentit: 七	Merkin lukutapoja: なな・つ、シチ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 2 	kokonaisuus1
+八	kahdeksan	Komponentit: 八	Merkin lukutapoja: やっ・つ、ハチ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 2 	kokonaisuus1
+九	yhdeksän	Komponentit: 九	Merkin lukutapoja: ここの・つ、キュウ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 2 	kokonaisuus1
+十	kymmenen	Komponentit: 十	Merkin lukutapoja: とお、ジュウ	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 2 	kokonaisuus1
+何	mikä?	Komponentit: 亻可	Merkin lukutapoja: なに、なん	"何・なに mikä?
+フィンランドは何ごですか。 Mitä kieltä Suomessa puhutaan?"	"何年生・なんねんせい moneskoluokkalainen?
+ルースさんは何年生ですか。 Monennellako luokalla Ruusu on?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus1
+
+
+年	vuosi	Komponentit: 年	Merkin lukutapoja: ネン,とし	"年・とし vuosi
+お年はいくつですか。 Mikä vuosi nyt on?"	"二年生・にねんせい 2. luokkalainen
+ティモさんは二ねんせいですか Onko Timo 2. luokkalainen?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus1
+
+生	elämä; syntymä	Komponentit: 生	Merkin lukutapoja: セイ、いき・る、生まれ？	"生年月日・せいねんがっぴ syntymäaika
+生年月日をかいてください。 Kirjoittakaa syntymäaikanne."	"先生、せんせい opettaja
+きびしくない先生です。 Hän ei ole ankara opettaja."	"生きる・いきる elää
+ひゃくさいまで生きたいですか。 Haluaisitko elää satavuotiaaksi?"	"生まれ・うまれ syntynyt
+何月生まれですか。Missä kuussa olet syntynyt?"	Merkin vetojen lukumäärä: 5 	kokonaisuus1
+
+
+
+人	ihminen	Komponentit: 人	Merkin lukutapoja: ひと、ニン、ジン	"日本人・にほんじん japanilainen
+先生は日本人じゃありません。 Opettaja ei ole japanilainen."	"何人・なんにん kuinka monta henkilöä
+きょうだいは何人ですか？ Kuinka monta sisarusta sinulla on?"	"人・ひと ihminen
+好きな人はいますか。 Onko sinulla mielitiettyä?"	" 
+"	Merkin vetojen lukumäärä: 2 	kokonaisuus1
+日	aurinko, päivä	Komponentit: 日	Merkin lukutapoja: ひ	"日本・にほん・にっぽん Japani
+日本はじしんがおおいです。 Japanissa on paljon maanjäristyksiä."	"日・ひ aurinko
+ゆう日がきれいです。 Auringonlasku on kaunis."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus1
+本	kirja; alkuperä; todellinen, aito; laskusana sylinterinmuotoisille esineille	Komponentit: 木一	Merkin lukutapoja: ホン	"本・ほん kirja
+本をよむことがしゅみです。 Lukeminen on harrastukseni."	"本当・ほんとう tosi
+そのおはなしは本とうですか。 Onko tuo tarina tosi?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus1
+大	suuri	Komponentit: 大	Merkin lukutapoja: ダイ、おおきい	"大きい・おおきい iso
+大きいサイズでおねがいします。 Saisinko ison [vaatekoon]."	"大学・だいがく yliopisto
+あねは大学生です。 Isosiskoni on yliopisto-opiskelija."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus1
+小	pieni	Komponentit: 小	Merkin lukutapoja: ちいさい、ショウ	"小さい・ちいさい pieni
+小さいこえではなしましょう。 Puhutaanpas hiljaisella äänellä."	"大中小・だいちゅうしょう suuri, keskikokoinen, pieni (esim. annoskoko)
+サイズは大中小がございます。 Koot ovat, iso, keskikokoinen ja pieni."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus1
+中	keskellä, sisällä	Komponentit: 中	Merkin lukutapoja: なか、チュウ	"中・なか keskellä; sisällä
+リュックの中におかしがあります。 Repussa on herkkuja."	"中学生・ちゅうがくせい yläkoululainen
+ぼくは中学生です。 Olen yläkoululainen."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus1
+時	aika, tunti	Komponentit: 日寺	Merkin lukutapoja: とき、ジ	"時・とき aika
+きゅうけいの時にたいそうしましょう。 Jumpataan tauoilla!"	"時・じ tunti
+いま何時ですか。 Mitä kello on?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus1
+分	osa, minuutti; ymmärtää; jakaa	Komponentit: 八刀	Merkin lukutapoja: わかる、ブン	"分・ぶん、ふん、ぷん minuutti
+じゅぎょうは四時十五分におわります。 Oppitunti loppuu viisitoista yli neljä."	"分かる・わかる ymmärtää
+ロシアごは分かりません。 En ymmärrä venäjää."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus1
+月	kuu; kuukausi	Komponentit: 月	Merkin lukutapoja: つき、ガツ	"月・つき kuu
+月にうさぎはいますか。 Onko kuussa jäniksiä?"	"月・がつ kuukausi
+いもうとが七月に生まれました。 Minulle syntyi pikkusisko heinäkuussa."	"二か月・にかげつ kahden kuukauden aika
+なつやすみはに二か月です。 Kesäloma on kahden kuukauden mittainen."	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus1
+古	vanha	Komponentit: 十口	Merkin lukutapoja: ふるい、コ	"古い・ふるい vanha
+フィンランドには古いですが、いいたてものがたくさんあります。 Suomessa on paljon vanhoja, mutta yhä hyviä rakennuksia."	"中古・ちゅうこ käytetty
+このカメラは中古ですよ。 Tämä kamera on ostettu käytettynä."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus2
+新	uusi	Komponentit: 亲斤	Merkin lukutapoja: あたらしい、シン	"新しい・あたらしい uusi
+新しいスマートフォンがほしいです。 Haluan uuden puhelimen."	"新年・しんねん uusivuosi
+「あけましておめでとうございます」は新年のあいさつです。 あけましておめでとうございます on uudenvuoden tervehdys."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 13 	kokonaisuus2
+明	Kanjin merkityksiä englanniksi: bright, light;	Komponentit: 日月	Merkin lukutapoja: あかるい	"明日・あした huominen
+明日は明日のかぜがふきます。 Huomenna tuulee huomisen tuulet."	"明るい・あかるい kirkas, valoisa; iloinen
+あねは明るくて、げんきがいいです。 Isosiskoni on hyväntuulinen ja terve."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 8 	kokonaisuus2
+音	ääni	Komponentit: 音	Merkin lukutapoja: おと、オン	"音・おと ääni
+となりのへやで大きな音がしました。 Viereisestä huoneesta kuului kovaa ääntä."	"音楽・おんがく musiikki
+どんな音楽が好きですか。 Millaisesta musiikista pidät?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus2
+暗	pimeä, hämärä; synkkä	Komponentit: 日音	Merkin lukutapoja: アン、くらい	"暗い・くらい pimeä; synkkä
+フィンランドでいつがいちばん暗いですか。 Milloin Suomessa on kaikista pimeintä?"	"暗記する・あんきする opetella ulkoa
+かんじは暗きしてください。 Opettele kanjit ulkoa."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 13 	kokonaisuus2
+楽	musiikki; kiinnostava; mukava, hauska, iloinen; mukava, helppo	Komponentit: &CDP-89AE;白木	Merkin lukutapoja: たのしい、ガク	"楽しい・たのしい kiinnostava; hauska, mukava
+音楽のクラスは楽しいです。 Musiikkitunneilla on hauskaa."	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 13 	kokonaisuus2
+女	nainen	Komponentit: 女	Merkin lukutapoja: ジョ,おんな	"女・おんな nainen
+あの女の人は小学こうのせん生です。 Tuo nainen on alakoulun opettaja."	"女の子・おんなのこ tyttö
+あの女の子は小さいです。 Tuo tyttö on pieni."	"男女・だんじょ miehet ja naiset
+ロックは男女に人気があります。 Sekä miehet että naiset pitävät rock-musiikista."	"女性・じょせい naishenkilö, naispuolinen
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus2
+子	lapsi	Komponentit: 子	Merkin lukutapoja: シ、こ	"子ども・こども lapsi
+子どもはそとであそんでいます。 Lapset leikkivät ulkona."	"男子・だんし poika
+男子のトイレはどこですか。 Missä miesten vessa on?"	"女子・じょし tyttö
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus2
+好	pitää jostakin; mieluinen	Komponentit: 女子	Merkin lukutapoja: このむ、すき	"好き・すき pitää jostakin, mieluinen
+好きなどうぶつは何ですか。 Mistä eläimestä pidät?"	"大好き・だいすき pitää paljon jstkin, rakastaa, erittäin mieluinen
+子どもはアイスクリームが大好きです。 Lapset rakastavat jäätelöä."	"お好み焼き・おこのみやき okonomiyaki (japanilainen ruokalaji)
+お好みやきはかんたんす。 Okonomiyaki on helppoa."	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus2
+男	mies	Komponentit: 田力	Merkin lukutapoja: ダン、おとこ	"男・おとこ mies
+きのう、ゆうめいな男の人を見ました。 Näin eilen kuuluisan miehen."	"男の子・おとこのこ poika
+ "	"男性・だんせい mieshenkilö, miespuolinen
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus2
+口	suu	Komponentit: 口	Merkin lukutapoja: コウ,くち	"口・くち suu
+口を大きくあけてください。 Avaa suu isoksi."	"人口・じんこう väkiluku
+日本の人口は何人ですか Mikä on Japanin väkiluku?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus2
+目	silmä	Komponentit: 目	Merkin lukutapoja: モク,め,-め	"目・め silmä
+上野（うえの）さんは 目がいい。 Uenon näkö on hyvä. (silmät ovat hyvät)"	"目的・もくてき päämäärä, tavoite; aie, tarkoitus
+ "	"科目・かもく kouluaine
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus2
+手	käsi	Komponentit: 手	Merkin lukutapoja: ズ,て,	"手・て käsi
+手を二かいたたいておじぎをします。 Taputa kaksi kertaa ja kumarra."	"上手・じょうず hyvä jossakin
+日本ごが上手な子です。 Lapsi, jonka japani on hyvää"	"下手・へた huono jossakin
+フィンランドごが下手です。 Olen huono suomen kielessä."	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus2
+上	yllä, ylös	Komponentit: 上	Merkin lukutapoja: ジョウ、うえ、あがる、あげる	"上・うえ yläpuoli, ylä-
+テーブルの上にくだものがあります。 Pöydän päällä on hedelmiä."	"年上・としうえ vanhempi (ihminen)
+年上のせいとを「せんぱい」といいます。 Vanhempia oppilaita kutsutaan sempaiksi."	"上がる・あがる nousta
+ "	"上げる・あげる nostaa
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus2
+下	alla, alas	Komponentit: 下	Merkin lukutapoja: した、さげる、さがる、ください	"下・した alapuoli, ala-
+ "	"年下・としした nuorempi (ihminen)
+年下の生とを「こうはい」といいます。 Nuorempia oppilaita kutsutaan koohaiksi."	"下がる・さがる aleta?
+ "	"下げる・さげる　下さい・ください laskea alas     saisinko
+それ下さい。 Saisinko sen."	Merkin vetojen lukumäärä: 3 	kokonaisuus2
+白	valkoinen	Komponentit: 丿日	Merkin lukutapoja: しろ、しろい	"白い・しろい valkoinen
+りんごのはなは白いです。 Omenankukat ovat valkoisia."	"白黒・しろくろ mustavalkoinen
+むかしのテレビは白黒でした。 Ennen vanhaan televisio(n kuva) oli mustavalkoinen."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus2
+黒	musta	Komponentit: 田土灬	Merkin lukutapoja: コク、くろ、くろい	"黒い・くろい musta
+黒い色は好きじゃないです。 En pidä mustasta väristä."	"黒板・こくばん liitutaulu
+先生は黒ばんに日本ごのぶんをかきました。 Opettaja kirjoitti liitutaululle japaninkielisiä lauseita"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 11 	kokonaisuus2
+色	väri	Komponentit: 色	Merkin lukutapoja: いろ	"色・いろ väri
+明るい色がすきです。 Pidän kirkkaista väreistä."	"何色・なにいろ minkä värinen?
+ゆきさんのでんわは何色ですか。 Minkä värinen puhelin Yukilla on?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus2
+百	sata	Komponentit: 一白	Merkin lukutapoja: ヒャク,ビャク	"百・ひゃく sata
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus2
+千	tuhat	Komponentit: 千	Merkin lukutapoja: セン,ち	"千・せん tuhat
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus2
+万	10 000	Komponentit: 万	Merkin lukutapoja: マン	"万・まん 10 000
+フィンランドの人口は五百五十万人ぐらいです。 Suomen väkiluku on 5,5 miljoonaa (japaniksi: 550 x 10 000)."	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus2
+円	ympyrä; jeni	Komponentit: 円	Merkin lukutapoja: エン	"円・えん jeni
+日本人は一万円さつが大好きです。 Japanilaiset pitävät kovasti 10 000 jenin setelistä"	"何円・なんえん montako jeniä?
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus2
+水	vesi	Komponentit: 水	Merkin lukutapoja: スイ,みず	"水・みず (kylmä) vesi
+フィンランドの水はおいしいです。 Suomalainen vesi on hyvänmakuista."	"水よう日・すいようび keskiviikko
+水よう日にテニスをします。  Keskiviikkona pelaan tennistä."	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus2
+魚	kala	Komponentit: 魚	Merkin lukutapoja: ギョ,さかな	"魚・さかな kala
+肉より魚のほうが好きです。 Pidän enemmän kalasta kuin lihasta."	"金魚 kultakala
+ "	"こざかな　 syötävä pikkukala
+ "	"ちぎょ 
+"	Merkin vetojen lukumäärä: 11 	kokonaisuus2
+肉	liha	Komponentit: 肉	Merkin lukutapoja: ニク	"肉・にく liha
+肉が好きですか。 Pidätkö lihasta?"	"魚肉・ぎょにく kalan liha
+魚肉ソーセージは好きですか。 Pidätkö kalanakeista?"	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus2
+牛	lehmä, nauta	Komponentit: 牛	Merkin lukutapoja: ギュウ,うし	"牛・うし lehmä, härkä, nauta
+牛の "	"牛肉・ぎゅうにく naudanliha
+ "	"牛乳・ぎゅうにゅう lehmänmaito
+牛にゅうはおいしくないです。 Maito ei ole hyvänmakuista."	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus2
+出	mennä ulos	Komponentit: 出	Merkin lukutapoja: で、でる、だす	"出る・でる mennä ulos, tulla ulos
+はなみずが出る。 Nenä vuotaa (oik. nenästä tulee räkää)"	"出す・だす ottaa ulos
+しゅくだいを出してください。 Ottakaa kotiläksyt esille ("ulos")"	"出口・でぐち uloskäynti
+出口はどこですか。 Missä on uloskäynti?"	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus2
+入	mennä sisään	Komponentit: 入	Merkin lukutapoja: いり、いれる、はいる	"入る・はいる mennä sisään, tulla sisään
+先にお入り下さい Menkää vain edeltä (kylpyyn)."	"入れる・いれる laittaa sisään
+ここにカードを入れてください。 Laittakaa kortti tähän (ohje laitteessa tms.)"	"入口・いりぐち sisäänkäynti
+入り口はあそこです。 Sisäänkäynti on tuolla."	" 
+"	Merkin vetojen lukumäärä: 2 	kokonaisuus2
+火	Kanjin merkityksiä englanniksi: fire;	Komponentit: 火	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus3
+		Komponentit: 	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	木	kokonaisuus
+金	Kanjin merkityksiä englanniksi: gold;	Komponentit: 金	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 8 	kokonaisuus3
+土	Kanjin merkityksiä englanniksi: soil, earth, ground, Turkey;	Komponentit: 土	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 3 	kokonaisuus3
+聞	Kanjin merkityksiä englanniksi: hear, ask, listen;	Komponentit: 門耳	Merkin lukutapoja: 	"新聞 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 14 	kokonaisuus3
+耳	Kanjin merkityksiä englanniksi: ear;	Komponentit: 耳	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus3
+見	Kanjin merkityksiä englanniksi: see, hopes, chances, idea, opinion, look at, visible;	Komponentit: 見	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus3
+店	Kanjin merkityksiä englanniksi: store, shop;	Komponentit: 广占	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 8 	kokonaisuus3
+右	Kanjin merkityksiä englanniksi: right;	Komponentit: 𠂇口	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus3
+左	Kanjin merkityksiä englanniksi: left;	Komponentit: 𠂇工	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus3
+学	Kanjin merkityksiä englanniksi: study, learning, science;	Komponentit: ¤子	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 8 	kokonaisuus3
+校	Kanjin merkityksiä englanniksi: exam, school, printing, proof, correction;	Komponentit: 木交	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus3
+先	Kanjin merkityksiä englanniksi: before, ahead, previous, future, precedence;	Komponentit: ⺧儿	Merkin lukutapoja: 	"お先にしつれいします。 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus3
+後	Kanjin merkityksiä englanniksi: behind, back, later;	Komponentit: 彳夂幺	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus3
+前	Kanjin merkityksiä englanniksi: in front, before;	Komponentit: 䒑月刂	Merkin lukutapoja: 	"前・まえ 
+ "	"下名前・したなまえ 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus3
+帰	Kanjin merkityksiä englanniksi: homecoming, arrive at, lead to, result in;	Komponentit: 刂帚	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus3
+来	Kanjin merkityksiä englanniksi: come, due, next, cause, become;	Komponentit: 来	Merkin lukutapoja: 	"来る・くる 
+ "	"来月・らいげつ 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus3
+行	mennä	Komponentit: 彳亍	Merkin lukutapoja: い・く	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus3
+食	Kanjin merkityksiä englanniksi: eat, food;	Komponentit: 艮𠆢丶	Merkin lukutapoja: たべ・る、しょく	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus3
+朝	Kanjin merkityksiä englanniksi: morning, dynasty, regime, epoch, period, (North) Korea;	Komponentit: 𠦝月	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus3
+昼	Kanjin merkityksiä englanniksi: daytime, noon;	Komponentit: 尺旦	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus3
+夜	Kanjin merkityksiä englanniksi: night, evening;	Komponentit: 亠亻&CDP-89F3;	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 8 	kokonaisuus3
+休	Kanjin merkityksiä englanniksi: rest, day off, retire, sleep;	Komponentit: 亻木	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus3
+夏	Kanjin merkityksiä englanniksi: summer;	Komponentit: 一自夂	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus4
+秋	Kanjin merkityksiä englanniksi: autumn;	Komponentit: 禾火	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus4
+冬	Kanjin merkityksiä englanniksi: winter;	Komponentit: 夂丶	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 5 	kokonaisuus4
+春	Kanjin merkityksiä englanniksi: springtime, spring (season);	Komponentit: &CDP-8BE9;日	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus4
+赤	Kanjin merkityksiä englanniksi: red;	Komponentit: 赤	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus4
+青	Kanjin merkityksiä englanniksi: blue, green;	Komponentit: 龶月	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 8 	kokonaisuus4
+私	Kanjin merkityksiä englanniksi: private, I, me;	Komponentit: 禾厶	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus4
+強	Kanjin merkityksiä englanniksi: strong;	Komponentit: 弓厶虫	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 11 	kokonaisuus4
+弱	Kanjin merkityksiä englanniksi: weak, frail;	Komponentit: 弱	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus4
+湯	Kanjin merkityksiä englanniksi: hot water, bath, hot spring;	Komponentit: 氵昜	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus4
+温	Kanjin merkityksiä englanniksi: warm;	Komponentit: 氵昷	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus4
+泉	Kanjin merkityksiä englanniksi: spring, fountain;	Komponentit: 白水	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 9 	kokonaisuus4
+線	Kanjin merkityksiä englanniksi: line, track;	Komponentit: 糸泉	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 15 	kokonaisuus4
+元	Kanjin merkityksiä englanniksi: beginning, former time, origin;	Komponentit: 一兀	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus4
+気	Kanjin merkityksiä englanniksi: spirit, mind, air, atmosphere, mood;	Komponentit: 气㐅	Merkin lukutapoja: 	"気分 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus4
+話	Kanjin merkityksiä englanniksi: tale, talk;	Komponentit: 言舌	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 13 	kokonaisuus4
+言	Kanjin merkityksiä englanniksi: say, word;	Komponentit: 言	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus4
+語	Kanjin merkityksiä englanniksi: word, speech, language;	Komponentit: 言五口	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 14 	kokonaisuus4
+決	Kanjin merkityksiä englanniksi: decide, fix, agree upon, appoint;	Komponentit: 氵夬	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus4
+起	Kanjin merkityksiä englanniksi: rouse, wake up, get up;	Komponentit: 走巳	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus4
+米	Kanjin merkityksiä englanniksi: rice, USA, metre;	Komponentit: 米	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus4
+飯	Kanjin merkityksiä englanniksi: meal, boiled rice;	Komponentit: 飠反	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus4
+高	Kanjin merkityksiä englanniksi: tall, high, expensive;	Komponentit: 亠口冂	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus4
+安	Kanjin merkityksiä englanniksi: relax, cheap, low, quiet, rested, contented, peaceful;	Komponentit: 宀女	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus4
+買	Kanjin merkityksiä englanniksi: buy;	Komponentit: ⺫貝	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus4
+体	Kanjin merkityksiä englanniksi: body, substance, object, reality, counter for images;	Komponentit: 亻本	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 7 	kokonaisuus4
+間	Kanjin merkityksiä englanniksi: interval, space;	Komponentit: 門日	Merkin lukutapoja: 	"時間・じかん 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus4
+料	Kanjin merkityksiä englanniksi: fee, materials;	Komponentit: 米斗	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 10 	kokonaisuus4
+理	Kanjin merkityksiä englanniksi: logic, arrangement, reason, justice, truth;	Komponentit: 王里	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 11 	kokonaisuus4
+心	Kanjin merkityksiä englanniksi: heart, mind, spirit, heart radical (no. 61);	Komponentit: 心	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus5
+安	Kanjin merkityksiä englanniksi: relax, cheap, low, quiet, rested, contented, peaceful;	Komponentit: 宀女	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 6 	kokonaisuus5
+不	Kanjin merkityksiä englanniksi: negative, non-, bad, ugly, clumsy;	Komponentit: 不	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 4 	kokonaisuus5
+無	Kanjin merkityksiä englanniksi: nothingness, none, ain't, nothing, nil, not;	Komponentit: ¦灬	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus5
+買	Kanjin merkityksiä englanniksi: buy;	Komponentit: ⺫貝	Merkin lukutapoja: 	" 
+ "	" 
+ "	" 
+ "	" 
+"	Merkin vetojen lukumäärä: 12 	kokonaisuus4
