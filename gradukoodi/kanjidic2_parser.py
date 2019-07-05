@@ -8,7 +8,7 @@ sanakirja = {}
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ.txt'
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ_alku.txt'
 SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
-TSV_FILE = 'kirja/kirjan_taulukko.tsv'
+TSV_FILE = 'kirja/tuloste.tsv'
 
 def lisää_vetomaarat():
 	with open ('ids_jooyoo+_chine.txt', 'r') as f:
@@ -281,11 +281,31 @@ def luo_html():
 taul = []	
 	
 def lue_tsv():
-	i = 0
 	with open (TSV_FILE, 'r') as f:
 		for rivi in f:
 			taul.append(rivi.split('\t'))
-			i += 1
+
+def lue_tsv_ja_lisaa_komponentit():
+	with open ('../kanji/pelkka_jarjestys_komponentein.txt', 'r') as f:
+		for rivi in f:
+			taul.append(rivi.split('\t')[1][0]) #taulukkoon pelkkä kanji
+	
+	kirjan_data = []
+	with open (TSV_FILE, 'r') as f:
+		for rivi in f:
+			kirjan_data.append(rivi.split('\t'))
+	i = 0
+	print(kirjan_data[0])
+	
+	for rivi in taul:
+		for entry in kirjan_data:
+			if entry[0] == rivi[0]:
+				print(entry[0])
+				taul[i] = entry
+			else:
+				taul[i] = rivi
+		i += 1
+	print(taul)
 	
 '''kirjan tsv-muotoa varten täytetään taulukko kanjidic-tietokannalla'''		
 def luo_kentat():
@@ -295,14 +315,14 @@ def luo_kentat():
 			if kanji == entry.find('literal').text:
 				rivi[3] = etsi_komponentit(kanji)
 				if rivi[6] == '': rivi[6] = add_enkku(entry) #lisätään enkku vain, jos ei ollut ennestään jotain
-				rivi[4] = ','.join(add_lukutavat(entry))
-				rivi[7] = ','.join(valkkaa_sanastoa(kanji, False))
+				if rivi[4] == '': rivi[4] = ','.join(add_lukutavat(entry))
+				if rivi[7] == '': rivi[7] = ','.join(valkkaa_sanastoa(kanji, False))
 				#sekalaiset:
 				rivi[23] = 'Merkin vetojen lukumäärä: ' + get_vetomaara(entry) + ' <br> <a href="https://jisho.org/search/' + kanji + '%23kanji" target="_blank">'+ kanji + ' Jisho-sanakirjassa</a>'
 
 def tee_tsv():
 	luo_kentat()
-	with open ('kirja/tuloste.tsv', 'w') as f:
+	with open ('kirja/tuloste_komponentein.tsv', 'w') as f:
 		for rivi in taul:
 			for juttu in rivi:
 				if juttu is not '\n':
@@ -313,7 +333,8 @@ def tee_tsv():
 pääohjelma alkaa
 '''
 
-lue_tsv()
+#lue_tsv()
+lue_tsv_ja_lisaa_komponentit()
 
 tee_tsv()
 
