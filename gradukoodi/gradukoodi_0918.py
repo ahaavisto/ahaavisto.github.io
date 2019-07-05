@@ -188,13 +188,13 @@ def algo(kirjoita):
 		for rivi in jarjestettavat:
 			f.write(rivi)'''
 	
-	luo_jarjestettavat('tuloksia/jarjestys_BCCWJ.txt') #järjestetään uudestaan, jotta saadaan bugit pois
+	'''luo_jarjestettavat('tuloksia/jarjestys_BCCWJ.txt') #järjestetään uudestaan, jotta saadaan bugit pois
 	jarjestettavat = reversed(jarjestettavat)	
 	jarjestettavat = list(jarjestettavat)	
 		
 	for rivi in jarjestettavat:
 		merkki = rivi.split()[0]
-		algon_rekursio(merkki, etsi_merkin_indeksi(jarjestettavat, merkki))
+		algon_rekursio(merkki, etsi_merkin_indeksi(jarjestettavat, merkki))'''
 	
 	with open (kirjoita, 'w') as f:
 		jarjestettavat = reversed(jarjestettavat)
@@ -259,7 +259,7 @@ poista_ids_turhat('ids_chine.txt', 'ids_trimmatut_chine.txt')
 #laske_painot('ids_jooyoo+_chine_muokattu.txt', 'painot_BCCWJ.txt') #atm ei käytä filua koska refaktorointi
 
 #laske_centrality('painot_BCCWJ.txt', 'tuloksia/centrality_of_kanjis_BCCWJ.txt')
-
+'''
 luo_jarjestettavat('tuloksia/centrality_of_kanjis_BCCWJ.txt') #taulukoksi myöhempään käyttöön
 
 algo('tuloksia/jarjestys_BCCWJ.txt') #printtaa järkän + centralityn
@@ -267,3 +267,14 @@ algo('tuloksia/jarjestys_BCCWJ.txt') #printtaa järkän + centralityn
 printtaa_listana('tuloksia/jarjestys_BCCWJ.txt', 'tuloksia/centrality_of_kanjis_BCCWJ.txt', 'freq_BCCWJ.txt', 'tuloksia/vertailu_BCCWJ.txt') #printtaa vertailun
 
 printtaa_pelkka_algon_tulos('tuloksia/jarjestys_BCCWJ.txt', 'tuloksia/pelkka_algon_tulos_BCCWJ.txt') #printtaa vain indeksin ja järjestyksen
+'''
+
+
+
+luo_jarjestettavat('../kanji/muokattu_centrality.txt') #taulukoksi myöhempään käyttöön
+
+algo('../kanji/jarjestys_komponentein.txt') #printtaa järkän + centralityn
+
+printtaa_listana('../kanji/jarjestys_komponentein.txt', '../kanji/muokattu_centrality.txt', 'freq_BCCWJ.txt', '../kanji/vertailu.txt') #printtaa vertailun
+
+printtaa_pelkka_algon_tulos('../kanji/jarjestys_komponentein.txt', '../kanji/pelkka_jarjestys_komponentein.txt') #printtaa vain indeksin ja järjestyksen
