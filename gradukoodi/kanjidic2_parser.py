@@ -286,26 +286,27 @@ def lue_tsv():
 			taul.append(rivi.split('\t'))
 
 def lue_tsv_ja_lisaa_komponentit():
+	'''yhdistetään algolla luotuun komponenteilla rikastettuun listaan muu data tsv-filusta'''
 	with open ('../kanji/pelkka_jarjestys_komponentein.txt', 'r') as f:
 		for rivi in f:
-			taul.append(rivi.split('\t')[1][0]) #taulukkoon pelkkä kanji
+			taul.append(rivi.split('\t')[1][0]) #taulukkoon pelkkä merkki
 	
 	kirjan_data = []
 	with open (TSV_FILE, 'r') as f:
 		for rivi in f:
 			kirjan_data.append(rivi.split('\t'))
-	i = 0
-	print(kirjan_data[0])
-	
+			
+	i = 0	
+	lopul_taul = [0] * 2650
+	#käydään läpi kanjit+komponentit lista, ja jos kanjista on tietoja tsv:ssä, lisätään ne taulukkoon
 	for rivi in taul:
 		for entry in kirjan_data:
-			if entry[0] == rivi[0]:
-				print(entry[0])
-				taul[i] = entry
-			else:
-				taul[i] = rivi
+			if entry[0] == rivi[0]: #jos tsv:stä löytyi tiedot
+				lopul_taul[i] = entry
+				break
+		if lopul_taul[i] == 0: #jos tsv:stä ei löytynyt tietoja
+			lopul_taul[i] = rivi
 		i += 1
-	print(taul)
 	
 '''kirjan tsv-muotoa varten täytetään taulukko kanjidic-tietokannalla'''		
 def luo_kentat():
