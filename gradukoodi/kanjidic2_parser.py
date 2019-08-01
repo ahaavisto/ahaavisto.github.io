@@ -304,10 +304,14 @@ def lue_tsv_ja_lisaa_komponentit():
 			if entry[0] == rivi[0]: #jos tsv:stä löytyi tiedot
 				lopul_taul[i] = entry
 				break
-		if lopul_taul[i] == 0: #jos tsv:stä ei löytynyt tietoja
+		'''if lopul_taul[i][0] == '': #jos tsv:stä ei löytynyt tietoja
 			lopul_taul[i][0] = rivi
+			print(lopul_taul[i][0])'''
+		lopul_taul[i][0] = rivi
+		print(lopul_taul[i][0])
+		
 		i += 1
-	
+	#print(lopul_taul)
 	return lopul_taul
 	
 '''kirjan tsv-muotoa varten täytetään taulukko kanjidic-tietokannalla'''		
