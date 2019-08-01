@@ -297,7 +297,7 @@ def lue_tsv_ja_lisaa_komponentit():
 			kirjan_data.append(rivi.split('\t'))
 			
 	i = 0	
-	lopul_taul = [0] * 2650
+	lopul_taul = [['']*25] * 2650
 	#käydään läpi kanjit+komponentit lista, ja jos kanjista on tietoja tsv:ssä, lisätään ne taulukkoon
 	for rivi in taul:
 		for entry in kirjan_data:
@@ -305,15 +305,18 @@ def lue_tsv_ja_lisaa_komponentit():
 				lopul_taul[i] = entry
 				break
 		if lopul_taul[i] == 0: #jos tsv:stä ei löytynyt tietoja
-			lopul_taul[i] = rivi
+			lopul_taul[i][0] = rivi
 		i += 1
 	
+	return lopul_taul
+	
 '''kirjan tsv-muotoa varten täytetään taulukko kanjidic-tietokannalla'''		
-def luo_kentat():
+def luo_kentat(taul):
 	for entry in juuri.findall('character'):		
 		for rivi in taul:
-			kanji = rivi[0]
+			kanji = rivi[0]		
 			if kanji == entry.find('literal').text:
+				
 				rivi[3] = etsi_komponentit(kanji)
 				if rivi[6] == '': rivi[6] = add_enkku(entry) #lisätään enkku vain, jos ei ollut ennestään jotain
 				if rivi[4] == '': rivi[4] = ','.join(add_lukutavat(entry))
@@ -321,8 +324,8 @@ def luo_kentat():
 				#sekalaiset:
 				rivi[23] = 'Merkin vetojen lukumäärä: ' + get_vetomaara(entry) + ' <br> <a href="https://jisho.org/search/' + kanji + '%23kanji" target="_blank">'+ kanji + ' Jisho-sanakirjassa</a>'
 
-def tee_tsv():
-	luo_kentat()
+def tee_tsv(taul):
+	luo_kentat(taul)
 	with open ('kirja/tuloste_komponentein.tsv', 'w') as f:
 		for rivi in taul:
 			for juttu in rivi:
@@ -335,9 +338,9 @@ pääohjelma alkaa
 '''
 
 #lue_tsv()
-lue_tsv_ja_lisaa_komponentit()
+taulukko = lue_tsv_ja_lisaa_komponentit()
 
-tee_tsv()
+tee_tsv(taulukko)
 
 #tulosta_fancysti()
 
