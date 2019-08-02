@@ -295,23 +295,22 @@ def lue_tsv_ja_lisaa_komponentit():
 	with open (TSV_FILE, 'r') as f:
 		for rivi in f:
 			kirjan_data.append(rivi.split('\t'))
-			
-	i = 0	
-	lopul_taul = [['']*25] * 2650
+		
+	i = 0
+	lopul_taul = [['' for i in range(25)] for j in range(2650)]
+	kirjan_luku = 0
 	#käydään läpi kanjit+komponentit lista, ja jos kanjista on tietoja tsv:ssä, lisätään ne taulukkoon
 	for rivi in taul:
 		for entry in kirjan_data:
 			if entry[0] == rivi[0]: #jos tsv:stä löytyi tiedot
 				lopul_taul[i] = entry
+				kirjan_luku = entry[1]
 				break
-		'''if lopul_taul[i][0] == '': #jos tsv:stä ei löytynyt tietoja
+		if lopul_taul[i][1] == '': #jos tsv:stä ei löytynyt tietoja
 			lopul_taul[i][0] = rivi
-			print(lopul_taul[i][0])'''
-		lopul_taul[i][0] = rivi
-		print(lopul_taul[i][0])
-		
+			lopul_taul[i][1] = kirjan_luku
+			lopul_taul[i][2] = 'comp'			
 		i += 1
-	#print(lopul_taul)
 	return lopul_taul
 	
 '''kirjan tsv-muotoa varten täytetään taulukko kanjidic-tietokannalla'''		
@@ -327,6 +326,7 @@ def luo_kentat(taul):
 				if rivi[7] == '': rivi[7] = ','.join(valkkaa_sanastoa(kanji, False))
 				#sekalaiset:
 				rivi[23] = 'Merkin vetojen lukumäärä: ' + get_vetomaara(entry) + ' <br> <a href="https://jisho.org/search/' + kanji + '%23kanji" target="_blank">'+ kanji + ' Jisho-sanakirjassa</a>'
+				if '\n' in rivi[24]: rivi[24] = rivi[24].strip('\n') #rivinvaihto pois lopusta tarvittaessa
 
 def tee_tsv(taul):
 	luo_kentat(taul)
