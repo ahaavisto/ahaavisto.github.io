@@ -24,7 +24,7 @@ font-family: 'Noto Sans JP', sans-serif;
 /*font-family: "TakaoMinchoEd", "Meiryo";*/
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 6000px) {
   body {
     font-size: 200%;
     background-color: lightblue;
@@ -35,7 +35,7 @@ font-family: 'Noto Sans JP', sans-serif;
   }
 }
 
-@media only handheld and (max-width: 600px) {
+@media only handheld and (max-width: 6000px) {
   body {
     font-size: 200%;
     background-color: grey;
