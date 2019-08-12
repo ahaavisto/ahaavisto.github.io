@@ -1,17 +1,31 @@
-@font-face {
+/*@font-face {
 font-family: "TakaoMinchoEd";
 src: url("https://ahaavisto.github.io/media/TakaoExMinchoEdited.woff");
 src: url("https://ahaavisto.github.io/media/TakaoExMinchoEdited.woff") format("woff"),
 url("https://ahaavisto.github.io/media/TakaoExMinchoEdited.ttf") format("truetype");
-}
+}*/
+
+/*@font-face {
+  font-family: 'japani';
+  src: local('Noto Sans JP');
+  unicode-range: U+256-U+FFFF;
+}teoriassa näin saisi vain japanille eri fontin, ei toimi atm toteutuksella*/
 
 body {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 50px;
   margin-left: 50px;
+  font-family: 'Noto Sans JP', sans-serif
 }
 
-.jpn { 
-font-family: "TakaoMinchoEd", "Meiryo";
+.jpn {
+font-family: 'Noto Sans JP', sans-serif; 
+/*font-family: "TakaoMinchoEd", "Meiryo";*/
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 2.5em
+  }
 }
