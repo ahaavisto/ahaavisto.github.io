@@ -27,11 +27,32 @@ font-family: 'Noto Sans JP', sans-serif;
 /*@media only screen and (max-width: 1000px)*/
 @media (max-width: @screen-sm) {
   body {
-  	background-color: grey;
+  	background-color: pink;
     font-size: 14px;
     margin-top: 0px		!important;
   	margin-bottom: 0px	!important;
   	margin-right: 0px	!important;
   	margin-left: 0px	!important;
+  }
+}
+
+@media (max-width: @screen-xs) {
+  body {
+  	background-color: yellow;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: @screen-md) {
+  body {
+  	background-color: lightblue;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: @screen-lg) {
+  body {
+  	background-color: red;
+    font-size: 14px;
   }
 }
