@@ -26,13 +26,13 @@ font-family: 'Noto Sans JP', sans-serif;
 
 @media only handheld {
   body {
-  	color: red;
+  	background-color: blue !important;
   }
 }
 
 @media only handheld and (max-width: 2000px) {
   body {
-  	background-color: lightblue;
+  	background-color: lightblue !important;
     font-size: 300% 	!important;
     margin-top: 0px		!important;
   	margin-bottom: 0px	!important;
