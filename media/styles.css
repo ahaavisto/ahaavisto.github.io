@@ -24,7 +24,7 @@ font-family: 'Noto Sans JP', sans-serif;
 /*font-family: "TakaoMinchoEd", "Meiryo";*/
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   body {
   	background-color: lightblue !important;
     font-size: 300% 	!important;
