@@ -29,7 +29,7 @@ DIV_CLOSE = '</div>\n'
 HTML_LOPPU = '</div>\n</div>\n</body>\n</html>'
 
 data = []
-with open ('kirja/tuloste.tsv', 'r') as f:
+with open ('kirja/tuloste_komponentein.tsv', 'r') as f:
 	i = 0
 	for rivi in f:
 		data.append(rivi.split('\t'))

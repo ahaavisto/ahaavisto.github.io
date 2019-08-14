@@ -29,4 +29,4 @@ def uusi_centrality():
 			
 '''main'''
 
-#uusi_centrality()
+uusi_centrality()
