@@ -35,7 +35,7 @@ with open ('kirja/tuloste_komponentein.tsv', 'r') as f:
 		data.append(rivi.split('\t'))
 		i += 1
 
-def luo_html():
+def luo_html_perus():
 	html = ""
 	i = 1
 	kirjanLuku = 0
@@ -79,7 +79,35 @@ def luo_html():
 		html += "<br>\n"
 		i += 1
 	#print(HTML_ALKU, html, HTML_LOPPU)
+
+
+def luo_html_komponenttilista():
+	html = ""
+	i = 1
+	kirjanLuku = 0
+	for entry in data:
+		lista = ''
+		if kirjanLuku != entry[1]:
+			kirjanLuku = entry[1]
+			lista += "<h1> Kokonaisuus " + kirjanLuku + "</h1>\n"
+			lista += "\n"
+		if entry[2] == "target":
+			lista += '<div id="' + entry[0]+ '" class="p-3 mb-2 bg-info">'
+		else:
+			lista += '<div id="' + entry[0]+ '" class="p-3 mb-2 bg-light">' #eri väri, jos vain komponentti eikä jooyookani
+		lista += entry[0] + '<br>'
+		if entry[6] is not '': lista+= entry[6] + ', \n' #suomennos
+		lista += "alakomponentit: " + entry[3]
+		if entry[5] is not '': lista += ', lukutapoja: ' + entry[5] + ' \n' #lukutavat
+		lista += DIV_CLOSE
 	
+		for rivi in lista.split('\n'):
+			html += rivi + '\n'
+		html += "<br>\n"
+		i += 1
+	print(HTML_ALKU, html, HTML_LOPPU)
+
 	
-	
-luo_html()
+'''main'''
+luo_html_komponenttilista()
+#luo_html_perus()
