@@ -41,7 +41,7 @@ def luo_komponenttilista(komponentit, onko_samalla_sivulla):
 		if onko_samalla_sivulla:
 			res += '<a href="#' + char + '">' + char + '</a>, '
 		else:
-			res += '<a href="komponentit.html/#' + char + '">' + char + '</a>, '
+			res += '<a href="komponentit.html#' + char + '">' + char + '</a>, '
 	return res[:-2]
 
 def luo_html_perus():
