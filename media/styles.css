@@ -27,7 +27,7 @@ font-family: 'Noto Sans JP', sans-serif;
 @media only screen and (max-width: 1000px) {
   body {
   	background-color: lightblue;
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-top: 0px		!important;
   	margin-bottom: 0px	!important;
   	margin-right: 0px	!important;
