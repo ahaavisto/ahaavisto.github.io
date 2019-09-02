@@ -34,6 +34,15 @@ with open ('kirja/tuloste_komponentein.tsv', 'r') as f:
 	for rivi in f:
 		data.append(rivi.split('\t'))
 		i += 1
+		
+def luo_komponenttilista(komponentit, onko_samalla_sivulla):
+	res = ''
+	for char in komponentit:
+		if onko_samalla_sivulla:
+			res += '<a href="#' + char + '">' + char + '</a>, '
+		else:
+			res += '<a href="komponentit.html/#' + char + '">' + char + '</a>, '
+	return res[:-2]
 
 def luo_html_perus():
 	html = ""
@@ -48,13 +57,14 @@ def luo_html_perus():
 		if entry[2] == "target":
 			lista += KANJI_DIV 
 		else:
+			continue #atm komponentteja ei mukaan tähän listaan
 			lista += COMPONENT_DIV #eri väri, jos vain komponentti eikä jooyookani
 		otsikko = FONT_DIV + str(i) + ". " + entry[0] + DIV_CLOSE + "\n" + DIV_CLOSE
 		lista += HEADER_DIV + '\n <a data-toggle="collapse" href="#' + str(i) + '">' + otsikko + '</a>'
 		lista += '<div id="' + str(i) + '" class="panel-collapse collapse">'
 		lista += BODY_DIV + entry[6] + '<br><br>\n' #suomennos
 		lista += '<img src="/vedot/' + entry[0] + '.svg" class="img-responsive" alt="vetojärjestys"><br><br>' #vetokuva
-		lista += FONT_DIV + "Komponentit: " + entry[3] + "<br>" + DIV_CLOSE
+		lista += FONT_DIV + "Komponentit: " + luo_komponenttilista(entry[3]) + "<br>" + DIV_CLOSE
 		lista += 'Merkin lukutapoja: ' + entry[5] + '<br><br>\n' #lukutavat
 		
 		#esimerkit
@@ -97,7 +107,7 @@ def luo_html_komponenttilista():
 			lista += '<div id="' + entry[0]+ '" class="p-3 mb-2 bg-light">' #eri väri, jos vain komponentti eikä jooyookani
 		lista += entry[0] + '<br>'
 		if entry[6] is not '': lista+= entry[6] + ', \n' #suomennos
-		lista += "alakomponentit: " + entry[3]
+		lista += "alakomponentit: " + luo_komponenttilista(entry[3], True)
 		if entry[5] is not '': lista += ', lukutapoja: ' + entry[5] + ' \n' #lukutavat
 		lista += DIV_CLOSE
 	

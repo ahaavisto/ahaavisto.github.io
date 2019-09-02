@@ -1,11 +1,4 @@
-Kirjan workflow 
-
-
-
-12.58
-
-
-
+Kirjan workflow
 
 1. lataa taulukko .tsv -tiedostomuodossa Google drivestä. Nimeä se tuloste.tsv
 2. aja kanji/loach_ wang _algo.py joka tekee muokattu _cetrality.txt -listan, jossa nostettu ylös priorisoitavaksi halutu merkit
