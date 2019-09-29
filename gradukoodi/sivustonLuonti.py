@@ -37,12 +37,14 @@ with open ('kirja/tuloste_komponentein.tsv', 'r') as f:
 		
 def luo_komponenttilista(komponentit, onko_samalla_sivulla):
 	res = ''
+	if len(komponentit) < 2:
+		return ''
 	for char in komponentit:
 		if onko_samalla_sivulla:
 			res += '<a href="#' + char + '">' + char + '</a>, '
 		else:
 			res += '<a href="komponentit.html#' + char + '">' + char + '</a>, '
-	return res[:-2]
+	return "alakomponentit: " + res[:-2] + ', '
 
 def luo_html_perus():
 	html = ""
@@ -107,8 +109,8 @@ def luo_html_komponenttilista():
 			lista += '<div id="' + entry[0]+ '" class="p-3 mb-2 bg-light">' #eri väri, jos vain komponentti eikä jooyookani
 		lista += entry[0] + '<br>'
 		if entry[6] is not '': lista+= entry[6] + ', \n' #suomennos
-		lista += "alakomponentit: " + luo_komponenttilista(entry[3], True)
-		if entry[5] is not '': lista += ', lukutapoja: ' + entry[5] + ' \n' #lukutavat
+		lista += luo_komponenttilista(entry[3], True)
+		if entry[5] is not '': lista += 'lukutapoja: ' + entry[5] + ' \n' #lukutavat
 		lista += DIV_CLOSE
 	
 		for rivi in lista.split('\n'):
