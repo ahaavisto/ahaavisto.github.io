@@ -16,8 +16,11 @@ HTML_ALKU = '''<!DOCTYPE html>\n
 \t<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"\n
 \tcrossorigin="anonymous"></script>\n
 \t<div class="container">
-\t<h1>Kanjilista</h1>\n
-\t<div>Sinisellä merkitty jooyoo-kanjit, keltaisella vain komponentteina esiintyvät. WORK IN PROGRESS. Datan lähteet: <a href="https://github.com/ahaavisto/ahaavisto.github.io">github.com/ahaavisto/ahaavisto.github.io</a> </div>\n
+
+<h1>Kanjien komponentit</h1>\n
+<div><a href="kanji.html" class="btn" role="button">Takaisin kanjilistaan</a></div>\n\n
+<div>Ippo ippo -materiaalin kanjit ja niiden komponentit. Sinisellä merkitty jooyoo-kanjit, valkoisella pohjalla tässä yhteydessä vain komponentteina esiintyvät. Datan lähteet: <a href="https://github.com/ahaavisto/ahaavisto.github.io">github.com/ahaavisto/ahaavisto.github.io</a> </div>\n
+
 \t<div class="panel-group">
 '''
 KANJI_DIV = '<div class="panel panel-info">\n'
@@ -29,7 +32,8 @@ DIV_CLOSE = '</div>\n'
 HTML_LOPPU = '</div>\n</div>\n</body>\n</html>'
 
 data = []
-with open ('kirja/tuloste_komponentein.tsv', 'r') as f:
+with open ('kirja/taulukko220120.tsv', 'r') as f:
+#with open ('kirja/tuloste_komponentein.tsv', 'r') as f:
 	i = 0
 	for rivi in f:
 		data.append(rivi.split('\t'))
