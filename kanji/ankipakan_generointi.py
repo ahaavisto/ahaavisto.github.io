@@ -1,6 +1,6 @@
 
 data = []
-with open ('../gradukoodi/kirja/tuloste.tsv', 'r') as f:
+with open ('../gradukoodi/kirja/taulukko220120.tsv', 'r') as f:
 	for rivi in f:
 		data.append(rivi.split('\t'))
 
