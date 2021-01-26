@@ -1,10 +1,13 @@
 '''Kanjikirjaa varten algoritmin luoman järjestyksen käpistelyä ns. käsin
 perustuu osin gradukoodi_0918.py koodiin'''
 
+from sys import argv
+
 def uusi_centrality():
-	#taulukoksi kanjikirjaa varten luotu excel
+	#taulukoksi kanjikirjaa varten luotu excel, anna komentoriviargumenttina
 	data = []
-	with open ('../gradukoodi/kirja/tuloste.tsv', 'r') as f:
+	tulo = argv[1]
+	with open (argv[1], 'r') as f:
 		for rivi in f:
 			data.append(rivi.split('\t'))
 		

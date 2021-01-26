@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from sys import argv
 
 puu = ET.parse('kanjidic2.xml')
 juuri = puu.getroot()
@@ -8,7 +9,7 @@ sanakirja = {}
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ.txt'
 #SOURCE_FILE = 'tuloksia/jarjestys_BCCWJ_alku.txt'
 SOURCE_FILE = 'tuloksia/muokattu_opiskelujarjestys.txt'
-TSV_FILE = 'kirja/tuloste.tsv'
+TSV_FILE = '../kanji/kirjan_taulukko.tsv'
 
 def lisää_vetomaarat():
 	with open ('ids_jooyoo+_chine.txt', 'r') as f:
@@ -330,7 +331,7 @@ def luo_kentat(taul):
 
 def tee_tsv(taul):
 	luo_kentat(taul)
-	with open ('kirja/tuloste_komponentein.tsv', 'w') as f:
+	with open ('../kanji/tuloste_komponentein.tsv', 'w') as f:
 		for rivi in taul:
 			for juttu in rivi:
 				if juttu is not '\n':
