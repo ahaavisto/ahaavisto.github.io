@@ -85,16 +85,19 @@ def luo_html_perus():
 		lista += 'Merkin lukutapoja: ' + entry[5] + '<br><br>\n' #lukutavat
 		
 		#esimerkit
-		lista += '<div class="row"> <br>'
+		lista += '<div class="row">'
 		lista += '<div class="col-sm-4">' + entry[8] + ' ' + entry[9] + '</div>'
-		lista += '<div class="col-sm-8">' + entry[16] + ' ' + entry[17] + '</div>'
+		lista += '<div class="col-sm-8">‣' + entry[16] + ' ' + entry[17] + '</div>'
+		lista += '</div> <div class="row">'
 		lista += '<div class="col-sm-4">' + entry[10] + ' ' + entry[11] + '</div>'
-		lista += '<div class="col-sm-8">' + entry[18] + ' ' + entry[19] + '</div>'
+		lista += '<div class="col-sm-8">‣' + entry[18] + ' ' + entry[19] + '</div>'
+		lista += '</div> <div class="row">'
 		lista += '<div class="col-sm-4">' + entry[12] + ' ' + entry[13] + '</div>'
-		lista += '<div class="col-sm-8">' + entry[20] + ' ' + entry[21] + '</div>'
+		lista += '<div class="col-sm-8">‣' + entry[20] + ' ' + entry[21] + '</div>'
+		lista += '</div> <div class="row">'
 		lista += '<div class="col-sm-4">' + entry[14] + ' ' + entry[15] + '</div>'
-		lista += '<div class="col-sm-8">' + entry[22] + '</div>'
-		lista += '</div><br>'
+		lista += '<div class="col-sm-8">‣' + entry[22] + '</div>'
+		lista += '</div></div><br>'
 		
 		lista += entry[23] + '\n<br> ' + entry[24] + '\n<br><br>' #ekstrahommat
 		
