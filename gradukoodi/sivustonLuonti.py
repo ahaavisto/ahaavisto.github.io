@@ -1,3 +1,5 @@
+from sys import argv
+
 HTML_ALKU = '''<!DOCTYPE html>\n
 <meta charset="utf-8">\n
 <html>\n
@@ -32,7 +34,8 @@ DIV_CLOSE = '</div>\n'
 HTML_LOPPU = '</div>\n</div>\n</body>\n</html>'
 
 data = []
-with open ('kirja/taulukko220120.tsv', 'r') as f:
+inputfilu = argv[1]
+with open (inputfilu, 'r') as f:
 #with open ('kirja/tuloste_komponentein.tsv', 'r') as f:
 	i = 0
 	for rivi in f:
