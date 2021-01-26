@@ -5,6 +5,7 @@ HTML_ALKU = '''<!DOCTYPE html>\n
 <html>\n
 <head>\n
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>\n
+<meta name="viewport" content="width=device-width, initial-scale=1.0">\n
 </head>\n
 <body>\n
 \t<!-- seuraavat kolme linkkiä liittyvät bootstrap-kirjastoon-->\n
