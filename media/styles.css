@@ -12,9 +12,11 @@ url("https://ahaavisto.github.io/media/TakaoExMinchoEdited.ttf") format("truetyp
 }teoriassa näin saisi vain japanille eri fontin, ei toimi atm toteutuksella*/
 
 body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 50px;
   font-family: 'Noto Sans JP', sans-serif
 }
 

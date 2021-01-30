@@ -1,4 +1,6 @@
+*.tsv#
 *.txt~
 *.py~
 *.html~
 *~
+**/kirjaa_varten.html

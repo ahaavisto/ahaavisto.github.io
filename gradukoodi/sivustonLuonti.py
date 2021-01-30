@@ -79,7 +79,7 @@ def luo_html_perus():
 		
 		otsikko = FONT_DIV + str(i) + ". " + entry[0] + DIV_CLOSE + "\n" + DIV_CLOSE
 		lista += HEADER_DIV + '\n <a data-toggle="collapse" href="#' + str(i) + '">' + otsikko + '</a>'
-		lista += '<div id="' + str(i) + '" class="panel-collapse collapse">'
+		lista += '<div id="' + str(i) + '" class="panel-collapse collapse">\n'
 		lista += BODY_DIV + entry[6] + '<br><br>\n' #suomennos
 		lista += '<img src="/vedot/' + entry[0] + '.svg" class="img-responsive" alt="vetojärjestys"><br><br>' #vetokuva
 		lista += FONT_DIV + "Komponentit: " + luo_komponenttilista(entry[3], False) + "<br>" + DIV_CLOSE
@@ -87,23 +87,23 @@ def luo_html_perus():
 		
 		#esimerkit
 		lista += '<div class="row">'
-		lista += '<div class="col-sm-4">' + entry[8] + ' ' + entry[9] + '</div>'
-		lista += '<div class="col-sm-8">‣' + entry[16] + ' ' + entry[17] + '</div>'
-		lista += '</div> <div class="row">'
-		lista += '<div class="col-sm-4">' + entry[10] + ' ' + entry[11] + '</div>'
-		lista += '<div class="col-sm-8">‣' + entry[18] + ' ' + entry[19] + '</div>'
-		lista += '</div> <div class="row">'
-		lista += '<div class="col-sm-4">' + entry[12] + ' ' + entry[13] + '</div>'
-		lista += '<div class="col-sm-8">‣' + entry[20] + ' ' + entry[21] + '</div>'
-		lista += '</div> <div class="row">'
-		lista += '<div class="col-sm-4">' + entry[14] + ' ' + entry[15] + '</div>'
-		lista += '<div class="col-sm-8">‣' + entry[22] + '</div>'
-		lista += '</div></div><br>'
+		lista += '\t<div class="col-sm-4">' + entry[8] + ' ' + entry[9] + '</div>\n'
+		lista += '\t<div class="col-sm-8">‣' + entry[16] + ' ' + entry[17] + '</div>\n'
+		lista += '</div> <div class="row">\n'
+		lista += '\t<div class="col-sm-4">' + entry[10] + ' ' + entry[11] + '</div>\n'
+		lista += '\t<div class="col-sm-8">‣' + entry[18] + ' ' + entry[19] + '</div>\n'
+		lista += '</div> <div class="row">\n'
+		lista += '\t<div class="col-sm-4">' + entry[12] + ' ' + entry[13] + '</div>\n'
+		lista += '\t<div class="col-sm-8">‣' + entry[20] + ' ' + entry[21] + '</div>\n'
+		lista += '</div> <div class="row">\n'
+		lista += '\t<div class="col-sm-4">' + entry[14] + ' ' + entry[15] + '</div>\n'
+		lista += '\t<div class="col-sm-8">‣' + entry[22] + '</div>\n'
+		lista += '</div><br>\n'
 		
 		lista += entry[23] + '\n<br> ' + entry[24] + '\n<br><br>' #ekstrahommat
 		
-		lista += str(i) + '. merkki\n'
-		lista += DIV_CLOSE + DIV_CLOSE + DIV_CLOSE
+		#lista += str(i) + '. merkki\n'
+		lista += DIV_CLOSE + DIV_CLOSE + DIV_CLOSE + DIV_CLOSE
 		print(lista)	
 		for rivi in lista.split('\n'):
 			html += rivi + '\n'
