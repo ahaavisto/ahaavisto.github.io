@@ -71,7 +71,7 @@ katakana = "ァアィイゥウェエォオカガキギクグケゲコゴサザ�
 hiraganaksi = str.maketrans(katakana, hiragana)
 
 def valkkaa_sanastoa(kanji, tuleeko_lauseita):
-	'''kaivaa viisi yleisintä sanaa, joissa kys. kanji esiintyy''' #TODO pois tuplat kun samalla sanalla useampi POS = useampi entry?
+	'''kaivaa viisi yleisintä sanaa, joissa kys. kanji esiintyy'''
 	ret = []
 	setti = ("Ei tunnettuja yleisiä sanoja","","0")
 	lista_sanoja = list()
@@ -343,6 +343,9 @@ pääohjelma alkaa
 '''
 
 #lue_tsv()
+
+TSV_FILE = argv[1]
+
 taulukko = lue_tsv_ja_lisaa_komponentit()
 
 tee_tsv(taulukko)
