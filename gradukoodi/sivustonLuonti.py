@@ -103,7 +103,7 @@ def luo_html_perus():
 		lista += entry[23] + '\n<br> ' + entry[24] + '\n<br><br>' #ekstrahommat
 		
 		#lista += str(i) + '. merkki\n'
-		lista += DIV_CLOSE + DIV_CLOSE + DIV_CLOSE + DIV_CLOSE
+		lista += DIV_CLOSE + DIV_CLOSE + DIV_CLOSE #+ DIV_CLOSE
 		print(lista)	
 		for rivi in lista.split('\n'):
 			html += rivi + '\n'
