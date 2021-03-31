@@ -32,7 +32,7 @@
 八人・はちにん	8 ihmistä
 九・きゅう／く	yhdeksän
 九つ・ここのつ	9 kpl
-九月・くがつ*	syyskuu
+九月・くがつ	syyskuu
 九人・きゅうにん	9 ihmistä
 十・じゅう	kymmenen
 十・とう	10 kpl
@@ -48,8 +48,6 @@
 犬・いぬ	koira
 小さい・ちいさい	pieni
 小学生・しょうがくせい	alakoululainen
-口・くち	suu
-人口・じんこう	väkiluku
 何・なに、なん	mikä, mitä
 日・ひ	päivä, aurinko
 何日・なんにち	mikä kuukaudenpäivä
