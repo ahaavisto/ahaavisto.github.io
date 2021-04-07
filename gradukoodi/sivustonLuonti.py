@@ -69,7 +69,7 @@ def luo_html_perus():
 		lista = ''
 		if kirjanLuku != entry[1]:
 			kirjanLuku = entry[1]
-			lista += "<h1> Kokonaisuus " + kirjanLuku + "</h1>\n"
+			lista += "<h1> Osa " + kirjanLuku + "</h1>\n"
 			lista += "\n"
 		if entry[2] == "target":
 			lista += KANJI_DIV 
@@ -120,7 +120,7 @@ def luo_html_komponenttilista():
 		lista = ''
 		if kirjanLuku != entry[1]:
 			kirjanLuku = entry[1]
-			lista += "<h1> Kokonaisuus " + kirjanLuku + "</h1>\n"
+			lista += "<h1> Osa " + kirjanLuku + "</h1>\n"
 			lista += "\n"
 		if entry[2] == "target":
 			lista += '<div id="' + entry[0]+ '" class="p-3 mb-2 bg-info">'
@@ -129,7 +129,7 @@ def luo_html_komponenttilista():
 		lista += entry[0] + '<br>'
 		if entry[6] is not '': lista+= entry[6] + ', \n' #suomennos
 		lista += luo_komponenttilista(entry[3], True)
-		if entry[5] is not '': lista += 'lukutapoja: ' + entry[5] + ' \n' #lukutavat
+		if entry[5] is not '': lista += '<br>lukutapoja: ' + entry[5] + ' \n' #lukutavat
 		lista += DIV_CLOSE
 	
 		for rivi in lista.split('\n'):
@@ -140,5 +140,5 @@ def luo_html_komponenttilista():
 
 	
 '''main'''
-#luo_html_komponenttilista()
-luo_html_perus()
+luo_html_komponenttilista()
+#luo_html_perus()
