@@ -71,7 +71,7 @@
 生きる・いきる	elää
 生まれる・うまれる	syntyä
 〜生まれ・うまれ	syntynyt
-〜才	ikävuosien laskupääte
+〜才・さい	ikävuosien laskupääte
 何才・なんさい	minkä ikäinen
 口・くち	suu
 人口・じんこう	väkiluku

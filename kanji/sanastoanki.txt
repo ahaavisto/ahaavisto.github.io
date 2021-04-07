@@ -1,176 +1,103 @@
-一つ	ひとつ	1 kpl	kokonaisuus1
-一ぴき	いっぴき	1 pieni eläin	kokonaisuus1
-一人	ひとり !	1 ihminen	kokonaisuus1
-二つ	ふたつ	2 kpl	kokonaisuus1
-二ひき	にひき	2 pientä eläintä	kokonaisuus1
-二人	ふたり !	2 ihmistä	kokonaisuus1
-三つ	みっつ	3 kpl	kokonaisuus1
-三びき	さんびき	3 pientä eläintä	kokonaisuus1
-三人	さんにん	3 ihmistä	kokonaisuus1
-四つ	よっつ	4 kpl	kokonaisuus1
-四ひき	よんひき	4 pientä eläintä	kokonaisuus1
-四人	よにん	4 ihmistä	kokonaisuus1
-五つ	いつつ	5 kpl	kokonaisuus1
-五ひき	ごひき	5 pientä eläintä	kokonaisuus1
-五人	ごにん	5 ihmistä	kokonaisuus1
-六つ	むっつ	6 kpl	kokonaisuus1
-六ぴき	ろっぴき	6 pientä eläintä	kokonaisuus1
-六人	ろくにん	6 ihmistä	kokonaisuus1
-七つ	ななつ	7 kpl	kokonaisuus1
-七ひき	ななひき	7 pientä eläintä	kokonaisuus1
-七人	ななにん／しちにん	7 ihmistä	kokonaisuus1
-八つ	やっつ	8 kpl	kokonaisuus1
-八ぴき	はっぴき	8 pientä eläintä	kokonaisuus1
-八人	はちにん	8 ihmistä	kokonaisuus1
-九つ	ここのつ	9 kpl	kokonaisuus1
-九ひき	きゅうひき	9 pientä eläintä	kokonaisuus1
-九人	きゅうにん	9 ihmistä	kokonaisuus1
-十	とう	10 kpl	kokonaisuus1
-十ぴき	じゅっぴき	10 pientä eläintä	kokonaisuus1
-十人	じゅうにん	10 ihmistä	kokonaisuus1
-口	くち	suu	kokonaisuus1
-人口	じんこう	väkiluku	kokonaisuus1
-何	なに	mikä	kokonaisuus1
-何年生	なんねんせい	moneskoluokkalainen	kokonaisuus1
-年	とし	vuosi	kokonaisuus1
-二年生	にねんせい	2. luokkalainen	kokonaisuus1
-月	つき	kuu	kokonaisuus1
-月	がつ	kuukausi	kokonaisuus1
-二か月	にかげつ	kahden kuukauden aika	kokonaisuus1
-日本	にほん	にっぽん	Japani	kokonaisuus1
-日	ひ	aurinko	kokonaisuus1
-土	つち	maa, maaperä	kokonaisuus1
-土曜日	どようび	lauantai	kokonaisuus1
-時	とき	aika	kokonaisuus1
-時	じ	tunti	kokonaisuus1
-分	ふん、ぶん、ぷん	minuutti	kokonaisuus1
-分かる	わかる	ymmärtää	kokonaisuus1
-木	き	puu	kokonaisuus1
-木曜日	もくようび	torstai	kokonaisuus1
-本	ほん	kirja	kokonaisuus1
-本当	ほんとう	tosi	kokonaisuus1
-生年月日	せいねんがっぴ	syntymäaika	kokonaisuus1
-先生、せんせい	opettaja	kokonaisuus1
-生きる	いきる	elää	kokonaisuus1
-生まれ	うまれ	syntynyt	kokonaisuus1
-日本人	にほんじん	japanilainen	kokonaisuus1
-何人	なんにん	kuinka monta henkilöä	kokonaisuus1
-人	ひと	ihminen	kokonaisuus1
-一人	ひとり !　二人	ふたり !　三人	さんにん !	yksi ihminen kaksi ihmistä kolme ihmistä	kokonaisuus1
-小さい	ちいさい	pieni	kokonaisuus1
-大中小	だいちゅうしょう	suuri, keskikokoinen, pieni (esim. annoskoko)	kokonaisuus1
-中	なか	keskellä; sisällä	kokonaisuus1
-中学生	ちゅうがくせい	yläkoululainen	kokonaisuus1
-大きい	おおきい	iso	kokonaisuus1
-大学	だいがく	yliopisto	kokonaisuus1
-古い	ふるい	vanha	kokonaisuus2
-中古	ちゅうこ	käytetty	kokonaisuus2
-新しい	あたらしい	uusi	kokonaisuus2
-新年	しんねん	uusivuosi	kokonaisuus2
-明日	あした	huominen	kokonaisuus2
-明るい	あかるい	kirkas, valoisa; iloinen	kokonaisuus2
-音	おと	ääni	kokonaisuus2
-音楽	おんがく	musiikki	kokonaisuus2
-暗い	くらい	pimeä; synkkä	kokonaisuus2
-暗記する	あんきする	opetella ulkoa	kokonaisuus2
-白い	しろい	valkoinen	kokonaisuus2
-白黒	しろくろ	mustavalkoinen	kokonaisuus2
-楽しい	たのしい	kiinnostava; hauska, mukava	kokonaisuus2
-口	くち	suu	kokonaisuus2
-人口	じんこう	väkiluku	kokonaisuus2
-目	め	silmä	kokonaisuus2
-目的	もくてき	päämäärä, tavoite; aie, tarkoitus	kokonaisuus2
-科目	かもく	kouluaine	kokonaisuus2
-手	て	käsi	kokonaisuus2
-上手	じょうず !	hyvä jossakin	kokonaisuus2
-下手	へた !	huono jossakin	kokonaisuus2
-上	うえ	yläpuoli, ylä-	kokonaisuus2
-年上	としうえ	vanhempi (ihminen)	kokonaisuus2
-上がる	あがる	nousta	kokonaisuus2
-上げる	あげる	nostaa	kokonaisuus2
-下	した	alapuoli, ala-	kokonaisuus2
-年下	としした	nuorempi (ihminen)	kokonaisuus2
-下がる	さがる	laskea, alentua, pudota	kokonaisuus2
-下げる	さげる　下さい	ください	laskea alas     saisinko	kokonaisuus2
-女	おんな	nainen	kokonaisuus2
-女の子	おんなのこ	tyttö	kokonaisuus2
-男女	だんじょ	miehet ja naiset	kokonaisuus2
-女性	じょせい	naishenkilö, naispuolinen	kokonaisuus2
-子ども	こども	lapsi	kokonaisuus2
-男子	だんし	poika	kokonaisuus2
-女子	じょし	tyttö	kokonaisuus2
-好き	すき	pitää jostakin, mieluinen	kokonaisuus2
-大好き	だいすき	pitää paljon jstkin, rakastaa, erittäin mieluinen	kokonaisuus2
-お好み焼き	おこのみやき	okonomiyaki (japanilainen ruokalaji)	kokonaisuus2
-男	おとこ	mies	kokonaisuus2
-男の子	おとこのこ	poika	kokonaisuus2
-男性	だんせい	mieshenkilö, miespuolinen	kokonaisuus2
-黒い	くろい	musta	kokonaisuus2
-黒板	こくばん	liitutaulu	kokonaisuus2
-色	いろ	väri	kokonaisuus2
-何色	なにいろ	minkä värinen?	kokonaisuus2
-百	ひゃく	sata	kokonaisuus2
-千	せん	tuhat	kokonaisuus2
-万	まん	10 000	kokonaisuus2
-円	えん	jeni	kokonaisuus2
-何円	なんえん	montako jeniä?	kokonaisuus2
-水	みず	(kylmä) vesi	kokonaisuus2
-水よう日	すいようび	keskiviikko	kokonaisuus2
-魚	さかな	kala	kokonaisuus2
-金魚	kultakala	kokonaisuus2
-小魚	こざかな	syötävä pikkukala	kokonaisuus2
-肉	にく	liha	kokonaisuus2
-魚肉	ぎょにく	kalan liha	kokonaisuus2
-牛	うし	lehmä, härkä, nauta	kokonaisuus2
-牛肉	ぎゅうにく	naudanliha	kokonaisuus2
-牛乳	ぎゅうにゅう	lehmänmaito	kokonaisuus2
-入る	はいる	mennä sisään, tulla sisään	kokonaisuus2
-入れる	いれる	laittaa sisään	kokonaisuus2
-入口	いりぐち	sisäänkäynti	kokonaisuus2
-出る	でる	mennä ulos, tulla ulos	kokonaisuus2
-出す	だす	ottaa ulos	kokonaisuus2
-出口	でぐち	uloskäynti	kokonaisuus2
-火	ひ	tuli, liekki	kokonaisuus3
-火曜日	かようび	tiistai	kokonaisuus3
-木	き	puu	kokonaisuus3
-木曜日	もくようび	torstai	kokonaisuus3
-金	かね	raha	kokonaisuus3
-金曜日	きんようび	perjantai	kokonaisuus3
-金	きん	kulta	kokonaisuus3
-土	つち	maa, maaperä	kokonaisuus3
-土曜日	どようび	lauantai	kokonaisuus3
-耳	みみ	korva	kokonaisuus3
-聞く	きく	kuulla; kuunnella; kysyä	kokonaisuus3
-新聞	しんぶん	sanomalehti	kokonaisuus3
-見る	みる	nähdä; katsoa; kokeilla	kokonaisuus3
-店	みせ	kauppa, liike	kokonaisuus3
-右	みぎ	oikea	kokonaisuus3
-左右	さゆう	vasen ja oikea	kokonaisuus3
-左	ひだり	vasen	kokonaisuus3
-左手	ひだりて	vasen käsi	kokonaisuus3
-学校	がっこう	koulu	kokonaisuus3
-大学	だいがく	yliopisto	kokonaisuus3
-学生	がくせい	opiskelija	kokonaisuus3
-高校	こうこう	lukio	kokonaisuus3
-中学校	ちゅうがっこう	yläkoulu	kokonaisuus3
-小学校	しょうがっこう	alakoulu	kokonaisuus3
-先	さき		kokonaisuus3
-先生	せんせい	opettaja	kokonaisuus3
-先月	せんげつ	viime kuu	kokonaisuus3
-後	あと		kokonaisuus3
-前	まえ		kokonaisuus3
-下名前	したなまえ		kokonaisuus3
-帰る	かえる	palata takaisin	kokonaisuus3
-来る	くる	tulla	kokonaisuus3
-来月	らいげつ	ensi kuu	kokonaisuus3
-来年	らいねん	ensi vuosi	kokonaisuus3
-行く	いく	mennä	kokonaisuus3
-食べる	たべる	syödä	kokonaisuus3
-朝	あさ	aamu	kokonaisuus3
-朝食	ちょうしょく	aamiainen	kokonaisuus3
-昼	ひる	keskipäivä, päivä	kokonaisuus3
-昼食	ちゅうしょく	lounas	kokonaisuus3
-夜	よる	ilta, yö	kokonaisuus3
-夜中	よなか	keskiyö	kokonaisuus3
-休み	やすみ	tauko; loma; lepo	kokonaisuus3
-休日	きゅうじつ	vapaapäivä	kokonaisuus3
+一	いち	yksi			osa1
+一つ	ひとつ	1 kpl			osa1
+一月	いちがつ	tammikuu			osa1
+一人	ひとり *	1 ihminen			osa1
+二	に	kaksi			osa1
+二つ	ふたつ	2 kpl			osa1
+二月	にがつ	helmikuu			osa1
+二人	ふたり *	2 ihmistä			osa1
+三	さん	kolme			osa1
+三つ	みっつ	3 kpl			osa1
+三月	さんがつ	maaliskuu			osa1
+三人	さんにん	3 ihmistä			osa1
+四	よん／し	neljä			osa1
+四つ	よっつ	4 kpl			osa1
+四月	しがつ	huhtikuu			osa1
+四人	よにん	4 ihmistä			osa1
+五	ご	viisi			osa1
+五つ	いつつ	5 kpl			osa1
+五月	ごがつ	toukokuu			osa1
+五人	ごにん	5 ihmistä			osa1
+六	ろく	kuusi			osa1
+六つ	むっつ	6 kpl			osa1
+六月	ろくがつ	kesäkuu			osa1
+六人	ろくにん	6 ihmistä			osa1
+七	なな／しち	seitsemän			osa1
+七つ	ななつ	7 kpl			osa1
+七月	しちがつ	heinäkuu			osa1
+七人	ななにん／しちにん	7 ihmistä			osa1
+八	はち	kahdeksan			osa1
+八つ	やっつ	8 kpl			osa1
+八月	はちがつ	elokuu			osa1
+八人	はちにん	8 ihmistä			osa1
+九	きゅう／く	yhdeksän			osa1
+九つ	ここのつ	9 kpl			osa1
+九月	くがつ*	syyskuu			osa1
+九人	きゅうにん	9 ihmistä			osa1
+十	じゅう	kymmenen			osa1
+十	とう	10 kpl			osa1
+十月	じゅうがつ	lokakuu			osa1
+十人	じゅうにん	10 ihmistä			osa1
+人	ひと	ihminen	すきな人はいますか。	Onko sinulla mielitiettyä?	osa2
+何人	なんにん	kuinka monta henkilöä	きょうだいは何人ですか？	Kuinka monta sisarusta sinulla on?	osa2
+〜人	にん	laskupääte ihmisille	きょうだいは四人です。	Minulla on 4 sisarusta.	osa2
+フィンランド人	フィンランドじん	suomalainen	トミはフィンランド人です。　Tomi on suomalainen.		osa2
+大きい	おおきい	iso	大きいサイズでおねがいします。	Saisinko ison [vaatekoon].	osa2
+大学生	だいがくせい	yliopisto-opiskelija	あねは大学生です。	Isosiskoni on yliopisto-opiskelija.	osa2
+大人	おとな*	aikuinen	はやく大人になりたいよ!	Haluan tulla nopeasti aikuiseksi!	osa2
+犬	いぬ	koira	犬はこわいですか。	Pelkäätkö koiria?	osa2
+小さい	ちいさい	pieni	小さいこえではなしましょう。	Puhutaanpas hiljaisella (pienellä) äänellä.	osa2
+小学生	しょうがくせい	alakoululainen	小学生のランドセルはかっこいいです。	Alakoululaisten koululaukut ovat hienoja.	osa2
+何	なに、なん	mikä, mitä	しゅみは何ですか。	Mikä on harrastuksesi?	osa2
+時	とき	aika	きゅうけいの時にたいそうしましょう。	Jumpataan tauoilla!	osa2
+〜時	じ	tunnit kellonajassa	三時です。	Kello on kolme.	osa2
+何時	なんじ	mikä kellonaika	いま何時ですか。	Mitä kello on?	osa2
+〜分	ふん／ぷん	minuutti	じゅぎょうは四時十五分におわります。	Oppitunti loppuu viisitoista yli neljä.	osa2
+何分	なんぷん	montako minuuttia	何時何分ですか。	Mitä kello tarkalleen on?	osa2
+分かる	わかる	ymmärtää	ロシアごは分かりません。	En ymmärrä venäjää.	osa2
+一時半	いちじはん	puoli kaksi	一時半です。	Kello on puoli kaksi.	osa2
+半分	はんぶん	puolikas	半分にしますか。	Laitetaanko puoliksi?	osa2
+日	ひ	päivä, aurinko	ゆう日がきれいです。	Auringonlasku on kaunis.	osa2
+何日	なんにち	mikä kuukaudenpäivä	こどもの日は何日ですか。	Mikä päivä on lasten päivä?	osa2
+月	つき	kuu	月にうさぎはいますか。	Onko kuussa jäniksiä?	osa2
+四月	しがつ	huhtikuu	いもうとが四月に生まれました。	Minulle syntyi pikkusisko huhtikuussa.	osa2
+月曜日	げつようび	maanantai	月曜日はいそがしいですか。	Onko maanantai kiireinen?	osa2
+年	とし	vuosi, ikävuosi	お年はいくつですか。	Kuinka vanha olet?	osa2
+2029年	~ねん	vuosi 2029	2029年はれいわ十年です。	Vuosi 2029 on Reiwa-kauden 10. vuosi.	osa2
+二年生	にねんせい	2.-luokkalainen	ティモさんは二年生ですか	Onko Timo 2.-luokkalainen?	osa2
+生年月日	せいねんがっぴ	syntymäaika	生年月日をかいてください。	Kirjoittakaa syntymäaikanne.	osa2
+生きる	いきる	elää	ひゃく才まで生きたいですか。	Haluaisitko elää satavuotiaaksi?	osa2
+生まれる	うまれる	syntyä	あかちゃんが生まれました。	Vauva syntyi.	osa2
+〜生まれ	うまれ	syntynyt	何月生まれですか。Missä kuussa olet syntynyt?		osa2
+〜才	さい	ikävuosien laskupääte	おばあさんは九十九才です。	Isoäiti on 99-vuotias.	osa2
+何才	なんさい	minkä ikäinen	何才ですか。	Minkä ikäinen olet?	osa2
+口	くち	suu	口を大きくあけてください。	Avaa suu isoksi.	osa2
+人口	じんこう	väkiluku	フィンランドの人口は何ですか。	Mikä on Suomen väkiluku?	osa2
+目	め	silmä	うえのさんは 目がいい。	Uenon näkö on hyvä (silmät ovat hyvät).	osa2
+目的	もくてき	päämäärä, tavoite; aie, tarkoitus	わたしの目的はいしゃになることです。	Tavoitteeni on tulla lääkäriksi.	osa2
+科目	かもく	kouluaine	すきな科目は何ですか。	Mistä kouluaineesta pidät?	osa2
+耳	みみ	korva	ダンボが耳が大きいです。	Dumbolla on isot korvat.	osa2
+手	て	käsi	手を二かいたたいておじぎをします。	Taputa kaksi kertaa ja kumarra.	osa2
+手足	てあし	kädet ja jalat, raajat	ゆきさんは手足がつめたいです。	Yukilla on kylmät kädet ja jalat.	osa2
+選手	せんしゅ	urheilija	スポーツ選手はたいへんですね。	Urheilijoilla on rankkaa.	osa2
+足	あし	jalka	ゆうさんは足がはやいです。	Yuu on nopea jaloistaan.	osa2
+足りる	たりる	riittää	おかねは足りません。	Rahat eivät riitä.	osa2
+〜足	そく	laskupääte sukka- ja kenkäpareille	ソックスの三足セットはやすいです。	3:n sukkaparin setti on halpa.	osa2
+本	ほん	kirja	本をよむことがしゅみです。	Lukeminen on harrastukseni.	osa2
+〜本	ほん／ぼん／ぽん	pitkulaisten esineiden laskupääte	おやつはバナナ二本です。	Välipalani on kaksi banaania.	osa2
+日本	にほん／にっぽん	Japani	日本はじしんがおおいです。	Japanissa on paljon maanjäristyksiä.	osa2
+本当	ほんとう	tosi	そのおはなしは本当ですか。Onko tuo tarina tosi?		osa2
+中	なか	keskellä, sisällä	リュックの中におかしがあります。	Repussa on herkkuja.	osa2
+中学生	ちゅうがくせい	yläkoululainen	ぼくは中学生です。	Olen yläkoululainen.	osa2
+一日中	いちにちじゅう	koko päivän	一日中マンガをよみました。	Luin koko päivän mangaa.	osa2
+日本語	にほんご	japanin kieli	日本人は日本語をはなします。	Japanilaiset puhuvat japania.	osa2
+何語	なにご	mikä kieli	フィンランドは何語ですか。	Mitä kieltä Suomessa puhutaan?	osa2
+言語	げんご	kieli	いろいろな言語をべんきょうします。	Opiskelen monenlaisia kieliä.	osa2
+国	くに	maa, valtio	お国は何ですか。	Mistä maasta olet kotoisin?	osa2
+中国	ちゅうごく	Kiina	中国はどこですか。	Missä Kiina on?	osa2
+国語	こくご	äidinkieli (kouluaine)	きょうは国語のテストがあります。	Tänään on äidinkielen koe.	osa2
+百	ひゃく	sata	百円ショップはやすいです。	Sadan jenin kaupat ovat halpoja.	osa2
+千	せん	tuhat	千円さつはだれですか。	Kuka on tuhannen jenin setelissä?	osa2
+万	まん	kymmenentuhatta	フィンランドの人口は五百六十万人ぐらいです。	Suomen väkiluku on 5,6 miljoonaa (japaniksi 560 x 10 000).	osa2
+円	えん	jeni	日本人は一万円さつがだいすきです。	Japanilaiset pitävät kovasti 10 000 jenin setelistä.	osa2
+何円	なんえん	montako jeniä	かさ一本は何円ですか。	Montako jeniä maksaa yksi sateenvarjo?	osa2

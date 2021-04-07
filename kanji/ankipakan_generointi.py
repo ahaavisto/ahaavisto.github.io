@@ -1,6 +1,8 @@
+from sys import argv
 
 data = []
-with open ('../gradukoodi/kirja/taulukko220120.tsv', 'r') as f:
+inputfilu = argv[1]
+with open (inputfilu, 'r') as f:
 	for rivi in f:
 		data.append(rivi.split('\t'))
 
@@ -26,20 +28,42 @@ def kokopakka():
 		
 			lopul_data.append('\t'.join(lista) + '\n')
 
-def sanastopakka():
+
+def luo_rivi(entry, i, tuleeko_lauseita):
+	jap = entry[i]
+	kanji = jap.split('・')[0]
+	yomi = jap.split('・')[1]
+	suomi = entry[i+1]
+	loppu = 'osa' + entry[1]
+	if tuleeko_lauseita:
+		loppu = lisaa_lause(entry, i) + '\t' + loppu
+	return kanji + '\t' + yomi + '\t' + suomi + '\t' + loppu
+	
+def lisaa_lause(entry, i):
+	jap = entry[i+8]
+	if i == 14: return jap + '\t' #jos ollaan lisäesimerkin kohdalla, suomi on samassa sarakkeessa
+	suomi = entry[i+9]
+	return jap + '\t' + suomi
+
+def sanastopakka(tuleeko_lauseita):
 	for entry in data:
-		tunniste = 'kokonaisuus' + entry[1]
-		if entry[8]:
-			lopul_data.append(entry[8] + '\t' + entry[9] + '\t' + tunniste)
-		if entry[10]:
-			lopul_data.append(entry[10] + '\t' + entry[11] +  '\t' + tunniste)
-		if entry[12]:
-			lopul_data.append(entry[12] + '\t' + entry[13] + '\t' + tunniste)
-		if entry[14]:
-			lopul_data.append(entry[14] + '\t' + entry[15] + '\t' + tunniste)
+		if entry[2] == 'comp': continue #jos komponentti, skipataan
+		
+		tunniste = 'osa' + entry[1]
+			
+		if entry[8] != '':	
+			lopul_data.append(luo_rivi(entry, 8, tuleeko_lauseita))
+		if entry[10] != '':
+			lopul_data.append(luo_rivi(entry, 10, tuleeko_lauseita))
+		if entry[12] != '':
+			lopul_data.append(luo_rivi(entry, 12, tuleeko_lauseita))
+		if entry[14] != '':
+			lopul_data.append(luo_rivi(entry, 14, tuleeko_lauseita))
+			
+
 		
 '''main'''
-sanastopakka()
+sanastopakka(True)
 #kokopakka()
 
 with open ('sanastoanki.txt', 'w') as f:

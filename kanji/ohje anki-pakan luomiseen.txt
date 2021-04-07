@@ -1,0 +1,15 @@
+Luo sopiva txt-tiedosto ajamalla ankipakan_generointi.py argumenttina tuloste_komponentein.tsv. Ohjelma tulostaa tiedostoon sanastoanki.txt
+
+Avaa Anki
+
+Luo/muokkaa oikeanlainen muistiinpanotyyppi. Sitä pääsee muokkaamaan Manage note types -kohdasta Työkaluja tai muokkaamalla jotakin olemassaolevaa muistiinpanoa.
+
+Luo pakka.
+
+Avaa luotu pakka, tiedosto-valikosta valitse tuo ja tuo Ankiin oikeanmuotoinen txt-tiedosto.
+
+Lisää/muokkaa korttityyppiä avaamalla pakassa oleva kortti muokkaa-napista, ja valitsemalla "kortit"-kohta.
+
+Pakan Valinnat-napista pääsee muokkaamaan asetuksia, eli kuinka usein tulee uusia kortteja yms. Tarkista muokatessa, että "valintaryhmä" on oikea.
+
+Kun pakka on valmis, tiedosto-valikosta vie. Valitse muodoksi apkg jotta voit valita vain yhden pakan vietäväksi, ja poista ajastustiedot.
