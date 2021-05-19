@@ -101,3 +101,34 @@
 万	まん	kymmenentuhatta	フィンランドの人口は五百六十万人ぐらいです。	Suomen väkiluku on 5,6 miljoonaa (japaniksi 560 x 10 000).	osa2
 円	えん	jeni	日本人は一万円さつがだいすきです。	Japanilaiset pitävät kovasti 10 000 jenin setelistä.	osa2
 何円	なんえん	montako jeniä	かさ一本は何円ですか。	Montako jeniä maksaa yksi sateenvarjo?	osa2
+火	ひ	tuli	キャンドルに火をつけます。	Sytytän kynttilän.	osa3
+火曜日	かようび	tiistai	あしたは火曜日です。	Huomenna on tiistai.	osa3
+水	みず	(kylmä) vesi	フィンランドの水はおいしいです。	Suomalainen vesi on hyvänmakuista.	osa3
+水曜日	すいようび	keskiviikko	水曜日にテニスをします。	Keskiviikkona pelaan tennistä.	osa3
+木	き	puu	さるは木にのぼります。	Apina kiipeää puuhun.	osa3
+木曜日	もくようび	torstai	木曜日にパンケーキをたべます。	Torstaina syödään pannukakkua.	osa3
+お金	おかね	raha	お金はギリギリ足りました。	Rahat riittivät juuri ja juuri.	osa3
+金	きん	kulta	これは金のゆびわです。	Tämä on kultainen sormus.	osa3
+金曜日	きんようび	perjantai	しゅうまつは金曜日からはじまります。	Viikonloppu alkaa perjantaista.	osa3
+土	つち	maa, maaperä	たねを土にうめる。	Kylvän siemenen maahan.	osa3
+土曜日	どようび	lauantai	土日は土曜日と日曜日のことです。	Viikonloppu on lauantai ja sunnuntai.	osa3
+入る	はいる	mennä sisään, tulla sisään	さきにお入り下さい	Menkää vain edeltä (kylpyyn).	osa3
+入れる	いれる	laittaa sisään	ここにカードを入れてください。	Laittakaa kortti tähän (ohje laitteessa tms.)	osa3
+入口	いりぐち	sisäänkäynti	入口はあそこです。	Sisäänkäynti on tuolla.	osa3
+出る	でる	mennä ulos, tulla ulos	はなみずが出る。	Nenä vuotaa (nenästä tulee räkää).	osa3
+出す	だす	ottaa ulos	しゅくだいを出してください。	Ottakaa kotiläksyt esille ("ulos").	osa3
+出口	でぐち	uloskäynti	出口はどこですか。	Missä on uloskäynti?	osa3
+聞く	きく	kuulla; kuunnella; kysyä	ちゃんと聞いてください。	Kuunnelkaa tarkasti.	osa3
+聞こえる	きこえる	kuulua	もしもし、聞こえますか？	Haloo, kuuluko?	osa3
+新聞	しんぶん	sanomalehti	あさ、新聞をよみます。	Luen aamuisin sanomalehteä.	osa3
+見る	みる	nähdä; katsoa; kokeilla	しゅみはユーチューブを見ることです。	Harrastukseni on Youtuben katsominen.	osa3
+見える	みえる	näkyä	うみが見えますか。	Näkyykö meri?	osa3
+見せる	みせる	näyttää	こたえを見せます。	Näytän vastauksen.	osa3
+意見	いけん	mielipide	意見はありますか。　Onko mielipiteitä?		osa3
+来る	くる	tulla	何時に来ますか。	Mihin aikaan tulet?	osa3
+来月	らいげつ	ensi kuu	ははの日は来月です。	Äitienpäivä on ensi kuussa.	osa3
+来年	らいねん	ensi vuosi	来年二十才になります。	Täytän ensi vuonna 20 vuotta.	osa3
+行く	いく	mennä	パーティーにいっしょに行く？	Mennäänkö yhdessä juhliin?	osa3
+旅行	りょこう	matka	日本のどこへ旅行する？	Mihin matkustat Japanissa?	osa3
+話す	はなす	puhua	ともだちと日本語を話します。	Puhun ystävän kanssa japania.	osa3
+会話	かいわ	keskustelu	会話れんしゅうはたのしい！	Keskusteluharjoitukset ovat hauskoja!	osa3
