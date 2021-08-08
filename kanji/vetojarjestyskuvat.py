@@ -24,12 +24,13 @@ for kanji in juuri.findall('character'):
 	heksa = heksa.replace('x', '')
 	sanakirja[heksa + '.svg'] = merkki
 
-kopioidaan ja uudelleen nimetään kuvakansiosta halutut merkit
+#kopioidaan ja uudelleen nimetään kuvakansiosta halutut merkit
 for kuva in vedot:
 	if kuva in sanakirja and sanakirja[kuva] in kanit:
 		print(kuva)
 		path = '../../vedot_kaikki/' + sanakirja[kuva] + '.svg'
 		try:
 			shutil.copy('../../kanji_stroke_order/'+kuva, path)
-		except FileNotFoundError: 
+		except FileNotFoundError as e: 
+			print(e)
 			print('tiedostoa ei löydy')
