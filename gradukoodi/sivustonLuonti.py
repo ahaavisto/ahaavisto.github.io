@@ -140,5 +140,5 @@ def luo_html_komponenttilista():
 
 	
 '''main'''
-#luo_html_komponenttilista()
-luo_html_perus()
+luo_html_komponenttilista()
+#luo_html_perus()
