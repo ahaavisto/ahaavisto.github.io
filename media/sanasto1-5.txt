@@ -1,0 +1,356 @@
+⭐=poikkeuksellinen lukutapa	
+💭=yhdyssana, jossa osana merkki, joka opetellaan myöhemmin. Näitä esiintyy lukuharjoituksissa, niitä ei tarvitse osata kirjoittaa. 
+	Osa 1		
+	一	いち	yksi
+	一つ	ひとつ	1 kpl
+	一月	いちがつ	tammikuu
+⭐	一人	ひとり	1 ihminen
+	二	に	kaksi
+	二つ	ふたつ	2 kpl
+	二月	にがつ	helmikuu
+⭐	二人	ふたり	2 ihmistä
+	三	さん	kolme
+	三つ	みっつ	3 kpl
+	三月	さんがつ	maaliskuu
+	三人	さんにん	3 ihmistä
+	四	よん／し	neljä
+	四つ	よっつ	4 kpl
+	四月	しがつ	huhtikuu
+	四人	よにん	4 ihmistä
+	五	ご	viisi
+	五つ	いつつ	5 kpl
+	五月	ごがつ	toukokuu
+	五人	ごにん	5 ihmistä
+	六	ろく	kuusi
+	六つ	むっつ	6 kpl
+	六月	ろくがつ	kesäkuu
+	六人	ろくにん	6 ihmistä
+	七	なな／しち	seitsemän
+	七つ	ななつ	7 kpl
+	七月	しちがつ	heinäkuu
+	七人	ななにん／しちにん	7 ihmistä
+	八	はち	kahdeksan
+	八つ	やっつ	8 kpl
+	八月	はちがつ	elokuu
+	八人	はちにん	8 ihmistä
+	九	きゅう／く	yhdeksän
+	九つ	ここのつ	9 kpl
+⭐	九月	くがつ	syyskuu
+	九人	きゅうにん	9 ihmistä
+	十	じゅう	kymmenen
+	十	とう	10 kpl
+	十月	じゅうがつ	lokakuu
+	十人	じゅうにん	10 ihmistä
+	Osa 2		
+	人	ひと	ihminen
+	何人	なんにん	kuinka monta henkilöä
+	〜人	にん	laskupääte ihmisille
+	フィンランド人	フィンランドじん	suomalainen
+	大きい	おおきい	iso
+	大学生	だいがくせい	yliopisto-opiskelija
+⭐	大人	おとな	aikuinen
+	犬	いぬ	koira
+	小さい	ちいさい	pieni
+💭	小学生	しょうがくせい	alakoululainen
+	何	なに、なん	mikä, mitä
+	時	とき	aika
+	〜時	じ	tunnit kellonajassa
+	何時	なんじ	mikä kellonaika
+	〜分	ふん／ぷん	minuutti
+	何分	なんぷん	montako minuuttia
+	分かる	わかる	ymmärtää
+	一時半	いちじはん	puoli kaksi
+	半分	はんぶん	puolikas
+	日	ひ	päivä, aurinko
+	何日	なんにち	mikä kuukaudenpäivä
+	月	つき	kuu
+	四月	しがつ	huhtikuu
+💭	月曜日	げつようび	maanantai
+	年	とし	vuosi, ikävuosi
+	2029年	~ねん	vuosi 2029
+	二年生	にねんせい	2.-luokkalainen
+	生年月日	せいねんがっぴ	syntymäaika
+	生きる	いきる	elää
+	生まれる	うまれる	syntyä
+	〜生まれ	うまれ	syntynyt
+	〜才	さい	ikävuosien laskupääte
+	何才	なんさい	minkä ikäinen
+	口	くち	suu
+	人口	じんこう	väkiluku
+	目	め	silmä
+💭	目的	もくてき	päämäärä, tavoite; aie, tarkoitus
+💭	科目	かもく	kouluaine
+	耳	みみ	korva
+	手	て	käsi
+	手足	てあし	kädet ja jalat, raajat
+💭	選手	せんしゅ	urheilija
+	足	あし	jalka
+	足りる	たりる	riittää
+	〜足	そく	laskupääte sukka- ja kenkäpareille
+	本	ほん	kirja
+	〜本	ほん／ぼん／ぽん	pitkulaisten esineiden laskupääte
+	日本	にほん／にっぽん	Japani
+💭	本当	ほんとう	tosi 
+	中	なか	keskellä, sisällä
+💭	中学生	ちゅうがくせい	yläkoululainen
+	一日中	いちにちじゅう	koko päivän
+	日本語	にほんご	japanin kieli
+	何語	なにご	mikä kieli
+	言語	げんご	kieli
+	国	くに	maa, valtio
+	中国	ちゅうごく	Kiina
+	国語	こくご	äidinkieli (kouluaine)
+	百	ひゃく	sata
+	千	せん	tuhat
+	万	まん	kymmenentuhatta
+	円	えん	jeni
+	何円	なんえん	montako jeniä
+	Osa 3		
+	火	ひ	tuli
+💭	火曜日	かようび	tiistai
+	水	みず	(kylmä) vesi
+💭	水曜日	すいようび	keskiviikko
+	木	き	puu
+💭	木曜日	もくようび	torstai
+	お金	おかね	raha
+	金	きん	kulta
+💭	金曜日	きんようび	perjantai
+	土	つち	maa, maaperä
+💭	土曜日	どようび	lauantai
+	入る	はいる	mennä sisään, tulla sisään
+	入れる	いれる	laittaa sisään
+	入口	いりぐち	sisäänkäynti
+	出る	でる	mennä ulos, tulla ulos
+	出す	だす	ottaa ulos
+	出口	でぐち	uloskäynti
+	聞く	きく	kuulla; kuunnella; kysyä
+	聞こえる	きこえる	kuulua
+	新聞	しんぶん	sanomalehti
+	見る	みる	nähdä; katsoa; kokeilla
+	見える	みえる	näkyä
+	見せる	みせる	näyttää
+💭	意見	いけん	mielipide
+	来る	くる	tulla
+	来月	らいげつ	ensi kuu
+	来年	らいねん	ensi vuosi
+	行く	いく	mennä
+💭	旅行	りょこう	matka
+	話す	はなす	puhua
+💭	会話	かいわ	keskustelu
+	Osa 4.1		
+	女の人	おんなのひと	nainen
+	女の子	おんなのこ	tyttö
+💭	女性	じょせい	naishenkilö, naispuolinen
+	男の人	おとこのひと	mies
+	男の子	おとこのこ	poika
+💭	男性	だんせい	mieshenkilö, miespuolinen
+	男女	だんじょ	miehet ja naiset
+	子ども	こども	lapsi
+	男子	だんし	poika
+	女子	じょし	tyttö
+	好き	すき	pitää jostakin, mieluinen
+	大好き	だいすき	pitää paljon jstkin, rakastaa, erittäin mieluinen
+💭	お好み焼き　	おこのみやき	okonomiyaki (japanilainen ruokalaji
+	私	わたし	minä
+💭	私立	しりつ	yksityinen
+	友だち	ともだち	ystävä
+💭	親友	しんゆう	sydänystävä
+	Osa 4.2		
+	白い	しろい	valkoinen
+	黒い	くろい	musta
+	白黒	しろくろ	mustavalkoinen
+	赤い	あかい	punainen
+	赤ちゃん	あかちゃん	vauva
+	青い	あおい	sininen, vihreä
+	青年	せいねん	nuorukainen, nuori mies
+	色	いろ	väri
+	金色	きんいろ	kullanvärinen
+	何色	なにいろ	minkä värinen
+	Osa 4.3		
+	学校	がっこう	koulu
+	大学	だいがく	yliopisto, korkeakoulu
+	学生	がくせい	opiskelija
+	小学校	しょうがっこう	alakoulu
+	中学校	ちゅうがっこう	yläkoulu
+	高校	こうこう	lukio
+	高い	たかい	kallis; korkea
+	先	さき	edeltä, aikaisempi
+	先生	せんせい	opettaja
+	先月	せんげつ	viime kuu
+	上	うえ	yläpuoli, ylä-
+	上がる	あがる	nousta
+	上げる	あげる	nostaa
+	上手	じょうず	taitava
+	下	した	alapuoli, ala-
+	下がる	さがる	laskeutua
+	下げる	さげる	laskea alas
+⭐	下手	へた	taitamaton
+	Osa 4.4		
+	古い	ふるい	vanha
+	中古	ちゅうこ	käytetty
+	新しい	あたらしい	uusi
+	新年	しんねん	uusivuosi
+	新聞	しんぶん	sanomalehti
+	明るい	あかるい	kirkas, valoisa; iloinen
+⭐	明日	あした	huominen
+	音	おと	ääni
+	暗い	くらい	pimeä; synkkä
+💭	暗記する	あんきする	opetella ulkoa
+	楽しい	たのしい	hauska
+	楽な	らくな	mukava; helppo
+	音楽	おんがく	musiikki
+	Osa 4.5		
+	食べる	たべる	syödä
+💭	食べ物	たべもの	ruoka
+	飲む	のむ	juoda
+	飲み物	のみもの	juoma
+	飲食	いんしょく	syöminen ja juominen
+	作る	つくる	tehdä
+💭	作文	さくぶん	ainekirjoitus
+	魚	さかな	kala
+	金魚	きんぎょ	kultakala
+	牛	うし	lehmä, härkä, nauta
+💭	牛乳	ぎゅうにゅう	lehmänmaito
+	肉	にく	liha
+	牛肉	ぎゅうにく	naudanliha
+	お茶	おちゃ	vihreä tee
+	Osa 4.6		
+	会う	あう	tavata
+	会話	かいわ	keskustelu
+	大会	たいかい	tapahtuma/kilpailu
+	帰る	かえる	palata takaisin
+	お帰りなさい	おかえりなさい	tervetuloa kotiin
+	帰国する	きこくする	palata kotimaahan
+	買う	かう	ostaa
+	買い物	かいもの	shoppailu, ostaminen
+	朝	あさ	aamu
+	朝ごはん	あさごはん	aamupala
+	朝食	ちゅうしょく	aamiainen
+⭐💭	今朝	けさ	tämä aamu
+	昼	ひる	keskipäivä, päivä
+	昼ごはん	ひるごはん	lounas
+	昼食	ちゅうしょく	lounas
+	夜	よる	ilta, yö
+	夜中	よなか	yö, yöllä
+⭐💭	昨夜	ゆうべ	eilisilta
+	Osa 5.1		
+	休む	やすむ	levätä, lomailla
+	休み	やすみ	loma
+	昼休み	ひるやすみ	lounastauko
+	休日	きゅうじつ	vapaapäivä
+	体	からだ	keho
+💭	体育	たいいく	liikunta (kouluaine)
+	頭	あたま	pää
+	薬	くるり	lääke
+💭	薬局	やっきょく	apteekki
+	心	こころ	sydän
+	中心	ちゅうしん	keskusta, keskikohta
+	元元／元々	もともと	alunperin
+	元気	げんき	pirteä, energinen, terve
+	元日	がんじつ	vuoden 1. päivä
+	元年	がんねん	aikakauden 1. vuosi
+	病気	びょうき	sairas; sairaus
+💭	病院	びょういん	sairaala
+	人気	にんき	suosittu
+	気分	きぶん	olo, tunne
+	Osa 5.2		
+	母	はは	oma äiti
+	お母さん	おかあさん	äiti
+	母語	ぼご	äidinkieli (ei kouluaineena)
+	父	ちち	oma isä
+	お父さん	おとうさん	isä
+	姉	あね	oma isosisko
+	お姉さん	おねえさん	isosisko
+	妹	いもうと	pikkusisko
+	姉妹	しまい	siskokset
+	兄	あに	oma isoveli
+	お兄さん	おにいさん	isoveli
+	弟	おとうと	pikkuveli
+	兄弟	きょうだい	sisarukset; veljekset
+	家	いえ	talo
+	大家	おおや	vuokranantaja
+💭	家族	かぞく	perhe
+	作家	さっか	kirjailija
+	自分	じぶん	itse
+	自由	じゆう	vapaa; vapaus
+	Osa 5.3		
+	田んぼ	たんぼ	riisipelto
+	林	はやし	metsikkö
+	森	もり	metsä
+	森林	しんりん	metsä
+	山	やま	vuori
+	火山	かざん	tulivuori
+	〜山	さん	=-vuori (nimissä)
+	花	はな	kukka
+	花見	はなみ	kirsikankukkajuhla
+	花火	はなび	ilotulitus
+	春	はる	kevät
+	春分の日	しんぶんのひ	kevätpäiväntasaus
+	夏	なつ	kesä
+	夏休み	なつやすみ	kesäloma
+	秋	あき	syksy
+	秋分の日	しゅうぶんのひ	syyspäiväntasaus
+	冬	ふゆ	talvi
+	Osa 5.4		
+	右	みぎ	oikea
+	右手	みぎて	oikea käsi
+💭	右側	みぎがわ	oikea puoli
+	左	ひだり	vasen
+	左右	さゆう	vasen ja oikea
+	前	まえ	etupuoli, edessä, ennen
+	後ろ	うしろ	takapuoli, takana
+	後	あと	jälkeen
+	内	うち	sisäpuoli, sisällä
+	国内	こくない	kansallinen
+	外	そと	ulkopuoli, ulkona
+	外国	がいこく	ulkomaa(t)
+	外国人	がいこくじん	ulkomaalainen
+	止まる	とまる	pysähtyä
+	止める	とめる	pysäyttää
+	止まれ	とまれ	pysähdy; seis
+	車	くるま	auto
+💭	電車	でんしゃ	juna
+	Osa 5.5		
+	午前	ごぜん	aamupäivä
+	午後	ごご	iltapäivä
+	毎日	まいにち	joka päivä
+	毎月	まいつき	joka kuukausi
+	毎年	まいとし	joka vuosi
+	間	あいだ	tila: väli: aikaväli
+	時間	じかん	aika; ajanjakso
+	一年間	いちねんかん	vuoden ajan
+	人間	にんげん	ihminen
+	週	しゅう	viikko
+	週末	しゅうまつ	viikonloppu
+	教える	おしえる	opettaa
+💭	教育	きょういく	koulutus
+	教会	きょうかい	kirkko
+	文	ぶん	lause
+💭	文章	ぶんしょう	teksti
+	作文	さくぶん	ainekirjoitus
+⭐	文字	もじ	merkki
+	書く	かく	kirjoittaa
+	読書	どくしょ	kirjojen lukeminen
+	読む	よむ	lukea
+💭	読み方	よみかた	lukutapa
+	言う	いう	sanoa
+	言語	げんご	kieli
+	方言	ほうげん	murre
+	歌	うた	laulu
+	歌う	うたう	laulaa
+	歌手	かしゅ	laulaja
+	今	いま	nyt
+⭐	今日	きょう	tänään
+	今週	こんしゅう	tämä viikko
+	今年	ことし	tämä vuosi
+⭐	今朝	けさ	tämän päivän aamu
+	去年	きょねん	viime vuosi
+⭐	昨日	きのう	eilinen, eilen
+	昨夜	ゆうべ	eilisilta
+	夕方	ゆうがた	ilta; alkuilta
+	夕食	ゆうしょく	illallinen
+	〜方	かた	tekemisen tapa
+	方	かた	henkilö (kunnioittava)
+💭	方向	ほうこう	suunta
+	晩	ばん	ilta; myöhäisilta
+	晩ご飯	ばんごはん	päivällinen
