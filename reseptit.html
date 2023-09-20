@@ -40,10 +40,24 @@ function nayta(frm){
 		p(35) + "g kaurakermaa" +
 		"Keitä perunat. Muussaa, lisää nestettä vähitellen, jotta muussista ei tule liian laihaa.<br>" +
 		"Pilko sipuli, valkosipuli ja porkkanat melko pieniksi. Paista rasvassa hetki. Lisää laakerinlehdet ja proteiini, paista vähän lisää. Lisää sitten tomaattimurska ja muut mausteet. Keitä hetki. Kastikkeen pitää olla aika paksua. Tarkista maku.<br>" +
-		"Levitä vuuan pohjalle kastike. Levitä päälle kerros perunamuussia. Paista noin 30 min 200-asteisessa uunissa. Anna vetäytyä hetki ennen tarjoilua.<br> Tämän ruuan annoskoko saattaa olla aika iso.";
+		"Levitä vuuan pohjalle kastike. Levitä päälle kerros perunamuussia. Paista noin 30 min 200-asteisessa uunissa. Anna vetäytyä hetki ennen tarjoilua.<br> Tämän ruuan annoskoko saattaa olla aika iso." +
+		"Oma resepti, yhdistelmä useista netin resepteistä.";
 	}
 
+	if (frm.skonssit.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Professori Shadwellin skonssit<br><br>" + 
+		p(0.8) + " dl vehnäjauhoa<br> " + 
+		p(0.4) + " tl leivinjauhetta<br>" +sheph
+		p(0.1) + " tl suolaa<br>" +
+		p(10) + " g margariinia<br>" +
+		p(0.3) + " dl (kaura)maitoa <br>" +
+	
+		p(16) + " g <br>" +
+		"Sekoita kuivat aineet. Nypi sekaan rasva. Lisää maito, sekoita mahdollisimman vähän mutta kuitenkin hyvin. Yksi annos vastaa suunnilleen yhtä skonssia.<br><br>" +
+		"Paista 230 asteessa 12-14 min.<br><br>Resepti saatu kirjelarpissa professori Shadwellilta, on oikeasti pelaajansa brittikeittokirjasta."+
+		"";
 
+	}
 
 	if (frm.intia.checked) {
 		document.getElementById("teksti").innerHTML += "<br><br>Intiasoossi<br><br>" + 
@@ -134,7 +148,7 @@ function nayta(frm){
 		p(8) + " g tomaattisosetta<br>" +
 		p(0.4) + " tl basilikaa (oreganoakin voi laittaa)<br>" +
 		p(0.4) + " tl sokeria<br>" +
-		p(24) + " g sipulia<br>" +
+		p(25) + " g sipulia<br>" +
 		"Valkosipulia sopivasti<br>" +
 		"Soijarouhetta sopivasti, ehkä soijakastiketta siihen<br>" +
 		"Suolaa, ehkä pippuria<br><br>" +
@@ -248,22 +262,6 @@ function nayta(frm){
 
 	}
 
-	if (frm.quinoa.checked) {
-		document.getElementById("teksti").innerHTML += "<br><br>Quinoatto<br><br>" + 
-		p(0.5) + " dl kvinoaa<br>" + 
-		p(0.125) + " sitruunan mehu + kuori<br>" + 
-		p(0.125) + " tl suolaa<br>" + 
-		p(0.25) + " tl kuivattua minttua<br>" + 
-		p(30) + " g (puna)sipulia<br>" + 
-		p(30) + " g kurkkua<br>" + 
-		p(30) + " g paprikaa<br>" + 
-		p(30) + " g kesäkurpitsaa<br>" + 
-		p(20) + " g cashewpähkinää<br><br>" + 
-		
-		"Voi syödä joka kuumana tai kylmänä.<br><br>"+
-		"Lähde: jostain netistä modailtu. Testattu leiriolosuhteissa, ei varmaan lapsille kyllä maistu.";
-
-	}
 
 	if (frm.sampyla.checked) {
 		document.getElementById("teksti").innerHTML += "<br><br>Perussämpylät<br><br>" + 
@@ -275,7 +273,7 @@ function nayta(frm){
 		p(0.6) + " dl jauhoja<br>" + 
 		p(0.2) + " rkl öljyä<br>" + 
 		
-		"Tee sämpylät. Paista 225 asteessa n. 10 minuuttia.<br><br>"+
+		"Tee sämpylät. Paista 225 asteessa n. 10 minuuttia. Yksi annos on noin yksi sämpylä.<br><br>"+
 		"Lähde: Köksänkirja :D. Testattu leireillä.";
 	}
 	if (frm.letut.checked) {
@@ -323,14 +321,14 @@ function nayta(frm){
 <BODY ID="reseptit">
 <div></div>
 	<div><img src="media/pullaa.JPG" alt="Yksi pulla per nenä"></div>
-<div>Eri paikoista koottuja ja muokkailtuja reseptejä. Annoskoot vähän turhan pieniä, niissä ei ole huomioitu, että joku voi haluta lisää.</div>
+<div>Eri paikoista koottuja ja muokkailtuja reseptejä. Annoskoot vähän turhan pieniä, niissä ei ole huomioitu, että joku voi haluta lisää. Jaollisuus tarkoittaa sitä, millaiselle määrälle resepti kannattaa laskea, jos haluaa saada mahdollisimman vähän murtolukuja.</div>
 
 <div>
 	<FORM NAME="valintaboksi">
 		<br> Herkkuja (joiden päälle lapset eivät välttämättä ymmärrä)
-		<br> <input type="Checkbox" name="shepherd" value="shepherd" onClick"">Shepherd's pie
+		<br> <input type="Checkbox" name="shepherd" value="shepherd" onClick"">Shepherd's pie (3:lla jaollinen)
 		<br> <input type="Checkbox" name="intia" value="Intiasoossi" onClick"">Intiasoossi
-		<br> <input type="Checkbox" name="papuk" value="Papukeitto" onClick"">Papukeitto
+		<br> <input type="Checkbox" name="papuk" value="Papukeitto" onClick"">Papukeitto (4:llä jaollinen)
 		<br> <input type="Checkbox" name="okonomi" onClick"">Okonomiyaki
 		<br> <input type="Checkbox" name="seitan" onClick"">Bataattiseitan
 	
@@ -345,7 +343,7 @@ function nayta(frm){
 		<td><input type="Checkbox" name="pizza" onClick"">Leiripizza</td>
 	  </tr>
 	  <tr>
-		<td><input type="Checkbox" name="bolog" onClick"">Bolognese</td>
+		<td><input type="Checkbox" name="bolog" onClick"">Bolognese (5:lla jaollinen)</td>
 		<td><input type="Checkbox" name="piirakka" onClick"">Kasvispiirakka</td>
 	  </tr>
 	  <tr>
@@ -354,14 +352,14 @@ function nayta(frm){
 	  </tr>
 	  <tr>
 		<td><input type="Checkbox" name="makaroni" onClick"">Makaronilaatikko</td>
-		<td><input type="Checkbox" name="sampyla" onClick"">Perussämpylät</td>
+		<td><input type="Checkbox" name="sampyla" onClick"">Perussämpylät (10:lla jaollinen)</td>
 	  </tr>
 	  <tr>
 		<td><input type="Checkbox" name="hernari" onClick"">Hernekeitto</td>
-		<td><input type="Checkbox" name="letut" onClick"">Lettutaikina</td>
+		<td><input type="Checkbox" name="letut" onClick"">Lettutaikina (6:lla jaollinen)</td>
 	  </tr>
 	  <tr>
-		<td><input type="Checkbox" name="quinoa" onClick"">Quinoatto</td>
+		<td><input type="Checkbox" name="skonssit" onClick"">Professori Shadwellin skonssit (5:llä jaollinen)</td>
 		<td></td>
 	  </tr>
 	</table> 
