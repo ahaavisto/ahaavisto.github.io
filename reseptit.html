@@ -22,6 +22,29 @@ function nayta(frm){
 		}
 	}
 
+	if (frm.shepherd.checked) {
+		document.getElementById("teksti").innerHTML += "<br><br>Shepherd's pie<br><br>" + 
+		p(0.33) + " sipulia (1 sipuli n. 100 g)<br> " + 
+		p(0.2) + " porkkanaa (1 porkkana n. 150 g)<br> " + 
+		p(0.33) + " kynttä valkosipulia<br>" +
+		p(0.33) + " tl tinjamia<br>" +
+		p(0.33) + " laakerinlehteä<br>" +	
+		p(0.17) + " tl soijakastiketta<br>" +
+		"herneitä, jos halutaan<br>" +
+		"suolaa maun mukaan<br>" +
+
+		p(30) + " g kaurajauhista (tai muuta käyttövalmista vegeproteiinia)<br>" +			
+		p(35) + " g tomaattimurskaa<br><br>" +
+			
+		p(140) + " g perunaa<br>" +
+		p(35) + "g kaurakermaa" +
+		"Keitä perunat. Muussaa, lisää nestettä vähitellen, jotta muussista ei tule liian laihaa.<br>" +
+		"Pilko sipuli, valkosipuli ja porkkanat melko pieniksi. Paista rasvassa hetki. Lisää laakerinlehdet ja proteiini, paista vähän lisää. Lisää sitten tomaattimurska ja muut mausteet. Keitä hetki. Kastikkeen pitää olla aika paksua. Tarkista maku.<br>" +
+		"Levitä vuuan pohjalle kastike. Levitä päälle kerros perunamuussia. Paista noin 30 min 200-asteisessa uunissa. Anna vetäytyä hetki ennen tarjoilua.<br> Tämän ruuan annoskoko saattaa olla aika iso.";
+	}
+
+
+
 	if (frm.intia.checked) {
 		document.getElementById("teksti").innerHTML += "<br><br>Intiasoossi<br><br>" + 
 		p(30) + " g sipuli<br> " + 
@@ -304,7 +327,8 @@ function nayta(frm){
 
 <div>
 	<FORM NAME="valintaboksi">
-		<br> Herkkuja (joiden päälle lapset eivät ymmärrä)
+		<br> Herkkuja (joiden päälle lapset eivät välttämättä ymmärrä)
+		<br> <input type="Checkbox" name="shepherd" value="shepherd" onClick"">Shepherd's pie
 		<br> <input type="Checkbox" name="intia" value="Intiasoossi" onClick"">Intiasoossi
 		<br> <input type="Checkbox" name="papuk" value="Papukeitto" onClick"">Papukeitto
 		<br> <input type="Checkbox" name="okonomi" onClick"">Okonomiyaki
