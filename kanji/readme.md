@@ -1,4 +1,7 @@
-Kirjan workflow
+# [Ippo ippo -kanjioppimateriaali täällä](/kanji.html)
+
+
+# Kirjan workflow
 
 1. lataa taulukko .tsv -tiedostomuodossa Google drivestä.
 2. aja kanji/loach_ wang _algo _alkua.py, argumenttina tuo taulukko. Koodi luo muokattu _cetrality.txt -listan, jossa nostettu priorisoitavaksi halutut merkit listan loppuun.
